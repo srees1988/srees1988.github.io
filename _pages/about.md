@@ -1,35 +1,28 @@
 ---
-title: About Journal
-subtitle: A stunning personal blog Jekyll theme with an image-focused design.
+title: Sreejith Sreedharan
+subtitle: Senior Data Analyst/ Scientist - Product Marketing
 description: A stunning personal blog Jekyll theme with an image-focused design.
 featured_image: /images/demo/demo-portrait.jpg
 ---
 
 ![](/images/demo/demo-landscape.jpg)
 
-## Features
+<style>
+body {
+text-align: justify}
+</style>
 
-Journal is packed with powerful features to showcase your work:
+## About
 
-* Beautiful, minimal design
-* Fixed sidebar images that animate as you browse
-* Single column post layout
-* Responsive – works perfectly on all devices
-* Portfolio/projects post type to show your work
-* Blog with pagination
-* Sleek Ajax navigation and page transitions
-* Unique 'gallery' feature for image grids and carousels
-* Built-in contact form with Formspree integration
-* Full markdown support and code highlighting
-* Social media icons
-* Fast page rendering
-* Built with SEO best practices in mind
-* Customize everything – colors, spacing, fonts, sizes etc. – via a simple settings file
-* Works with GitHub Pages
-* Updated and supported by the developers
+I am an ever-curious data-driven marketer who’s working for Servcorp as a Global Operations - Senior Marketing Analyst in Predictive Modelling. Before joining Servcorp, I have garnered a solid six years of international work experience in marketing data analytics/science from ACNC, M&C Saatchi Australia & Cognizant Technology Solutions. Over these years, I primarily served as an interface between business units and technology teams to effectively conduct numerous marketing consulting initiatives in cloud computing, machine learning, big data analytics, and business intelligence.
 
-## Get Index
+Professionally, I am immensely inspired by the potential for combining marketing with big data analytics and cloud computing; to provide scalable insights on targeted consumer behavior. Through the years, I have amassed strong skill sets in Data Modelling (R, SQL, Python), Data Visualization (Power BI, Qlik Sense, Tableau) and Data Science (Supervised/Unsupervised ML algorithms in R & Python). What excites me the most about this journey is the infinite possibility to scale up the marketing data analytics/science projects in the cloud (by setting up Linux/ Ubuntu Servers in Amazon/Google/Azure Virtual Machines to do end-to-end reporting automation). In a few years down the road, I see myself working at the forefront of data-driven Marketing Management Consulting.
 
-Journal is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $39.
+Academically, I am an Electronics Engineering bachelor with a postgraduate degree in Information Technology & Strategic Marketing from University of Technology, Sydney (Outstanding International Students Award Holder in 2014 & 2015).
 
-<a href="https://jekyllthemes.io/theme/journal-personal-jekyll-theme" class="button button--large">Get This Theme</a>
+Apart from my academic and professional life, I am keenly interested in traveling, soccer, skydiving, and metaphysics. Being a Permanent Resident (PR), I am entitled to stay and work full-time in Australia & New Zealand. That pretty much sums up my story in a nutshell! Thank you for viewing my profile. I can be reached either through my portfolio in GitHub or by phone at +61-434221939.
+
+Cheers
+
+Sree
+
