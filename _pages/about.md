@@ -2,7 +2,7 @@
 title: Sreejith Sreedharan
 subtitle: Data-driven Marketer
 description: A stunning personal blog Jekyll theme with an image-focused design.
-featured_image: /images/demo/demo-portrait.jpg
+featured_image: /images/demo/demo-portrait_2.jpg
 ---
 
 ![](/images/demo/demo-landscape.png)
