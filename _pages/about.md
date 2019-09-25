@@ -18,7 +18,7 @@ Professionally, I am immensely inspired by the potential for combining marketing
 
 Academically, I am an Electronics Engineering bachelor with a postgraduate degree in Information Technology & Strategic Marketing from University of Technology, Sydney (Outstanding International Students Award Holder in 2014 & 2015). Apart from my academic and professional life, I am keenly interested in traveling, soccer, skydiving, and metaphysics. Being a Permanent Resident (PR), I am entitled to stay and work full-time in Australia & New Zealand.
 
-That pretty much sums up my story in a nutshell! Thank you for viewing my profile. I can be reached either through my portfolio in GitHub or by Linkedin at linkedin.com/in/srees1988/
+That pretty much sums up my story in a nutshell! I can be reached either through my portfolio in [GitHub](https://github.com/srees1988) or in [Linkedin](https://linkedin.com/in/srees1988/)
 
 Cheers
 
