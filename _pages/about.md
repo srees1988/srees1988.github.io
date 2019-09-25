@@ -1,6 +1,6 @@
 ---
-title: Sreejith Sreedharan
-subtitle: Data-driven Marketer
+title: Sreejith Sreedharan (Sree)
+subtitle: Data Storyteller. Nothing more, nothing less!
 description: A stunning personal blog Jekyll theme with an image-focused design.
 featured_image: /images/demo/demo-portrait.jpg
 ---
