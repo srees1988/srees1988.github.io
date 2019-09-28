@@ -1,6 +1,6 @@
 ---
 title: Sreejith Sreedharan
-subtitle: Data Storyteller. Nothing more, nothing less!
+subtitle: Data Storyteller! Nothing more, nothing less!
 description: A stunning personal blog Jekyll theme with an image-focused design.
 featured_image: /images/demo/demo-portrait.jpg
 ---
@@ -12,9 +12,9 @@ body {
 text-align: justify}
 </style>
 
-Hola! My name is Sreejith Sreedharan. Friends call me Sree:) I am an ever-curious data-driven marketer who’s based in Sydney and works for Servcorp as a Global Operations - Senior Marketing Analyst in Predictive Modelling. Before joining Servcorp, I have garnered a solid six years of international work experience in marketing data analytics/science from ACNC, M&C Saatchi Australia & Cognizant Technology Solutions. 
+Hello! I'm Sreejith Sreedharan a.k.a Sree; an ever-curious data-driven marketer who’s based in Sydney and works for Servcorp as a Global Operations - Senior Marketing Analyst in Predictive Modelling. Before joining Servcorp, I have garnered a solid six years of international work experience in marketing data analytics/science from ACNC, M&C Saatchi Australia & Cognizant Technology Solutions. 
 
-Professionally, I am immensely inspired by the potential for combining marketing with big data analytics and cloud computing; to provide scalable insights on targeted consumer behavior. Through the years, I have amassed skill sets in **Data Modelling** (R, SQL, Python), **Data Visualization** (Power BI, Qlik Sense, Tableau) and **Data Science** (Supervised/Unsupervised ML algorithms in R & Python) to be a boundless data storyteller in years to come. In a few years down the road, I see myself working at the forefront of data-driven Marketing Management Consulting.
+Professionally, I am immensely inspired by the potential for combining marketing with big data analytics and cloud computing; to provide scalable insights on targeted consumer behavior. Through the years, I have amassed skill sets in **Data Modelling** (R, SQL, Python), **Data Visualization** (Power BI, Qlik Sense, Tableau, ggplot2, matplotlib) and **Data Science** (Supervised/Unsupervised Machine Learning algorithms in R & Python) to be a boundless data storyteller in years to come. In a few years down the road, I see myself working at the forefront of data-driven Marketing Management Consulting.
 
 Academically, I am an Electronics Engineering bachelor with a postgraduate degree in Information Technology & Strategic Marketing from University of Technology, Sydney (Outstanding International Students Award Holder in 2014 & 2015). Apart from my academic and professional life, I am keenly interested in traveling, soccer, skydiving, and metaphysics. 
 
