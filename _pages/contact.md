@@ -1,8 +1,8 @@
 ---
 title: Contact
 subtitle: Thank you for viewing my portfolio. Drop me a line to get in touch!
-description: A stunning personal blog Jekyll theme with an image-focused design.
-featured_image: /images/demo/demo-portrait.jpg
+description: Let's get talking. I'm all ears!
+featured_image: /images/sree_on_side.jpg
 ---
 
 {% include contact-form.html %}

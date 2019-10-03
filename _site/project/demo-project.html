@@ -20,25 +20,34 @@
 
 	<!-- Page Info -->
 	<link rel="shortcut icon" href="/images/favicon.png">
-	<title>Demo Project – Sree</title>
-	<meta name="description" content="<p><img src="/images/demo/demo-landscape.jpg" alt="" /></p>
+	<title>Web Scraping in R – Sree</title>
+	<meta name="description" content="<style>
+body {
+text-align: justify}
+</style>
 
 ">
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="Demo Project – Sree">
-	<meta name="twitter:description" content="<p><img src="/images/demo/demo-landscape.jpg" alt="" /></p>
+	<meta name="twitter:title" content="Web Scraping in R – Sree">
+	<meta name="twitter:description" content="<style>
+body {
+text-align: justify}
+</style>
 
 ">
-	<meta name="twitter:image:src" content="http://localhost:4000/images/demo/demo-square.jpg">
+	<meta name="twitter:image:src" content="http://localhost:4000/images/web_scraping1.jpg">
 
 	<!-- Facebook OpenGraph -->
-	<meta property="og:title" content="Demo Project – Sree" />
-	<meta property="og:description" content="<p><img src="/images/demo/demo-landscape.jpg" alt="" /></p>
+	<meta property="og:title" content="Web Scraping in R – Sree" />
+	<meta property="og:description" content="<style>
+body {
+text-align: justify}
+</style>
 
 " />
-	<meta property="og:image" content="http://localhost:4000/images/demo/demo-square.jpg" />
+	<meta property="og:image" content="http://localhost:4000/images/web_scraping1.jpg" />
 
 	
 	<!-- Font Embed Code -->
@@ -77,7 +86,7 @@
 
 	<header class="header">
 
-	<div class="header-image header-image--on" style="background-image: url(/images/demo/demo-square.jpg);"></div>
+	<div class="header-image header-image--on" style="background-image: url(/images/web_scraping1.jpg);"></div>
 	<div class="header-image"></div>
 
 	<div class="header-overlay"></div>
@@ -204,14 +213,14 @@
 	
 	<div class="page">
 
-		<div class="page__content" data-page-title="Demo Project – Sree" data-image="/images/demo/demo-square.jpg">
+		<div class="page__content" data-page-title="Web Scraping in R – Sree" data-image="/images/web_scraping1.jpg">
 
 			<section class="intro">
 
 	<div class="wrap">
 
-		<h1>Demo Project</h1>
-		<p>This is a demo</p>
+		<h1>Web Scraping in R</h1>
+		<p>Geospatial Competitor Analysis</p>
 
 	</div>
 
@@ -221,126 +230,298 @@
 
 	<div class="wrap">
 
-		<p><img src="/images/demo/demo-landscape.jpg" alt="" /></p>
+		<style>
+body {
+text-align: justify}
+</style>
 
-<h2 id="demo-content">Demo content</h2>
+<h3 id="objective">Objective</h3>
 
-<p>This page is a demo that shows everything you can do inside portfolio and blog posts.</p>
+<p>To fetch the latest product prices that has been hosted on the competitor’s website programmatically.</p>
 
-<p>We’ve included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.</p>
+<h3 id="details">Details</h3>
 
-<p><strong>Obviously,</strong> we’ve styled up <em>all the basic</em> text formatting options <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">available in markdown</a>.</p>
+<p>Wework and Regus are global players in the coworking industry who competes among each other to serve hot desks, dedicated desks and private offices. Here’s a project that scrap their websites in California to retrieve the latest product price listings programmatically.</p>
 
-<p>You can create lists:</p>
-
-<ul>
-  <li>Simple bulleted lists</li>
-  <li>Like this one</li>
-  <li>Are cool</li>
-</ul>
-
-<p>And:</p>
+<p>Here are the following four project milestones to accomplish the objective:</p>
 
 <ol>
-  <li>Numbered lists</li>
-  <li>Like this other one</li>
-  <li>Are great too</li>
+  <li>Web scrap Regus sites using httr package.</li>
+  <li>Clean the dataset and incorporate geospatial co-ordinates.</li>
+  <li>Repeat steps 1 &amp; 2 for Wework websites.</li>
+  <li>Embed R script in Power BI and visualize the final output.</li>
 </ol>
 
-<p>You can also add blockquotes, which are shown at a larger width to help break up the layout and draw attention to key parts of your content:</p>
+<h4 id="phase-1-web-scrap-regus-sites-using-httr-package">Phase 1: Web scrap Regus sites using httr package</h4>
 
-<blockquote>
-  <p>“Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.”</p>
-</blockquote>
+<ul>
+  <li>Step 1.1. Import Libraries: Importing all the relevant libraries upfront.</li>
+</ul>
 
-<p>The theme also supports markdown tables:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>library(tidyverse)
+library(rvest)
+library(revgeo)
+library("opencage")
+library(dplyr)
+library(sqldf)
+library(formattable)
+library(stringr)
+library(ngram)
+library(httr)
+library(rlist)
+library(jsonlite)
+library(lubridate)
+library(splitstackshape)
+</code></pre></div></div>
+<ul>
+  <li>Step 1.2. Regus Location API:</li>
+</ul>
 
-<table>
-  <thead>
-    <tr>
-      <th>Item</th>
-      <th>Author</th>
-      <th>Supports tables?</th>
-      <th>Price</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Duet Jekyll Theme</td>
-      <td>Jekyll Themes</td>
-      <td>Yes</td>
-      <td>$39</td>
-    </tr>
-    <tr>
-      <td>Index Jekyll Theme</td>
-      <td>Jekyll Themes</td>
-      <td>Yes</td>
-      <td>$39</td>
-    </tr>
-    <tr>
-      <td>Journal Jekyll Theme</td>
-      <td>Jekyll Themes</td>
-      <td>Yes</td>
-      <td>$39</td>
-    </tr>
-  </tbody>
-</table>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>options(warn=-1)
+time &lt;- Sys.time()
+location_data_final &lt;- data.frame()
 
-<p>You can throw in some horizontal rules too:</p>
+url &lt;- "https://www.regus.com/api/search/centres"
 
-<hr />
+resp &lt;- GET(url)
+http_type(resp)
+jsonRespText&lt;-content(resp,as="text") 
+jsonRespParsed&lt;-content(resp,as="parsed") 
 
-<h3 id="image-galleries">Image galleries</h3>
-
-<p>Here’s a really neat custom feature we added – galleries:</p>
-
-<div class="gallery" data-columns="3">
-	<img src="/images/demo/demo-portrait.jpg" />
-	<img src="/images/demo/demo-landscape.jpg" />
-	<img src="/images/demo/demo-square.jpg" />
-	<img src="/images/demo/demo-landscape-2.jpg" />
-</div>
-
-<p>Inspired by the Galleries feature from WordPress, we’ve made it easy to create grid layouts for your images. Just use a bit of simple HTML in your post to create a masonry grid image layout:</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"gallery"</span> <span class="na">data-columns=</span><span class="s">"3"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/images/demo/demo-portrait.jpg"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/images/demo/demo-landscape.jpg"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/images/demo/demo-square.jpg"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/images/demo/demo-landscape-2.jpg"</span><span class="nt">&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
+regus_locations &lt;-fromJSON(jsonRespText) 
+regus_locations &lt;- regus_locations %&gt;%  select (CenterNumber
+                                                ,CenterName 
+                                                ,Latitude,Longitude
+                                                ,FormattedAddress 
+                                                ,CenterCity)
+                             
 </code></pre></div></div>
 
-<p><em>See what we did there? Code and syntax highlighting is built-in too!</em></p>
+<h4 id="phase-2-clean-the-dataset-and-incorporate-geospatial-co-ordinates">Phase 2: Clean the dataset and incorporate geospatial co-ordinates</h4>
 
-<p>Change the number inside the ‘columns’ setting to create different types of gallery for all kinds of purposes. You can even click on each image to seamlessly enlarge it on the page.</p>
+<ul>
+  <li>Step 2.1. Reverse Geocoding:</li>
+</ul>
 
-<hr />
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>reverse_geocode&lt;- revgeo(longitude=regus_locations$Longitude
+                         ,latitude=regus_locations$Latitude
+                         ,output='frame')
 
-<h3 id="image-carousels">Image carousels</h3>
+reverse_geocode &lt;- cbind(regus_locations, reverse_geocode)
 
-<p>Here’s another gallery with only one column, which creates a carousel slide-show instead.</p>
+regus_locations_full  &lt;- regus_locations %&gt;% inner_join (
+                         reverse_geocode, by = c("CenterNumber"))
 
-<p>A nice little feature: the carousel only advances when it is in view, so your visitors won’t scroll down to find it half way through your images.</p>
+regus_california &lt;- regus_locations_full %&gt;%  filter(
+                      country == "United States of America"
+                     ,State == "California")
+
+</code></pre></div></div>
+<ul>
+  <li>Step 2.2. Regus Product Pricing API:</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dedicated_desk &lt;- data.frame()
+for (i in 1: as.integer(regus_california %&gt;% summarise(n()))){
+
+#Status Code 500 Path
+
+url &lt;- paste("https://www.regus.com/ecommercevo/price?
+productType=platinum&amp;daysLength=30&amp;monthLength=1
+&amp;startDate=", Sys.Date(),"&amp;countryCode=US
+&amp;centreNumber=",regus_california$CenterNumber[i], sep ="")
+  
+resp &lt;- GET(url)
+  
+if(resp$status_code == 500){
+url &lt;- paste("https://www.regus.com/ecommercevo/price?
+productType=platinum&amp;monthLength=1&amp;startDate=", Sys.Date(),"
+&amp;countryCode=US&amp;centreNumber=", "&amp;_=",as.integer(
+as.numeric(Sys.time())),924,sep ="")
+
+resp &lt;- GET(url)
+jsonRespText&lt;-content(resp,as="text") 
+vo_list &lt;-fromJSON(jsonRespText)
+    
+if(!is.null(vo_list$Price)){
+dedicated_desk_temp &lt;-  as_data_frame(
+vo_list$Price)%&gt;%rename(dedicated_desk_price=value)
+dedicated_desk_temp$center_number &lt;- 
+as.integer (regus_california$CenterNumber[i])}
+
+if(is.null(vo_list$Price)){
+dedicated_desk_temp &lt;-  as_data_frame( "$0" ) %&gt;% 
+rename( dedicated_desk_price =value)
+dedicated_desk_temp$center_number &lt;- as.integer(
+regus_california$CenterNumber[i])}
+
+dedicated_desk &lt;- rbind(dedicated_desk, dedicated_desk_temp)}
+  
+else if (resp$status_code == 200){
+jsonRespText&lt;-content(resp,as="text") 
+vo_list &lt;-fromJSON(jsonRespText)
+ 
+if(!is.null(vo_list$Price)){
+dedicated_desk_temp &lt;-  as_data_frame( 
+vo_list$Price) %&gt;% rename(dedicated_desk_price=value)
+dedicated_desk_temp$center_number &lt;- as.integer ( 
+regus_california$CenterNumber[i])}
+
+if(is.null(vo_list$Price)){
+dedicated_desk_temp &lt;-  as_data_frame( "$0" ) %&gt;% 
+rename(dedicated_desk_price =value)
+dedicated_desk_temp$center_number &lt;- 
+as.integer (regus_california$CenterNumber[i])
+    }
+    dedicated_desk &lt;- rbind(dedicated_desk, dedicated_desk_temp)
+  }
+}
+
+regus_california &lt;- regus_california %&gt;%  left_join(
+dedicated_desk, by = c("CenterNumber" = "center_number"))
+
+</code></pre></div></div>
+
+<h4 id="phase-3-web-scrap--clean-wework-datasets">Phase 3: Web scrap &amp; Clean Wework datasets</h4>
+
+<ul>
+  <li>Step 3.1. Webscraping Wework locations:</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>url &lt;- c("https://www.wework.com/l/sf-bay-area--CA")
+
+location_data_final &lt;- data.frame()
+
+for(i in url){ 
+webpage &lt;- read_html(i)
+location_data &lt;- 
+html_nodes(webpage, ".mb0, .ray-card__content") %&gt;%
+html_text() %&gt;%
+enframe()
+location_data$urlid &lt;- i
+location_data_final &lt;- rbind(location_data_final
+                       ,location_data)}
+
+wework_1.a &lt;- location_data_final %&gt;%  select (value) 
+%&gt;%  mutate (row_num = row_number(),filter_check = row_num%%2==0) 
+%&gt;%  filter(filter_check == "TRUE")%&gt;%  select (
+-filter_check)%&gt;%  select(-row_num) %&gt;%  rename(
+                        site_name_short = value)
+
+
+wework_1.b &lt;- location_data_final %&gt;%  select (value) %&gt;%  mutate (
+row_num = row_number(),filter_check = row_num%%2!=0 ) %&gt;%  filter(
+filter_check == "TRUE")%&gt;%  select (-filter_check)%&gt;%  select(
+-row_num) 
+
+wework_1 &lt;- cbind(wework_1.a, wework_1.b)
+</code></pre></div></div>
+
+<ul>
+  <li>Step 3.2. Cleaning Wework dataset:</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wework_1 &lt;- wework_1 %&gt;% rename (full_info = value) %&gt;% mutate(
+                             full_info = str_squish (full_info))
+
+wework_1 &lt;- sqldf("select * from wework_1 
+            where full_info not like '%Pricing for this location 
+            is not yet available%'")
+
+wework_1 &lt;- sqldf("select * from wework_1 
+            where full_info not like '%Move in ahead of the curve 
+            with special pre-opening rates%'")
+
+wework_1.1 &lt;- str_split_fixed(wework_1$full_info, 
+              "Starting prices", 2) %&gt;% as.data.frame()
+
+wework_1.2 &lt;- as.data.frame(wework_1.1$V2) 
+              %&gt;% rename (value = `wework_1.1$V2`)
+
+wework_1.2 &lt;- separate(wework_1.2, value, 
+              c("Private Office", "Price"), 
+              sep = "Private Office")
+
+wework_1.2 &lt;- separate(wework_1.2, Price, 
+              c("private_office_price", "Price"), 
+              sep = "Dedicated Desk") 
+
+wework_1.2 &lt;- separate(wework_1.2, Price, 
+              c("dedicated_desk_price", "hot_desk_price"), 
+              sep = "Hot Desk")
+
+wework_interim &lt;- cbind(wework_1, wework_1.1, wework_1.2) 
+                  %&gt;%  select(-full_info,-V2) 
+                  %&gt;%  rename(site_name = V1) 
+
+
+wordcount_final &lt;- data.frame()
+
+for(i in 1: nrow(wework_interim)){wordcount_temp &lt;-  
+enframe ( wordcount
+(wework_interim$site_name_short[i]) ) %&gt;% select (value)
+
+wordcount_final  &lt;- rbind(wordcount_final, wordcount_temp)}
+
+
+wework_pricing &lt;- cbind(wework_interim, wordcount_final) %&gt;%  rename(
+                  word_count= value) %&gt;%  select (-`Private Office`) 
+                  %&gt;%  mutate(building_name = 
+                  word(site_name, word_count+1, -1)) 
+                  %&gt;%  select(-word_count) 
+                  %&gt;% mutate(site_name = building_name
+                  ,date_time_Stamp = format(Sys.time()
+                  ,  "%d-%m-20%y"),country = "United States"
+                  ,company =  "wework", currency_name = "US Dollar"
+                  , currency_short = "USD" 
+                  , web_url = "https://www.wework.com/l/united-states")
+</code></pre></div></div>
+
+<ul>
+  <li>Step 3.3. Reverse Geocoding:</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>output_final_lat  &lt;- data.frame()
+output_final_lng &lt;- data.frame()
+output_final_state  &lt;- data.frame()
+
+
+for (i in 1:length(wework_pricing$site_name)) {
+output_temp &lt;- opencage_forward(placename = wework_pricing$site_name[i]
+, key = "d3f30e7282414d52ba36461e84613c34" )
+
+output_final_lat  &lt;- bind_rows (output_final_lat, 
+enframe( output_temp$results$geometry.lat[[1]] ))
+
+output_final_lng  &lt;- bind_rows (output_final_lng, 
+enframe( output_temp$results$geometry.lng[[1]] ))
+
+output_final_state  &lt;- bind_rows (output_final_state, 
+enframe( output_temp$results$components.state[[1]]))}
+
+
+wework_pricing$lat &lt;- output_final_lat$value
+wework_pricing$lng &lt;- output_final_lng$value
+wework_pricing$state &lt;- output_final_state$value 
+
+
+reverse_geocode&lt;- revgeo(longitude=wework_pricing$lng, 
+latitude=wework_pricing$lat, output='frame')
+
+wework_pricing &lt;- wework_pricing %&gt;% mutate(
+  street_name = word(site_name, 2, 3),
+  city        = reverse_geocode$city,
+  postcode    = reverse_geocode$zip ) 
+
+
+</code></pre></div></div>
+
+<h4 id="phase-4-embed-r-script-in-power-bi-and-visualize-the-final-output">Phase 4: Embed R script in Power BI and visualize the final output:</h4>
 
 <div class="gallery" data-columns="1">
-	<img src="/images/demo/demo-landscape.jpg" />
-	<img src="/images/demo/demo-landscape-2.jpg" />
+	<img src="/images/webscraping2.png" />
+	<img src="/images/webscraping3.png" />
 </div>
-
-<h3 id="what-about-videos">What about videos?</h3>
-
-<p>Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:</p>
-
-<iframe src="https://player.vimeo.com/video/19536258?color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-
-<hr />
-
-<h2 id="pretty-cool-huh">Pretty cool, huh?</h2>
-
-<p>We’ve packed this theme with powerful features to show off your work. Why not put them to use on your new portfolio?</p>
-
-<p><a href="https://jekyllthemes.io/theme/index-portfolio-jekyll-theme" class="button button--large">Get This Theme</a></p>
 
 
 	</div>

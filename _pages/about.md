@@ -1,11 +1,11 @@
 ---
 title: Sreejith Sreedharan
 subtitle: Marketing Data Scientist. Nothing more, nothing less!
-description: A stunning personal blog Jekyll theme with an image-focused design.
-featured_image: /images/demo/demo-portrait.jpg
+description: Sree's profile
+featured_image: /images/sree_on_side.jpg
 ---
 
-![](/images/demo/demo-landscape.png)
+![](/images/sree_on_about.png)
 
 <style>
 body {
