@@ -241,21 +241,21 @@ text-align: justify}
 
 <h3 id="details">Details</h3>
 
-<p>Wework and Regus are global players in the coworking industry who competes among each other to serve hot desks, dedicated desks and private offices. Here’s a project that scrap their websites in California to retrieve the latest product price listings programmatically.</p>
+<p>For the purpose of demonstration, let’s look into the websites of Wework and Regus; two leading players in the co-working industry who competes among each other to serve hot desks, dedicated desks and private offices across the globe. Let’s try to scrap their websites in California to retrieve the latest product price listings programmatically.</p>
 
-<p>Here are the following four project milestones to accomplish the objective:</p>
+<p>There were four milestones to accomplish the objective:</p>
 
 <ol>
-  <li>Web scrap Regus sites using httr package.</li>
-  <li>Clean the dataset and incorporate geospatial co-ordinates.</li>
-  <li>Repeat steps 1 &amp; 2 for Wework websites.</li>
-  <li>Embed R script in Power BI and visualize the final output.</li>
+  <li>Web scraped Regus sites using httr/rvest packages.</li>
+  <li>Cleaned the dataset and incorporated geospatial co-ordinates.</li>
+  <li>Repeated the steps 1 &amp; 2 for Wework websites.</li>
+  <li>Embeded R script in Power BI and visualized the final output.</li>
 </ol>
 
-<h4 id="phase-1-web-scrap-regus-sites-using-httr-package">Phase 1: Web scrap Regus sites using httr package</h4>
+<h4 id="phase-1-web-scraped-regus-sites-using-httrrvest-packages">Phase 1: Web scraped Regus sites using httr/rvest packages</h4>
 
 <ul>
-  <li>Step 1.1. Import Libraries: Importing all the relevant libraries upfront.</li>
+  <li>Step 1.1. Imported Libraries: Imported all the relevant libraries upfront.</li>
 </ul>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>library(tidyverse)
@@ -274,7 +274,7 @@ library(lubridate)
 library(splitstackshape)
 </code></pre></div></div>
 <ul>
-  <li>Step 1.2. Regus Location API:</li>
+  <li>Step 1.2. Regus Location API: Extracted the Co-working locations in California from Regus location API using httr package.</li>
 </ul>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>options(warn=-1)
@@ -297,10 +297,10 @@ regus_locations &lt;- regus_locations %&gt;%  select (CenterNumber
                              
 </code></pre></div></div>
 
-<h4 id="phase-2-clean-the-dataset-and-incorporate-geospatial-co-ordinates">Phase 2: Clean the dataset and incorporate geospatial co-ordinates</h4>
+<h4 id="phase-2-cleaned-the-dataset-and-incorporated-geospatial-co-ordinates">Phase 2: Cleaned the dataset and incorporated geospatial co-ordinates.</h4>
 
 <ul>
-  <li>Step 2.1. Reverse Geocoding:</li>
+  <li>Step 2.1. Reverse Geocoding: Used revgeo package to identify the street, city, state and country of the lat, lng co-ordinates.</li>
 </ul>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>reverse_geocode&lt;- revgeo(longitude=regus_locations$Longitude
@@ -318,7 +318,7 @@ regus_california &lt;- regus_locations_full %&gt;%  filter(
 
 </code></pre></div></div>
 <ul>
-  <li>Step 2.2. Regus Product Pricing API:</li>
+  <li>Step 2.2. Regus Product Pricing API: Extracted the Regus co-working product pricing per locations in California. Finally wrapped the whole process of data extraction with a ‘for loop’.</li>
 </ul>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dedicated_desk &lt;- data.frame()
@@ -382,10 +382,10 @@ dedicated_desk, by = c("CenterNumber" = "center_number"))
 
 </code></pre></div></div>
 
-<h4 id="phase-3-web-scrap--clean-wework-datasets">Phase 3: Web scrap &amp; Clean Wework datasets</h4>
+<h4 id="phase-3-web-scraped--cleaned-wework-datasets">Phase 3: Web scraped &amp; Cleaned Wework datasets</h4>
 
 <ul>
-  <li>Step 3.1. Webscraping Wework locations:</li>
+  <li>Step 3.1. Wework Product Pricing API: Extracted the Wework co-working product pricing per locations in California. Finally wrapped the whole process of data extraction with a ‘for loop’.</li>
 </ul>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>url &lt;- c("https://www.wework.com/l/sf-bay-area--CA")
@@ -418,7 +418,7 @@ wework_1 &lt;- cbind(wework_1.a, wework_1.b)
 </code></pre></div></div>
 
 <ul>
-  <li>Step 3.2. Cleaning Wework dataset:</li>
+  <li>Step 3.2. Cleaned wework dataset: Cleaned the raw dataset by Extracting the required information out of the Wework dataset</li>
 </ul>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wework_1 &lt;- wework_1 %&gt;% rename (full_info = value) %&gt;% mutate(
@@ -478,7 +478,7 @@ wework_pricing &lt;- cbind(wework_interim, wordcount_final) %&gt;%  rename(
 </code></pre></div></div>
 
 <ul>
-  <li>Step 3.3. Reverse Geocoding:</li>
+  <li>Step 3.3. Reverse Geocoding: Used revgeo package to identify the street, city, state and country of the lat, lng co-ordinates.</li>
 </ul>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>output_final_lat  &lt;- data.frame()
@@ -516,12 +516,33 @@ wework_pricing &lt;- wework_pricing %&gt;% mutate(
 
 </code></pre></div></div>
 
-<h4 id="phase-4-embed-r-script-in-power-bi-and-visualize-the-final-output">Phase 4: Embed R script in Power BI and visualize the final output:</h4>
+<h4 id="phase-4-embeded-r-script-in-power-bi-and-visualized-the-final-output">Phase 4: Embeded R script in Power BI and visualized the final output:</h4>
 
 <div class="gallery" data-columns="1">
 	<img src="/images/webscraping2.png" />
 	<img src="/images/webscraping3.png" />
+	<img src="/images/webscraping4.png" />
 </div>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>So, in a nutshell, we have successfully extracted the price listings per product per location of two competitors using the Web Scraping techniques in R programming. Finally we visualized the output on a geospatial scale to build the data story.</p>
+
+<h3 id="whats-next">What’s Next?</h3>
+
+<p>This is just the starting point of a journey to endless possibilities in competitor intelligence. We could do so much more with the extracted data like the following:</p>
+
+<ul>
+  <li>Automate the whole process of data extraction to build a real-time product pricing model.</li>
+  <li>Feed the daily product price listings into a cloud storage (S3/Google Cloud) to monitor the competitor’s daily price fluctuations in a BI platform.</li>
+  <li>Aggregate the price listings per product per location over a period of time to reap insights from the week on week/ month on month/ year on year analysis.</li>
+  <li>Auto-compute the avg. product price per city to see if we are underpriced or overpriced in comparison to the competitor’s price listings at any point in time.</li>
+</ul>
+
+<h3 id="github-repository">GitHub Repository</h3>
+
+<p>I have learnt (and continue to learn) from many folks in Github. Hence sharing my entire R scripts and Power BI file in a public <a href="https://github.com/srees1988">GitHub Repository</a> incase if it benefits any seekers online. Also, feel free to reach out to me if you need any help in understanding the fundamentals of web scraping in R. Happy to share what I know. Happy analyzing. Hope this helps!</p>
+
 
 
 	</div>
