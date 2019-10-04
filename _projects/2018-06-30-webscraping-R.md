@@ -312,5 +312,5 @@ This is just the starting point of a journey to endless possibilities in competi
 ### GitHub Repository
 
  
-I have learnt (and continue to learn) from many folks in Github. Hence sharing my entire R scripts and Power BI file in a public [GitHub Repository](https://github.com/srees1988) incase if it benefits any seekers online. Also, feel free to reach out to me if you need any help in understanding the fundamentals of web scraping in R. Happy to share what I know:) Hope this helps!
+I have learnt (and continue to learn) from many folks in Github. Hence sharing my entire R scripts and Power BI file in a public [GitHub Repository](https://github.com/srees1988/webscraping-in-r/tree/master) incase if it benefits any seekers online. Also, feel free to reach out to me if you need any help in understanding the fundamentals of web scraping in R. Happy to share what I know:) Hope this helps!
  
