@@ -47,7 +47,7 @@ library(jsonlite)
 library(lubridate)
 library(splitstackshape)
 ```
-+ Step 1.2. Regus Location API: Extracted the Co-working locations in California from Regus location API using httr package. 
++ Step 1.2. Regus Location API: Extracted the co-working locations in California from Regus location API using httr package. 
 
 ```
 options(warn=-1)
@@ -189,7 +189,7 @@ filter_check == "TRUE")%>%  select (-filter_check)%>%  select(
 wework_1 <- cbind(wework_1.a, wework_1.b)
 ```
 
-+ Step 3.2. Cleaned wework dataset: Cleaned the raw dataset by Extracting the required information out of the Wework dataset
++ Step 3.2. Cleaned wework dataset: Cleaned the raw dataset by extracting the required information out of the Wework dataset
 
 ```
 wework_1 <- wework_1 %>% rename (full_info = value) %>% mutate(
@@ -304,6 +304,7 @@ So, in a nutshell, we have successfully extracted the price listings per product
 
 This is just the starting point of a journey to endless possibilities in competitor intelligence. We could do so much more with the extracted data like the following:
 
+ * Expand the web harvesting technique to build and analyze the trend globally.
  * Automate the whole process of data extraction to build a real-time product pricing model.
  * Feed the daily product price listings into a cloud storage (S3/Google Cloud) to monitor the competitor's daily price fluctuations in a BI platform.
  * Aggregate the price listings per product per location over a period of time to reap insights from the week on week/ month on month/ year on year analysis.

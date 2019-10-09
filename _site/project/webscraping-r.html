@@ -274,7 +274,7 @@ library(lubridate)
 library(splitstackshape)
 </code></pre></div></div>
 <ul>
-  <li>Step 1.2. Regus Location API: Extracted the Co-working locations in California from Regus location API using httr package.</li>
+  <li>Step 1.2. Regus Location API: Extracted the co-working locations in California from Regus location API using httr package.</li>
 </ul>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>options(warn=-1)
@@ -418,7 +418,7 @@ wework_1 &lt;- cbind(wework_1.a, wework_1.b)
 </code></pre></div></div>
 
 <ul>
-  <li>Step 3.2. Cleaned wework dataset: Cleaned the raw dataset by Extracting the required information out of the Wework dataset</li>
+  <li>Step 3.2. Cleaned wework dataset: Cleaned the raw dataset by extracting the required information out of the Wework dataset</li>
 </ul>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wework_1 &lt;- wework_1 %&gt;% rename (full_info = value) %&gt;% mutate(
@@ -533,6 +533,7 @@ wework_pricing &lt;- wework_pricing %&gt;% mutate(
 <p>This is just the starting point of a journey to endless possibilities in competitor intelligence. We could do so much more with the extracted data like the following:</p>
 
 <ul>
+  <li>Expand the web harvesting technique to build and analyze the trend globally.</li>
   <li>Automate the whole process of data extraction to build a real-time product pricing model.</li>
   <li>Feed the daily product price listings into a cloud storage (S3/Google Cloud) to monitor the competitor’s daily price fluctuations in a BI platform.</li>
   <li>Aggregate the price listings per product per location over a period of time to reap insights from the week on week/ month on month/ year on year analysis.</li>
