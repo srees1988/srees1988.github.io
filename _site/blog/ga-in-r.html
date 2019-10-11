@@ -215,7 +215,22 @@
 
 	<div class="wrap">
 
-		<h5 id="step-1-generate-client-id-and-secret-key-in-google-cloud">Step 1. Generate Client ID and Secret Key in Google Cloud:</h5>
+		<h3 id="objective">Objective</h3>
+
+<p>To programmatically retrieve Google Analytics data for marketing analytics automation.</p>
+
+<h3 id="details">Details</h3>
+
+<p>Accessing Google Analytics API to retreive GA records is one of the quintessential requirements for building end-to-end marketing analytics suite. We could achieve this objective through four major steps as listed here below:</p>
+
+<ol>
+  <li>Generate Client ID and Secret Key in Google Cloud.</li>
+  <li>Update .Renviron.</li>
+  <li>Import relevant libraries and refresh stale tokens.</li>
+  <li>Build the GA report in R.</li>
+</ol>
+
+<h5 id="step-1-generate-client-id-and-secret-key-in-google-cloud">Step 1. Generate Client ID and Secret Key in Google Cloud:</h5>
 
 <p>Step 1.1. Create a Google Cloud Project:  Sign in to <a href="https://console.cloud.google.com">Google Cloud Console</a> and create a project.</p>
 
@@ -345,7 +360,13 @@ rm(my_accounts,ga_data_final,ga_data_temp,i, viewId)
 
 <h5 id="step-5-whats-next">Step 5: What’s Next?</h5>
 
-<p>This is just the inception of marketing analytics automation. As we could do so much more on top of this. Like automate the R scripts on a virtual machine and store the incremental data in a cloud database; Or repeat the same set of process to build an automated cross channel data lake that brings in incremental Facebook /Google /Twitter campaign Ad-level datasets; Or even build a BI dashboard that retrieves data from the flat file/ cloud storage to visualize an end-to-end marketing analytics suite.</p>
+<p>This is just the inception of marketing analytics automation. As we could do so much more on top of this like:</p>
+
+<ol>
+  <li>Automate the R scripts on a virtual machine and store the incremental data in a cloud database.</li>
+  <li>Repeat the same set of process to build an automated cross channel data lake that brings in incremental Facebook /Google /Twitter campaign Ad-level datasets.</li>
+  <li>Build a BI dashboard that retrieves data from the flat file/ cloud storage to visualize an end-to-end marketing analytics suite.</li>
+</ol>
 
 <p>Feel free to reach out to me if you need any help in understanding the fundamentals of GA automation in R. Happy to share! Hope this helps:)</p>
 
