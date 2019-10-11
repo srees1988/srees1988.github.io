@@ -253,7 +253,7 @@
 
 </code></pre></div></div>
 
-<p><img src="/images/blogs/1.ga_data/ga_data12.jpg" alt="" /></p>
+<p><img src="/images/blogs/1.ga_data/ga_data12.JPG" alt="" /></p>
 
 <h5 id="step-3-ga-authentication-start-an-r-session-and-import-all-the-relevant-libraries-upfront">Step 3. GA Authentication: Start an R session and import all the relevant libraries upfront.</h5>
 
@@ -278,7 +278,7 @@ googleAuthR::gar_auth(token = "sc_ga.httr-oauth")
 
 <p>Identify the entire list of views that you need from Google Analytics. Get their ViewId’s either by using the ‘ga_account_list()’ function in googleAuthR package or by identifying them from the Google Analytics itself.</p>
 
-<p><img src="/images/blogs/1.ga_data/ga_data13.jpg" alt="" /></p>
+<p><img src="/images/blogs/1.ga_data/ga_data13.JPG" alt="" /></p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>my_accounts &lt;- ga_account_list()
 viewId &lt;- (my_accounts$viewId)
@@ -333,7 +333,7 @@ rm(my_accounts,ga_data_final,ga_data_temp,i, viewId)
 
 <p>Here’s a snapshot of the final output from Google Analytics Reporting server.</p>
 
-<p><img src="/images/blogs/1.ga_data/ga_data14.jpg" alt="" /></p>
+<p><img src="/images/blogs/1.ga_data/ga_data14.JPG" alt="" /></p>
 
 <p>Finally publish the dataset with a timestamp either into a flat file or into a cloud database.</p>
 
@@ -347,7 +347,7 @@ rm(my_accounts,ga_data_final,ga_data_temp,i, viewId)
 
 <p>This is just the inception of marketing analytics automation. As we could do so much more on top of this. Like automate the R scripts on a virtual machine and store the incremental data in a cloud database; Or repeat the same set of process to build an automated cross channel data lake that brings in incremental Facebook /Google /Twitter campaign Ad-level datasets; Or even build a BI dashboard that retrieves data from the flat file/ cloud storage to visualize an end-to-end marketing analytics suite.</p>
 
-<p>Feel free to reach out to me if you need any help in understanding the fundamentals of GA automation in R. Happy to share! Hope this helps.</p>
+<p>Feel free to reach out to me if you need any help in understanding the fundamentals of GA automation in R. Happy to share! Hope this helps:)</p>
 
 
 	</div>
