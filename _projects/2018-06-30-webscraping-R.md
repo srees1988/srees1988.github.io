@@ -2,7 +2,7 @@
 title: 'Web Scraping in R'
 subtitle: 'Geospatial Competitor Analysis'
 date: 2018-06-30 00:00:00
-featured_image: '/images/web_scraping1.jpg'
+featured_image: '/images/projects/1.web_scraping/web_scraping1.jpg'
 ---
 
 <style>
@@ -289,9 +289,9 @@ wework_pricing <- wework_pricing %>% mutate(
 #### Phase 4: Embeded R script in Power BI and visualized the final output:
 
 <div class="gallery" data-columns="1">
-	<img src="/images/webscraping2.png">
-	<img src="/images/webscraping3.png">
-	<img src="/images/webscraping4.png">
+	<img src="/images/projects/1.web_scraping/webscraping2.png">
+	<img src="/images/projects/1.web_scraping/webscraping3.png">
+	<img src="/images/projects/1.web_scraping/webscraping4.png">
 </div>
 
 
