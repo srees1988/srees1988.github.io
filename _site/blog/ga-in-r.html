@@ -221,13 +221,13 @@
 
 <h3 id="details">Details</h3>
 
-<p>Accessing Google Analytics API to retreive GA records is one of the quintessential requirements for building end-to-end marketing analytics suite. We could achieve this objective through four major steps as listed here below:</p>
+<p>Accessing Google Analytics API to retreive GA records is one of the quintessential requirements to build an end-to-end marketing analytics suite. We could achieve this objective through four major steps as listed here below:</p>
 
 <ol>
   <li>Generate Client ID and Secret Key in Google Cloud.</li>
-  <li>Update .Renviron.</li>
-  <li>Import relevant libraries and refresh stale tokens.</li>
-  <li>Build the GA report in R.</li>
+  <li>Update .Renviron variables.</li>
+  <li>Import relevant libraries and refresh GA tokens locally.</li>
+  <li>Finally, build the GA dataset in R.</li>
 </ol>
 
 <h5 id="step-1-generate-client-id-and-secret-key-in-google-cloud">Step 1. Generate Client ID and Secret Key in Google Cloud:</h5>
@@ -364,11 +364,12 @@ rm(my_accounts,ga_data_final,ga_data_temp,i, viewId)
 
 <ol>
   <li>Automate the R scripts on a virtual machine and store the incremental data in a cloud database.</li>
-  <li>Repeat the same set of process to build an automated cross channel data lake that brings in incremental Facebook /Google /Twitter campaign Ad-level datasets.</li>
-  <li>Build a BI dashboard that retrieves data from the flat file/ cloud storage to visualize an end-to-end marketing analytics suite.</li>
+  <li>Repeat the same set of process to build an automated cross channel data lake that brings in incremental Facebook Ads /Google Ads /Twitter Ads datasets.</li>
+  <li>Forecast the user sessions/metrics from each platform using time series forecasting.</li>
+  <li>Lastly, build a BI dashboard that retrieves data from the flat file/ cloud storage to visualize an end-to-end marketing analytics suite.</li>
 </ol>
 
-<p>Feel free to reach out to me if you need any help in understanding the fundamentals of GA automation in R. Happy to share! Hope this helps:)</p>
+<p>Feel free to reach out to me if you need any help in understanding the fundamentals of GA automation in R. Hope this helps:)</p>
 
 
 	</div>
