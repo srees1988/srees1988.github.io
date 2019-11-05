@@ -239,7 +239,7 @@ text-align: justify}
 
 <p>Step 1.1. Create a Google Cloud Project:  Sign in to <a href="https://console.cloud.google.com">Google Cloud Console</a> and create a project.</p>
 
-<p><img src="/images/blogs/2.rserver_in_gcloud/rserver_2.jpg" alt="" /></p>
+<p><img src="/images/blogs/2.rserver_in_gcloud/rserver_2.JPG" alt="" /></p>
 
 <p>Step 1.2. Create a firewall rule: After creating the project,  we need to configure the firewall before launching the virtual machine instance on Google Cloud. Therefore, create a firewall rule in the Google Cloud Compute Engine by navigating to the ‘Firewall rules’ under ‘Menu’ &gt; ‘Networking’. Configure the following settings:</p>
 
@@ -259,7 +259,7 @@ text-align: justify}
 
 <p><img src="/images/blogs/2.rserver_in_gcloud/rserver_6.png" alt="" /></p>
 
-<p><img src="/images/blogs/2.rserver_in_gcloud/rserver_7.jpg" alt="" /></p>
+<p><img src="/images/blogs/2.rserver_in_gcloud/rserver_7.JPG" alt="" /></p>
 
 <p>Step 2.2. Update apt: Update apt to make sure that we have the latest packages to use with Ubuntu.</p>
 
@@ -294,7 +294,7 @@ sudo apt-get install libcurl4-openssl-dev libssl-dev libxml2-dev
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo adduser master
 </code></pre></div></div>
 
-<p><img src="/images/blogs/2.rserver_in_gcloud/rserver_8.jpg" alt="" /></p>
+<p><img src="/images/blogs/2.rserver_in_gcloud/rserver_8.JPG" alt="" /></p>
 
 <p>Step 3.3. Create the shared folder:</p>
 
@@ -313,11 +313,11 @@ ln -s /home/master/shared_folder /home/steve/shared_folder
 exit
 </code></pre></div></div>
 
-<p><img src="/images/blogs/2.rserver_in_gcloud/rserver_9.jpg" alt="" /></p>
+<p><img src="/images/blogs/2.rserver_in_gcloud/rserver_9.JPG" alt="" /></p>
 
 <p>That’s it! We are good to start using R Studio Server on Google Cloud. In order to open R studio Server on the browser, follow the URL syntax: <em>http://[External IP]:8787</em>. For example, if the External IP of the newly configured virtual machine instance is 35.185.161.49, then our R Studio Server URL would be: <em>http://35.199.10.210:8787/</em></p>
 
-<p><img src="/images/blogs/2.rserver_in_gcloud/rserver_10.jpg" alt="" /></p>
+<p><img src="/images/blogs/2.rserver_in_gcloud/rserver_10.JPG" alt="" /></p>
 
 <h5 id="step-4--schedule-and-run-r-scripts-using-cronr-package">Step 4.  Schedule and run R scripts using cronR package:</h5>
 
@@ -326,7 +326,7 @@ exit
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>install.packages("cronR")
 install.packages("shinyFiles")
 </code></pre></div></div>
-<p><img src="/images/blogs/2.rserver_in_gcloud/rserver_11.jpg" alt="" /></p>
+<p><img src="/images/blogs/2.rserver_in_gcloud/rserver_11.JPG" alt="" /></p>
 
 <h5 id="step-5-whats-next">Step 5: What’s Next?</h5>
 

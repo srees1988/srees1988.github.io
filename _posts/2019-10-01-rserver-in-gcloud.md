@@ -28,7 +28,7 @@ text-align: justify}
 
 Step 1.1. Create a Google Cloud Project:  Sign in to [Google Cloud Console](https://console.cloud.google.com) and create a project.
 
-![](/images/blogs/2.rserver_in_gcloud/rserver_2.jpg)
+![](/images/blogs/2.rserver_in_gcloud/rserver_2.JPG)
 
 Step 1.2. Create a firewall rule: After creating the project,  we need to configure the firewall before launching the virtual machine instance on Google Cloud. Therefore, create a firewall rule in the Google Cloud Compute Engine by navigating to the 'Firewall rules' under 'Menu' > 'Networking'. Configure the following settings:
 
@@ -52,7 +52,7 @@ Step 2.1.  SSH Connection: Click on "SSH" next to the new instance from Google C
 
 ![](/images/blogs/2.rserver_in_gcloud/rserver_6.png)
 
-![](/images/blogs/2.rserver_in_gcloud/rserver_7.jpg)
+![](/images/blogs/2.rserver_in_gcloud/rserver_7.JPG)
 
 Step 2.2. Update apt: Update apt to make sure that we have the latest packages to use with Ubuntu.
 
@@ -93,7 +93,7 @@ Step 3.2. Create a master user: The whole idea behind creating a master user is 
 sudo adduser master
 ```
 
-![](/images/blogs/2.rserver_in_gcloud/rserver_8.jpg)
+![](/images/blogs/2.rserver_in_gcloud/rserver_8.JPG)
 
 Step 3.3. Create the shared folder:
 
@@ -114,11 +114,11 @@ ln -s /home/master/shared_folder /home/steve/shared_folder
 exit
 ```
 
-![](/images/blogs/2.rserver_in_gcloud/rserver_9.jpg)
+![](/images/blogs/2.rserver_in_gcloud/rserver_9.JPG)
 
 That's it! We are good to start using R Studio Server on Google Cloud. In order to open R studio Server on the browser, follow the URL syntax: *http://[External IP]:8787*. For example, if the External IP of the newly configured virtual machine instance is 35.185.161.49, then our R Studio Server URL would be: *http://35.199.10.210:8787/*
 
-![](/images/blogs/2.rserver_in_gcloud/rserver_10.jpg)
+![](/images/blogs/2.rserver_in_gcloud/rserver_10.JPG)
 
 
 ##### Step 4.  Schedule and run R scripts using cronR package:  
@@ -129,7 +129,7 @@ Install cronR package to generate the task scheduler in R Studio Server. Use the
 install.packages("cronR")
 install.packages("shinyFiles")
 ```
-![](/images/blogs/2.rserver_in_gcloud/rserver_11.jpg)
+![](/images/blogs/2.rserver_in_gcloud/rserver_11.JPG)
 
 
 ##### Step 5: What's Next?
