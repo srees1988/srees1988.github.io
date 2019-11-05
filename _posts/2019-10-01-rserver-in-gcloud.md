@@ -12,7 +12,7 @@ To set up a fully operational machine learning Server on Google Cloud Compute En
 
 ### Details
 
-In a real-world scenario, cloud computing and machine learning goes hand-in-hand to build, transform and scale big-data analytics/ predictive modelling projects. Being a Linux server application, R Studio server is one of the best solutions that could be hosted on Google Cloud / Amazon Web Service / Azure to automatically process large volumes of data in SQL/ R/ Python in a centralized manner. Let's have a look into the key steps to configure a fully functional R Studio Server on Google Cloud: 
+In a real-world scenario, cloud computing and machine learning goes hand-in-hand to build, transform and scale predictive modelling projects. Being a Linux server application, R Studio server is one of the best solutions that could be hosted on Google Cloud (or Amazon Web Service or Azure) to automatically process large volumes of data in SQL/ R/ Python in a centralized manner. Here's a step-by-step approach on the key steps to configure a fully functional R Studio Server on Google Cloud: 
 
 1. Configure a virtual machine instance (Ubuntu OS) on Google Cloud.
 2. Install R and R Studio Server on the Virtual Machine. 
@@ -30,7 +30,7 @@ Step 1.1. Create a Google Cloud Project:  Sign in to [Google Cloud Console](http
 
 ![](/images/blogs/2.rserver_in_gcloud/rserver_2.JPG)
 
-Step 1.2. Create a firewall rule: After creating the project,  we need to configure the firewall before launching the virtual machine instance on Google Cloud. Therefore, create a firewall rule in the Google Cloud Compute Engine by navigating to the 'Firewall rules' under 'Menu' > 'Networking'. Configure the following settings:
+Step 1.2. Create a firewall rule: Create a firewall rule in the Google Cloud Compute Engine by navigating to the 'Firewall rules' under 'Menu' > 'Networking'. Configure the following settings:
 
 ![](/images/blogs/2.rserver_in_gcloud/rserver_3.png)
 
@@ -40,7 +40,7 @@ Step 1.3. Create a Virtual Machine Instance: Set up a new virtual machine on Goo
 ![](/images/blogs/2.rserver_in_gcloud/rserver_4.png)
 
 
-Step 1.4. Virtual Machine Configurations: Coin a name for the new VM instance (ex: "rstudio") and choose a zone that's close to the zone of operation to reduce the network latency. Since R stores all of its working datasets in memory, try to give the VM instance as much memory as we can afford.  Also, under "OS images", choose one of the latest versions of Ubuntu that supports the OpenSSL 1.0.  R Studio Server connects always through an unsecured HTTP connection. Therefore, under Firewall, "Allow HTTP traffic". Lastly, click "Create" to launch the instance.
+Step 1.4. Virtual Machine Configurations: Give a name to the new VM instance (ex: "rstudio") and choose a zone that's close to the zone of operation to reduce the network latency. Since R stores all of its working datasets in memory, try to give the VM instance as much memory as we can afford. Under "OS images", choose one of the latest versions of Ubuntu that supports the OpenSSL 1.0.  R Studio Server connects always through an unsecured HTTP connection. Therefore, under Firewall, "Allow HTTP traffic". Lastly, click "Create" to launch the instance.
 
 
 ![](/images/blogs/2.rserver_in_gcloud/rserver_5.png)
@@ -68,7 +68,7 @@ Step 2.3. Install R and R Studio Server:
 sudo apt-get install r-base r-base-dev
 ```
 Checkout the latest version of the 
-[RStudio Server](https://rstudio.com/products/rstudio/download-server/debian-ubuntu/) before running the following lines of code and install all the supporting packages: 
+[RStudio Server](https://rstudio.com/products/rstudio/download-server/debian-ubuntu/) before running the following lines of code. Install all the supporting packages: 
 
 ```
 sudo apt-get install gdebi-core
@@ -79,7 +79,7 @@ sudo apt-get install libcurl4-openssl-dev libssl-dev libxml2-dev
 
 ##### Step 3. Create users and groups
 
-One of the biggest benefits of using R studio server is that it gives us a window to collaborate with peers from a centralized cloud framework. We could add users to our VM instance now so that others can work with our R Studio Server simultaneously.
+One of the biggest benefits of using R studio server is that it gives us a window to collaborate with peers in a centralized cloud framework. Add users to the virtual machine instance so that others can work with the R Studio Server simultaneously.
 
 Step 3.1. Create a group : Creating a group (ex: "marketing") will make it easier to manage shared folders and files with the team.
 
@@ -87,7 +87,7 @@ Step 3.1. Create a group : Creating a group (ex: "marketing") will make it easie
 sudo addgroup marketing
 ```
 
-Step 3.2. Create a master user: The whole idea behind creating a master user is that while colleagues and peers will join or leave us, the "master user" would remain to own all shared files.
+Step 3.2. Create a master user: The whole idea behind creating a master user is that while colleagues and peers will join or leave us, the "master user" would remain to own all the shared files.
 
 ```
 sudo adduser master
@@ -104,7 +104,7 @@ sudo chown -R master:marketing shared_folder/
 sudo chmod -R 770 shared_folder/
 ```
 
-Step 3.4. Add users and link them to shared folder: Here I am adding Steve as an example to the recently created "marketing" group. Steve's home folder has been linked to 'master' users shared folder.
+Step 3.4. Add users and link them to shared folder: Here I am adding Steve as an example to the recently created "marketing" group. Steve's home folder has been linked to 'master user's shared folder.
 
 ```
 sudo adduser steve
@@ -116,7 +116,7 @@ exit
 
 ![](/images/blogs/2.rserver_in_gcloud/rserver_9.JPG)
 
-That's it! We are good to start using R Studio Server on Google Cloud. In order to open R studio Server on the browser, follow the URL syntax: *http://[External IP]:8787*. For example, if the External IP of the newly configured virtual machine instance is 35.185.161.49, then our R Studio Server URL would be: *http://35.199.10.210:8787/*
+That's it! We are good to use R Studio Server on Google Cloud. In order to open R studio Server on the browser, follow the URL syntax: *http://[External IP]:8787*. For example, if the External IP of the newly configured virtual machine instance is 35.185.161.49, then our R Studio Server URL would be: *http://35.199.10.210:8787/*
 
 ![](/images/blogs/2.rserver_in_gcloud/rserver_10.JPG)
 
@@ -136,12 +136,12 @@ install.packages("shinyFiles")
 
 We just finished setting up the machine learning framework in cloud. Here are some recommendations on what we could potentially do to scale up this data modeling and predictive analytics workflow:
 
-1) Extract, transform and Load datasets from internal (CRM databases) or external data sources (Facebook / Google Ad sets) into cloud storage.
+1) Extract, transform and Load datasets from internal (CRM databases) or external data sources (third-party vendors like Nielsen Ratings or Faceebok & Google Ad sets) into the Google Cloud Compute Engine.
 
-2) Build data models in SQL, R or Python (Use Reticulate and sqldf packages to source python/SQL scripts into R studio server).
+2) Build data models in SQL, R or Python (Use Reticulate and sqldf packages to source python/SQL scripts into R studio server) using the lately configured R Studio Server.
 
-3) Build supervised/ unsupervised/ reinforecement machine learning algorithms over the cloud sourced datamodel. Productionize the end-to-end process using cronR package. 
+3) Build supervised or unsupervised or reinforecement machine learning algorithms over the cloud sourced data model. Productionize the end-to-end workflow using cronR package. Store the dataset in a cloud database.
 
-4) Lastly, build a BI dashboard that visualizes the predictive model (could be anything from predicting the next month sales or churn rate to classifying the customer database using unsupervised cluster models). 
+4) Lastly, build a BI dashboard that visualizes the predictive model (could be anything from predicting the next month sales or churn rate to classifying the customer database using unsupervised cluster models). If interested, embed this live  predictive BI model as a widget in web/mobile applications via REST API. 
 
-Feel free to reach out to me if you need any help in understanding the aforedsaid configurations. Hope this helps:)
+Feel free to reach out to me if you need any help in understanding the aforesaid configurations. Happy to share what I know! Hope this helps:)
