@@ -138,7 +138,7 @@ We just finished setting up the machine learning framework in cloud. Here are so
 
 1) Extract, transform and Load datasets from internal (CRM databases) or external data sources (third-party vendors like Nielsen Ratings or Faceebok & Google Ad sets) into the Google Cloud Compute Engine.
 
-2) Build data models in SQL, R or Python (Use Reticulate and sqldf packages to source python/SQL scripts into R studio server) using the lately configured R Studio Server.
+2) Build data models in SQL, R or Python (Use Reticulate and sqldf packages to source python/SQL scripts into R studio server).
 
 3) Build supervised or unsupervised or reinforecement machine learning algorithms over the cloud sourced data model. Productionize the end-to-end workflow using cronR package. Store the dataset in a cloud database.
 
