@@ -12,7 +12,7 @@ To set up a fully operational machine learning Server on Google Cloud Compute En
 
 ### Details
 
-In a real-world scenario, cloud computing and machine learning goes hand-in-hand to build, transform and scale predictive modelling projects. Being a Linux server application, R Studio server is one of the best solutions that could be hosted on Google Cloud (or Amazon Web Service or Azure) to automatically process large volumes of data in SQL/ R/ Python in a centralized manner. Here's a step-by-step approach on the key steps to configure a fully functional R Studio Server on Google Cloud: 
+In a real-world scenario, cloud computing and machine learning goes hand-in-hand to build, transform and scale predictive modelling projects. Being a Linux server application, R Studio server is one of the best solutions that could be hosted on Google Cloud (or Amazon Web Service or Azure) to automatically process large volumes of data in SQL/ R/ Python in a centralized manner. Here's a step-by-step approach on how to configure a fully functional R Studio Server on Google Cloud: 
 
 1. Configure a virtual machine instance (Ubuntu OS) on Google Cloud.
 2. Install R and R Studio Server on the Virtual Machine. 
