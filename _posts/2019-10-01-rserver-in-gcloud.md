@@ -123,7 +123,7 @@ That's it! We are good to use R Studio Server on Google Cloud. In order to open 
 
 ##### Step 4.  Schedule and run R scripts using cronR package:  
 
-Install cronR package to generate the task scheduler in R Studio Server. Use the add in to automate any scripts in the virtual machine instance.
+Install cronR package to generate the task scheduler in R Studio Server. Use the add-in to automate any scripts in the virtual machine instance.
 
 ```
 install.packages("cronR")
