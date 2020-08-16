@@ -1,6 +1,6 @@
 ---
 title: Sreejith Sreedharan
-subtitle: Marketing Data Scientist. Nothing more, nothing less!
+subtitle: Data Enthusiast. Nothing more, nothing less!
 description: Sree's profile
 featured_image: /images/sree_on_side.jpg
 ---
