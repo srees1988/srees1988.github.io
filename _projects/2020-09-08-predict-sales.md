@@ -1113,7 +1113,7 @@ ax.autoscale(enable=True, axis='x', tight=False)
 
 ```
 
-![](/images/projects/2.predict_sales/24.sarima.JPG)
+![](/images/projects/2.predict_sales/24. sarima.JPG)
 
 Unpredictability and risk are the close companions of any predictive models. In the real world, we may not be able to always pinpoint our actual sales to an absolute predicted value.
 
