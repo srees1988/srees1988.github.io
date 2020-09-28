@@ -12,12 +12,15 @@ To set up a fully operational machine learning Server on Google Cloud Compute En
 
 ### Details
 
-In a real-world scenario, cloud computing and machine learning goes hand-in-hand to build, transform and scale predictive modelling projects. Being a Linux server application, R Studio server is one of the best solutions that could be hosted on Google Cloud (or Amazon Web Service or Azure) to automatically process large volumes of data in SQL/ R/ Python in a centralized manner. Here's a step-by-step approach on how to configure a fully functional R Studio Server on Google Cloud: 
+In a real-world scenario, cloud computing and machine learning go hand-in-hand to build, transform and scale predictive modelling projects. Being a Linux server application, R Studio server is one of the best solutions that could be hosted on Google Cloud (or Amazon Web Service or Azure) to automatically process large volumes of data in SQL/ R/ Python in a centralized manner. Here's a step-by-step approach on how to configure a fully functional R Studio Server on Google Cloud: 
 
-1. Configure a virtual machine instance (Ubuntu OS) on Google Cloud.
-2. Install R and R Studio Server on the Virtual Machine. 
-3. Create users and groups.
-4. Schedule and run R scripts using cronR package.
+1) Configure a virtual machine instance (Ubuntu OS) on Google Cloud.
+
+2) Install R and R Studio Server on the Virtual Machine. 
+
+3) Create users and groups.
+
+4) Schedule and run R scripts using cronR package.
 
 <style>
 body {
@@ -35,12 +38,12 @@ Step 1.2. Create a firewall rule: Create a firewall rule in the Google Cloud Com
 ![](/images/blogs/2.rserver_in_gcloud/rserver_3.png)
 
 
-Step 1.3. Create a Virtual Machine Instance: Set up a new virtual machine on Google Cloud by navigating to 'VM Instances' under 'Menu' > 'Compute Engine'. 
+Step 1.3. Create a Virtual Machine Instance: Set up a new virtual machine on Google Cloud by navigating to 'VM Instances' under 'Menu' > 'Compute Engine'.
 
 ![](/images/blogs/2.rserver_in_gcloud/rserver_4.png)
 
 
-Step 1.4. Virtual Machine Configurations: Give a name to the new VM instance (ex: "rstudio") and choose a zone that's close to the zone of operation to reduce the network latency. Since R stores all of its working datasets in memory, try to give the VM instance as much memory as we can afford. Under "OS images", choose one of the latest versions of Ubuntu that supports the OpenSSL 1.0.  R Studio Server connects always through an unsecured HTTP connection. Therefore, under Firewall, "Allow HTTP traffic". Lastly, click "Create" to launch the instance.
+Step 1.4. Virtual Machine Configurations: Give a name to the new VM instance (ex: "rstudio") and choose a zone that's close to the zone of operation to reduce the network latency. Since R stores all of its working datasets in memory, try to give the VM instance as much memory as we can afford. Under "OS images", choose one of the latest versions of Ubuntu that supports the OpenSSL 1.0. R Studio Server connects always through an unsecured HTTP connection. Therefore, under Firewall, "Allow HTTP traffic". Lastly, click "Create" to launch the instance.
 
 
 ![](/images/blogs/2.rserver_in_gcloud/rserver_5.png)
@@ -104,7 +107,7 @@ sudo chown -R master:marketing shared_folder/
 sudo chmod -R 770 shared_folder/
 ```
 
-Step 3.4. Add users and link them to shared folder: Here I am adding Steve as an example to the recently created "marketing" group. Steve's home folder has been linked to 'master user's shared folder.
+Step 3.4. Add users and link them to shared folder: Here I am adding Steve as an example to the recently created "marketing" group. Steve's home folder has been linked to the 'master user's shared folder.
 
 ```
 sudo adduser steve
@@ -134,14 +137,14 @@ install.packages("shinyFiles")
 
 ##### Step 5: What's Next?
 
-We just finished setting up the machine learning framework in cloud. Here are some recommendations on what we could potentially do to scale up this data modeling and predictive analytics workflow:
+We just finished setting up the machine learning framework in the cloud. Here are some recommendations on what we could potentially do to scale up this data modeling and predictive analytics workflow:
 
-1) Extract, transform and Load datasets from internal (CRM databases) or external data sources (third-party vendors like Nielsen Ratings or Faceebok & Google Ad sets) into the Google Cloud Compute Engine.
+1) Extract, transform, and load datasets from internal (CRM databases) or external data sources (third-party vendors like Nielsen Ratings or Facebook & Google Ad sets) into the Google Cloud Compute Engine.
 
-2) Build data models in SQL, R or Python (Use Reticulate and sqldf packages to source python/SQL scripts into R studio server).
+2) Build data models in SQL, R, or Python (Use Reticulate and sqldf packages to source python/SQL scripts into R studio server).
 
-3) Build supervised or unsupervised or reinforecement machine learning algorithms over the cloud sourced data model. Productionize the end-to-end workflow using cronR package. Store the dataset in a cloud database.
+3) Build supervised or unsupervised or reinforcement machine learning algorithms over the cloud-sourced data model. Productionize the end-to-end workflow using cronR package. Store the dataset in a cloud database.
 
-4) Lastly, build a BI dashboard that visualizes the predictive model (could be anything from predicting the next month sales or churn rate to classifying the customer database using unsupervised cluster models). If interested, embed this live  predictive BI model as a widget in web/mobile applications via REST API. 
+4) Lastly, build a BI dashboard that visualizes the predictive model (could be anything from predicting the next month sales or churn rate to classifying the customer database using unsupervised cluster models). If interested, embed this live predictive BI model as a widget in web/mobile applications via REST API.
 
 Feel free to reach out to me if you need any help in understanding the aforesaid configurations. Happy to share what I know! Hope this helps:)
