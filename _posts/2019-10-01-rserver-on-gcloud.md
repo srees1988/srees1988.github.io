@@ -75,9 +75,11 @@ Checkout the latest version of the
 
 ```
 sudo apt-get install gdebi-core
-wget https://download2.rstudio.org/server/bionic/amd64/rstudio-server-1.2.5019-amd64.deb
+wget https://download2.rstudio.org/server/bionic/
+amd64/rstudio-server-1.2.5019-amd64.deb
 sudo gdebi rstudio-server-1.2.5019-amd64.deb
-sudo apt-get install libcurl4-openssl-dev libssl-dev libxml2-dev
+sudo apt-get install libcurl4-openssl-dev 
+libssl-dev libxml2-dev
 ```
 
 ##### Step 3. Create users and groups
@@ -113,7 +115,7 @@ Step 3.4. Add users and link them to shared folder: Here I am adding Steve as an
 sudo adduser steve
 sudo gpasswd -a steve marketing
 su - steve
-ln -s /home/master/shared_folder /home/steve/shared_folder
+ln -s /home/master/shared_folder/home/steve/shared_folder
 exit
 ```
 
