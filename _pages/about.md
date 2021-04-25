@@ -12,7 +12,7 @@ body {
 text-align: justify}
 </style>
 
-Hello! I'm Sreejith Sreedharan a.k.a Sree; an ever-curious data-driven storyteller who’s based in Sydney and works for Servcorp as a Global Operations - Senior Marketing Analyst in Predictive Modelling. Before joining Servcorp, I have garnered a solid six years of international work experience in marketing data analytics/science from Mission Australia, M&C Saatchi Australia & Cognizant Technology Solutions. 
+Hello! I'm Sreejith Sreedharan a.k.a Sree; an ever-curious data-driven storyteller who’s based in Sydney and works for Appliances Online as a Lead Marketing Data Scientist. Before joining Appliances Online, I have garnered solid nine years of international work experience in marketing data science & analytics from Servcorp, Mission Australia, M&C Saatchi Australia & Cognizant Technology Solutions. 
 
 Professionally, I am immensely inspired by the potential for combining business units with big data analytics and cloud computing; to provide scalable insights. Through the years, I have amassed strong skill sets in **Data Modelling** (R, SQL, Python), **Data Visualization** (Power BI, Qlik Sense, Tableau) and **Data Science** (Supervised/Unsupervised ML algorithms in R & Python). What excites me the most about this journey is the infinite possibility to scale up the data analytics/science projects in the cloud (by setting up Linux/ Ubuntu Servers in Amazon/Google/Azure Virtual Machines to do end-to-end reporting automation). In a few years down the road, I see myself working at the forefront of data-driven Management Consulting.
 
