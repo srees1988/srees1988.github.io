@@ -22,7 +22,7 @@ Academically, I hold a Bachelor's degree in Electronics Engineering and a postgr
 
 In addition to my professional work, I am an active blogger on Medium, Towards Data Science, Analytics Vidhya, and The Startup. Outside of work, I enjoy traveling, soccer, skydiving, and exploring topics related to metaphysics.
 
-As an Australian citizen with an Indian lineage, I am authorized to work full-time in Australia, New Zealand, India, and the US on an E3 visa. If you'd like to learn more about my experience or discuss potential collaboration opportunities, feel free to check out my portfolio on  [GitHub](https://github.com/srees1988) or reach out to me directly on [Linkedin.](https://linkedin.com/in/srees1988/).
+As an Australian citizen with an Indian lineage, I am authorized to work full-time in Australia, New Zealand, India, and the US on an E3 visa. If you'd like to learn more about my experience or discuss potential collaboration opportunities, feel free to check out my portfolio on  [GitHub](https://github.com/srees1988) or reach out to me directly on [Linkedin.](https://linkedin.com/in/srees1988/)
 
 Hope you have a nice day! 
 
