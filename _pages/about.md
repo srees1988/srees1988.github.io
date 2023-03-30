@@ -12,15 +12,19 @@ body {
 text-align: justify}
 </style>
 
-Hello! I'm Sreejith Sreedharan a.k.a Sree; an ever-curious data-driven storyteller who’s based in Sydney and works for Appliances Online as a Lead Marketing Data Scientist. Before joining Appliances Online, I have garnered solid nine years of international work experience in marketing data science & analytics from Servcorp, Mission Australia, M&C Saatchi Australia & Cognizant Technology Solutions. 
+As a Lead Marketing Data Scientist at Appliances Online, I am constantly seeking new and innovative ways to drive business growth through data-driven insights. With over ten years of international experience in data science and analytics, I have honed my expertise in cloud computing, machine learning, big data analytics, and business intelligence.
 
-Professionally, I am immensely inspired by the potential for combining business units with big data analytics and cloud computing; to provide scalable insights. Through the years, I have amassed strong skill sets in **Data Modelling** (R, SQL, Python), **Data Visualization** (Power BI, Qlik Sense, Tableau) and **Data Science** (Supervised/Unsupervised ML algorithms in R & Python). What excites me the most about this journey is the infinite possibility to scale up the data analytics/science projects in the cloud (by setting up Linux/ Ubuntu Servers in Amazon/Google/Azure Virtual Machines to do end-to-end reporting automation). In a few years down the road, I see myself working at the forefront of data-driven Management Consulting.
+Throughout my career, I have worked as a liaison between business units and technology teams, leveraging my strong communication and collaboration skills to effectively lead consulting initiatives. I am passionate about the potential of predictive analytics and cloud computing to provide scalable insights and have developed strong skill sets in data modeling, data visualization, and data science.
 
-Academically, I am an Electronics Engineering bachelor with a postgraduate degree in Information Technology & Strategic Marketing from University of Technology, Sydney (Outstanding International Students Award Holder in 2014 & 2015). In my spare time, I actively blog on the 'Medium', 'Towards Data Science, 'Analytics Vidhya' and 'The Startup'. Apart from my academic and professional life, I am keenly interested in traveling, soccer, skydiving, and metaphysics. 
+I am particularly excited about the possibilities of scaling up data science and analytics projects in the cloud, leveraging Linux/Ubuntu servers in virtual machines to enable end-to-end ML deployment processes. Looking ahead, I see myself at the forefront of data-driven marketing management consulting.
 
-Being an Australian Citizen with Indian lineage, I am entitled to stay and work full-time in Australia, New Zealand, India and US (on E3 visa). Thank you for viewing my profile. That pretty much sums up my story in a nutshell! I can be reached either through my portfolio in [GitHub](https://github.com/srees1988) or in [Linkedin.](https://linkedin.com/in/srees1988/)  
+Academically, I hold a Bachelor's degree in Electronics Engineering and a postgraduate degree in Information Technology & Strategic Marketing from the University of Technology, Sydney, where I was recognized as an Outstanding International Student Award Holder in both 2014 and 2015.
 
-Hope you have a nice day!
+In addition to my professional work, I am an active blogger on Medium, Towards Data Science, Analytics Vidhya, and The Startup. Outside of work, I enjoy traveling, soccer, skydiving, and exploring topics related to metaphysics.
+
+As an Australian citizen with an Indian lineage, I am authorized to work full-time in Australia, New Zealand, India, and the US on an E3 visa. If you'd like to learn more about my experience or discuss potential collaboration opportunities, feel free to check out my portfolio on  [GitHub](https://github.com/srees1988) or reach out to me directly on [Linkedin.](https://linkedin.com/in/srees1988/).
+
+Hope you have a nice day! 
 
 Cheers  
 Sree
