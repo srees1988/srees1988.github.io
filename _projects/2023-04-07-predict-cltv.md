@@ -193,7 +193,7 @@ The output of the describe() method provides a quick summary of the key statisti
 
 ![](/images/projects/4.predict_cltv/6.describe_method.jpg) 
  
-From the output, we can observe that the average "quantity" is around £12, the average "price" is around £3, and the average "transaction_amount" is around £20. The standard deviation (std) of these variables is quite high, indicating that they are dispersed across a wide range of values. Additionally, the minimum and maximum values of each variable indicate the range of values they can take. The median or the 50th percentile (50%) of the variables is closer to the 25th percentile (25%) than the 75th percentile (75%), which suggests that the distribution of these variables might be skewed to the right.
+From the output, we can observe that the average "quantity" is around 12, the average "price" is around 3, and the average "transaction_amount" is around 20. The standard deviation (std) of these variables is quite high, indicating that they are dispersed across a wide range of values. Additionally, the minimum and maximum values of each variable indicate the range of values they can take. The median or the 50th percentile (50%) of the variables is closer to the 25th percentile (25%) than the 75th percentile (75%), which suggests that the distribution of these variables might be skewed to the right.
 
 ### Ensure column data types and identify missing values: 
  
@@ -836,7 +836,7 @@ plt.show()
 
 The overall CLTV graph shows us the traditional lifetime value of customers at the organization, starting from the first month when a customer gets onboarded to the organization, and modeling all the way until their 10th month of the customer journey.
 
-Based on the chart provided, it is evident that a profitable acquisition cost for customers who have been with us for 8 months would be around  £310. This means that if a customer remains with us for 8 months, they are worth  £310. Assuming that the cost of acquiring a new customer in FY2010 was  £35, the CAC to LTV ratio would be 6:1, which is considered favorable for a retail business.
+Based on the chart provided, it is evident that a profitable acquisition cost for customers who have been with us for 8 months would be around  310. This means that if a customer remains with us for 8 months, they are worth  310. Assuming that the cost of acquiring a new customer in FY2010 was  35, the CAC to LTV ratio would be 6:1, which is considered favorable for a retail business.
 
 
 ### Segment customers based on LTV:
