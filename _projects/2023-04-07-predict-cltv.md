@@ -836,7 +836,7 @@ plt.show()
 
 The overall CLTV graph shows us the traditional lifetime value of customers at the organization, starting from the first month when a customer gets onboarded to the organization, and modeling all the way until their 10th month of the customer journey.
 
-Based on the chart provided, it is evident that a profitable acquisition cost for customers who have been with us for 8 months would be around $310. This means that if a customer remains with us for 8 months, they are worth $310. Assuming that the cost of acquiring a new customer in FY2010 was $35, the CAC to LTV ratio would be 6:1, which is considered favorable for a retail business.
+Based on the chart provided, it is evident that a profitable acquisition cost for customers who have been with us for 8 months would be around  £310. This means that if a customer remains with us for 8 months, they are worth  £310. Assuming that the cost of acquiring a new customer in FY2010 was  £35, the CAC to LTV ratio would be 6:1, which is considered favorable for a retail business.
 
 
 ### Segment customers based on LTV:
