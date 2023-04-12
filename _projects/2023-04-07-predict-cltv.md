@@ -911,7 +911,7 @@ Check out the code below for a demonstration of how we can implement these techn
 The first step is to split the data into features (X) and target (y), where X contains the row and column indices and y contains the customer lifetime values.
 
 
-Then, a random forest regressor is trained on the non-missing values of the data using the scikit-learn RandomForestRegressor class. To evaluate the performance of the random forest regressor, I split the data into a training set and a test set, and calculated metrics such as mean squared error (MSE) and R-squared (R²) on the test set.
+Then, a random forest regressor is trained on the non-missing values of the data using the scikit-learn RandomForestRegressor class. To evaluate the performance of the random forest regressor, I split the data into a training set and a test set, and calculated metrics such as mean squared error (MSE) and R-squared (RÂ²) on the test set.
 
 Further, I did hyperparameter tuning using the random search technique to search over a range of hyperparameters and to find the best combination of hyperparameters that optimizes a performance metric such as R-squared on a validation set.
 
