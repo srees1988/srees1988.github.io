@@ -1,5 +1,5 @@
 ---
-title: 'Predict Customer Churn in Python'
+title: 'Predict Customer Churn'
 subtitle: 'Propensity Scoring Model using Supervised ML'
 date: 2019-09-08 00:00:00
 featured_image: '/images/projects/3.predict_churn/1.churn.jpg'
