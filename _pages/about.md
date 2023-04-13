@@ -12,7 +12,7 @@ body {
 text-align: justify}
 </style>
 
-As a Lead Marketing Data Scientist at Appliances Online, I am constantly seeking new and innovative ways to drive business growth through data-driven insights. With over ten years of international experience in data science and analytics, I have honed my expertise in cloud computing, machine learning, big data analytics, and business intelligence.
+As a Lead Marketing Data Scientist at Appliances Online (a division of Winning Group), I am constantly seeking new and innovative ways to drive business growth through data-driven insights. With over ten years of international experience in data science and analytics, I have honed my expertise in cloud computing, machine learning, big data analytics, and business intelligence.
 
 Throughout my career, I have worked as a liaison between business units and technology teams, leveraging my strong communication and collaboration skills to effectively lead consulting initiatives. I am passionate about the potential of predictive analytics and cloud computing to provide scalable insights and have developed strong skill sets in data modeling, data visualization, and data science.
 
