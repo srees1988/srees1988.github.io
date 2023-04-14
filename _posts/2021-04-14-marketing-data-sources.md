@@ -2,7 +2,7 @@
 title: 'Demystifying Marketing Data Sources'
 date: 2021-04-14 00:00:00
 featured_image: '/images/blogs/5.marketing-data-sources/1.intro.jpg'
-excerpt: Navigating the Data Jungle: Practical examples from a marketing data science and analytics professional's real-life experiences.
+excerpt: Navigating the Marketing Data Ecosystem.
 ---
 
 
@@ -110,6 +110,6 @@ Sources, like Near, provide geographical data points that can help us identify c
 
 Congrats if you have made it this far! I think that's pretty much everything I would like to convey for now. I hope this real-world example gave you some insights into the most popular first-party, second-party, and third-party data sources that we use in the marketing data science & analytics industry. By leveraging these data points in your marketing efforts, you can unlock their true potential and drive improved results for your business. Write to you soon.
 
-Thank you.
+Thank you
 Sree
 
