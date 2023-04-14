@@ -48,5 +48,3 @@ In order to automate the dashboards in real-time, Power BI has on-premise/ enter
 Overall I felt that Google's Looker has a lot of visual analytics capabilities and data discovery use cases, and it also opens up new avenues like collaborative data sharing etc. Unlike Power BI or Tableau, Looker uses a complete semantic model for storing all the business logic providing a single source of truth for the enterprise. Hope some of these checkpoints help you next time if you have been given the task to evaluate Google's Looker as a prospective BI platform for your department or organization.
 
 Thank you
-
-Sree
