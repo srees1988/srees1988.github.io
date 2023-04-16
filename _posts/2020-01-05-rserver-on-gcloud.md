@@ -1,6 +1,6 @@
 ---
 title: 'R Studio Server on Google Cloud'
-date: 2019-10-01 00:00:00
+date: 2020-01-05 00:00:00
 featured_image: '/images/blogs/2.rserver_in_gcloud/rserver_1.jpg'
 excerpt: To configure R Studio Server - the gateway to build, transform and scale machine learning projects in cloud.
 ---
