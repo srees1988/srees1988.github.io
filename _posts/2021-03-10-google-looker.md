@@ -1,6 +1,6 @@
 ---
 title: 'How good is Google Looker?'
-date: 2020-12-10 00:00:00
+date: 2021-03-10 00:00:00
 featured_image: '/images/blogs/4.google-looker/blog_addin1.jpg'
 excerpt: Key points to evaluate Google's Looker vs. Tableau/Power BI/Qlik
 ---
