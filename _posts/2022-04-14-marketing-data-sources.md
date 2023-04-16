@@ -1,6 +1,6 @@
 ---
 title: 'Demystifying Marketing Data Sources'
-date: 2021-04-14 00:00:00
+date: 2022-04-14 00:00:00
 featured_image: '/images/blogs/5.marketing-data-sources/1.intro.jpg'
 excerpt: Navigating the Marketing Data Ecosystem.
 ---
