@@ -1,6 +1,6 @@
 ---
 title: 'Quadrant Plots in Tableau'
-date: 2020-07-15 00:00:00
+date: 2020-09-15 00:00:00
 featured_image: '/images/blogs/3.data-viz-tableau1/blog_addin1.jpg'
 excerpt: To build quadrant analysis plots in Tableau.
 ---
