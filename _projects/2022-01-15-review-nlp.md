@@ -773,7 +773,7 @@ dataset.to_csv('yelp_reviews_nlp.csv', index = False)
 
 3) Analyze and Be the Bridge: Dive deep into the data cubes to analyze customer sentiment over time. By acting as a bridge between internal customer support and marketing/sales teams, you could help them identify negative sentiment trends and guide them through any issues that customers are facing. For example, if you were working with Domino's Pizza, you could highlight how negative sentiments are dominating over positive ones and guide the team through the specific issues that customers are facing in certain franchises or cities. Additionally, you could help them spot seasonality and cyclicity in the data, such as recurring patterns of negative reviews during certain months of the year, like December and January, etc.
 
-![](/images/projects/5.reviews_nlp/2.sentiment_analysis.jpg)
+![](/images/projects/5.reviews_nlp/2.sentiment_analysis.JPG)
 
 4) Potential for Further Analysis: The data you provide will serve as a starting point for further analysis, including identifying businesses that receive the most negative reviews, understanding the reasons behind the negative sentiment, and assessing the impact of negative sentiment on the bottom line. Furthermore, you can combine this data with other sources, such as business locations, to analyze regional trends in sentiment.
 
