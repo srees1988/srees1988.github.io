@@ -19,7 +19,7 @@ However, until a few years ago, performing these NLP techniques involved labor-i
 In this blog post, I will walk you through a step-by-step guide on how to perform these NLP techniques using pre-trained classifiers ([Hugging Face Zero-Shot Classifier](https://huggingface.co/facebook/bart-large-mnli)) on a [public Yelp reviews dataset](https://github.com/srees1988/reviews-nlp-py) using Python. By the end of this tutorial, you will have gained practical knowledge that you can apply to your own datasets to gain valuable insights. So, let's get started!
 
 
-![](/images/projects/5.reviews_nlp/2.sentiment_analysis.jpg)
+![](/images/projects/5.reviews_nlp/2.sentiment_analysis.JPG)
 
 
 ### Data Preparation:
@@ -564,7 +564,7 @@ dataset = pd.merge(dataset, interim, left_index=True, right_index=True)
 The treemap clearly shows that at least 7 out of every 10 users who wrote reviews about Domino's Pizza in the Yelp dataset focused on their delivery experience and customer service. The remaining segment discussed topics such as online ordering experience, value for money, and pizza quality. It's also worth noting that only a handful of users mentioned location and dietary restrictions. Let's move on to the next step and explore what users have said about each of these topics, as well as their sentiments.
 
 
-![](/images/projects/5.reviews_nlp/11.text_Classification.jpg)
+![](/images/projects/5.reviews_nlp/11.text_Classification.JPG)
 
 ### Step 7: Sentiment Analysis:
 
@@ -619,7 +619,7 @@ dataset = pd.merge(dataset, interim, left_index=True, right_index=True)
 
 ```
 
-![](/images/projects/5.reviews_nlp/12.sentiment_analysis.jpg)
+![](/images/projects/5.reviews_nlp/12.sentiment_analysis.JPG)
 
 Here's what we could find about user sentiment from Domino's Pizza reviews in the Yelp dataset:
 
