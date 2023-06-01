@@ -27,7 +27,7 @@ So, let's dive in and see how we can swiftly supercharge data analysis and machi
 
 Step 1.1. Create a Google Cloud Project: Sign in to [Google Cloud](https://console.cloud.google.com/) Console and initiate a new project.
 
-![](/images/blogs/7.py-server/pyserver_1.JPG)
+![](/images/blogs/7.py-server/pyserver_1.jpg)
 
 Step 1.2: Establishing a Firewall Rule: To set up a firewall rule within Google Cloud Compute Engine, follow these steps: Go to the 'VPC Network' section in the menu, and select 'Firewall'. Proceed to configure the desired settings as outlined below:
 
