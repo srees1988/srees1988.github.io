@@ -31,42 +31,42 @@ Step 1.1. Create a Google Cloud Project: Sign in to [Google Cloud](https://conso
 
 Step 1.2: Establishing a Firewall Rule: To set up a firewall rule within Google Cloud Compute Engine, follow these steps: Go to the 'VPC Network' section in the menu, and select 'Firewall'. Proceed to configure the desired settings as outlined below:
 
-![](/images/blogs/7.py-server/pyserver_2.JPG)
+![](/images/blogs/7.py-server/pyserver_2.jpg)
 
-![](/images/blogs/7.py-server/pyserver_3.JPG)
+![](/images/blogs/7.py-server/pyserver_3.jpg)
 
 Step 1.3 Create a Virtual Machine Instance: Create a new virtual machine on Google Cloud by navigating to 'VM Instances' under 'Menu' > 'Compute Engine'.
 
-![](/images/blogs/7.py-server/pyserver_4.JPG)
+![](/images/blogs/7.py-server/pyserver_4.jpg)
 
 Step 1.4. Configuring the Virtual Machine: Provide a name for the new VM instance, such as "py-ml," and select a zone that is geographically close to the operational zone to minimize network latency.
 
-![](/images/blogs/7.py-server/pyserver_5.JPG)
+![](/images/blogs/7.py-server/pyserver_5.jpg)
 
 Edit the Boot Disk and choose one of the most recent Deep Learning VMs with a standard persistent disk Boot disk type and a size of 200 GB. Then, make sure that the firewall allows HTTP and HTTPS traffic. Finally, click on 'Create' to initiate the instance launch.
 
-![](/images/blogs/7.py-server/pyserver_6.JPG)
+![](/images/blogs/7.py-server/pyserver_6.jpg)
 
 Step 1.5. Reserve External Static IP Address: As the final step of VM instance configuration, navigate to 'IP addresses' within the 'VPC network' and 'reserve' a new static IP address for your newly created virtual machine instance.
 
-![](/images/blogs/7.py-server/pyserver_7.JPG)
+![](/images/blogs/7.py-server/pyserver_7.jpg)
 
 
 ### Step 2. Initiate Jupyter Notebook on the Virtual Machine:
 
 Step 2.1: Establish an SSH Connection: Select the 'SSH' option next to the newly created instance in the VM instances window of Google Compute Engine. This will open the command prompt.
 
-![](/images/blogs/7.py-server/pyserver_8.JPG)
+![](/images/blogs/7.py-server/pyserver_8.jpg)
 
 Step 2.2: Initiate Jupyter Notebook: SSH the following command 'jupyter notebook - ip=0.0.0.0 - port=8888 - no-browser &'
 
-![](/images/blogs/7.py-server/pyserver_9.JPG)
+![](/images/blogs/7.py-server/pyserver_9.jpg)
 
 To access Jupyter Notebook through your browser, use the following URL format: http://[External IP]:8888. For example, if the External IP of the recently configured virtual machine instance is 35.185.161.49, then our Jupyter Notebook URL would be: http://35.185.161.49:8888/
 
 When accessing Jupyter Notebook for the first time, it might prompt you for a token. You can find this token in the SSH terminal. Simply copy and paste the token, press Enter, and voila!
 
-![](/images/blogs/7.py-server/pyserver_10.JPG)
+![](/images/blogs/7.py-server/pyserver_10.jpg)
 
 
 ### Step 3. Schedule and run Python scripts using cron:
@@ -101,23 +101,23 @@ print("Maximum Salary:", max_salary)
 
 ```
 
-![](/images/blogs/7.py-server/pyserver_11.JPG)
+![](/images/blogs/7.py-server/pyserver_11.jpg)
 
 Save the file as 'py-test.ipynb' and download it as a Python file. Then, upload it to a newly created folder called 'Automation'.
 
-![](/images/blogs/7.py-server/pyserver_12.JPG)
+![](/images/blogs/7.py-server/pyserver_12.jpg)
 
-![](/images/blogs/7.py-server/pyserver_13.JPG)
+![](/images/blogs/7.py-server/pyserver_13.jpg)
 
 Now, go back to the SSH terminal and try running the file. You should be able to see the results being printed on the screen, which indicates that you can now run Python scripts successfully on the Linux server hosted on Google Cloud!
 
 
-![](/images/blogs/7.py-server/pyserver_14.JPG)
+![](/images/blogs/7.py-server/pyserver_14.jpg)
 
 If you would like to schedule this script, follow these steps: 1. Open the SSH terminal and type 'crontab -e'. 2. Key in the time and frequency of refresh. For instance, here, I have chosen to run the script daily at 9:30 PM UTC. Refer to this page to learn how you can schedule cron jobs.
 
 
-![](/images/blogs/7.py-server/pyserver_15.JPG)
+![](/images/blogs/7.py-server/pyserver_15.jpg)
 
 
 Using crontab to schedule scripts can help automate analytics and machine learning pipelines, ensuring that your data is always up-to-date and your models are accurate.
