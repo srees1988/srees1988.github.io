@@ -15,11 +15,11 @@ When it comes to tackling real-world predictive modeling projects, cloud computi
 
 In this comprehensive guide, I'll walk you through a step-by-step approach to quickly configuring a fully functional Jupyter Notebook on Google Cloud. Here are the three key steps involved in this project:
 
-1. Configure a virtual machine instance (Ubuntu OS) on Google Cloud.
+1) Configure a virtual machine instance (Ubuntu OS) on Google Cloud.
 
-2. Initiate Jupyter Notebook on the Virtual Machine.
+2) Initiate Jupyter Notebook on the Virtual Machine.
 
-3. Schedule and run Python scripts.
+3) Schedule and run Python scripts.
 
 So, let's dive in and see how we can swiftly supercharge data analysis and machine learning projects in the cloud!
 
@@ -129,18 +129,19 @@ Lastly, if you would like to set up R servers on Google Cloud, please read my bl
 
 I hope you have successfully installed Jupyter Notebook on Google Cloud by now. Here are a few suggestions for expanding your data modeling and predictive analytics workflow to a larger scale:
 
-Firstly, try to encrypt the URL using [Let's Encrypt](https://letsencrypt.org/getting-started/).
-2. Take data from internal sources such as CRM databases or external sources like Nielsen Ratings, Facebook, and Google Ad sets, and transfer, modify, and load it into the Google Cloud Compute Engine.
+1) Firstly, try to encrypt the URL using [Let's Encrypt](https://letsencrypt.org/getting-started/).
 
-3. Create data models using SQL, R, or Python languages.
+2)Take data from internal sources such as CRM databases or external sources like Nielsen Ratings, Facebook, and Google Ad sets, and transfer, modify, and load it into the Google Cloud Compute Engine.
 
-4. Develop machine learning algorithms, whether they are supervised, unsupervised, or reinforcement, utilizing the data model sourced from the cloud.
+3) Create data models using SQL, R, or Python languages.
 
-5. Implement the complete workflow using CRON jobs to make it production-ready.
+4) Develop machine learning algorithms, whether they are supervised, unsupervised, or reinforcement, utilizing the data model sourced from the cloud.
 
-6. Save the dataset in a cloud-based database. If required, expose it as a REST API endpoint.
+5) Implement the complete workflow using CRON jobs to make it production-ready.
 
-7. Finally, create a business intelligence (BI) dashboard that presents the predictive model in a visual format. This could involve forecasting future sales, predicting churn rates & Life Time Value, or analyzing customer reviews. If you're interested, you can also integrate these live predictive BI models into web or mobile applications.
+6) Save the dataset in a cloud-based database. If required, expose it as a REST API endpoint.
+
+7) Finally, create a business intelligence (BI) dashboard that presents the predictive model in a visual format. This could involve forecasting future sales, predicting churn rates & Life Time Value, or analyzing customer reviews. If you're interested, you can also integrate these live predictive BI models into web or mobile applications.
 
 Congratulations if you have made it this far! I think that's pretty much everything I would like to convey for now. I'll write to you soon.
 
