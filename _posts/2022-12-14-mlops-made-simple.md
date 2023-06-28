@@ -1,7 +1,7 @@
 ---
 title: 'MLOps Made Simple'
 date: 2022-12-14 00:00:00
-featured_image: '/images/blogs/8.mlops/1.intro.png'
+featured_image: '/images/blogs/8.mlops/0.automatic-pipeline.png'
 excerpt: The bare minimum Concepts.
 ---
 
@@ -13,7 +13,7 @@ text-align: justify}
 
 My list of vital basics when it comes to handling MLOps in the real world.
 
-![](/images/blogs/8.mlops/1.intro.png)
+![](/images/blogs/8.mlops/0.automatic-pipeline.png)
 
 Hey there, if you're reading this article, chances are you've come across MLOps (Machine Learning Operations) countless times or maybe even had your fair share of frustration managing an abundance of productionized models on your systems.
 
@@ -39,7 +39,7 @@ Here, we heavily rely on Google Cloud Storage Buckets and Google BigQuery tables
 
 In my MLOps stack, I primarily focus on two key components: model management and model monitoring. Let's explore each of these components in a bit more detail.
 
-![](/images/blogs/8.mlops/2.mlops_google.png)
+![](/images/blogs/8.mlops/2.mlops_google.JPG)
 
 
 ### Model Management:
@@ -61,7 +61,7 @@ By establishing a model registry and configuring model metadata stores, we lay t
 
 ### Model Monitoring
 
-![](/images/blogs/8.mlops/3.mlops_model_monitoring.jpeg)
+![](/images/blogs/8.mlops/3.mlops_model_monitoring.JPG)
 
 Once I've configured the model registry and model metadata stores and trained the model, the next step is selecting the best-trained model for the business use case and deploying it to the Vertex API endpoint for batch predictions.
 
@@ -77,7 +77,7 @@ By leveraging the model monitoring mechanisms provided by these cloud services, 
 
 Monitoring and mitigating model drift, whether it's concept drift or data drift, are vital elements of MLOps. They ensure that the machine learning model remains relevant and effective in addressing the business problem at any given time.
 
-Tail end
+### Tail end
 
 In addition to configuring the model registry, model metadata stores, and model monitoring alert mechanisms, the two other components that actively contribute to my MLOps stack are nothing but the feature stores and Git versioning systems. These components allow me to version control features, labels, and source codes, while also facilitating the establishment of an end-to-end Continuous Integration & Deployment Machine Learning pipeline (CI/CD pipeline) for batch predictions within the marketing spectrum of the business.Tail end
 In addition to configuring the model registry, model metadata stores, and model monitoring alert mechanisms, the two other components that actively contribute to my MLOps stack are nothing but the feature stores and Git versioning systems. These components allow me to version control features, labels, and source codes, while also facilitating the establishment of an end-to-end Continuous Integration & Deployment Machine Learning pipeline (CI/CD pipeline) for batch predictions within the marketing spectrum of the business.
