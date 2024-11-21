@@ -28,7 +28,7 @@ a)  **Tailor marketing strategies** to meet specific customer needs.
 
 b) **Enhance customer experiences** through personalized journeys.
 
-c) Drive **revenue growth and profitability** with data-driven decisions.
+c) **Drive revenue growth and profitability** with data-driven decisions.
 
 Here's a glimpse into some of the hard lessons I've learned about unlocking the business value of customer segmentation:
 
@@ -36,7 +36,14 @@ Here's a glimpse into some of the hard lessons I've learned about unlocking the 
 
 Let's say you've segmented your customer base using K-Means or another unsupervised clustering method tailored to your use case. You've identified five distinct clusters, each representing a unique business segment:
 
-![](/images/blogs/9.biz-value-segments/customer_segmentation_2.jpg)
+
+| **Customer Segment** | **Description** |
+| --- | --- |
+| **Dormant Customers** | Customers who haven't engaged or made a purchase in the past five years. |
+| **Inactive Customers** | Customers with minimal interaction over an extended period (e.g., three years). |
+| **Potentially Valuable** | Customers showing signs of increased engagement or spending. |
+| **Loyal Customers** | Regular customers with consistent purchasing patterns. |
+| **Most Valuable Customers** | High-value customers who make frequent, significant purchases. |
 
 Now, to unlock the full potential of this segmentation, think of it in two ways: as a tool for strategic marketing and as a foundation for scalable production.
 
@@ -86,7 +93,7 @@ If you're starting your journey in data science and tasked with customer segment
 
 Start by getting comfortable with tools like Python's Scikit-learn, R, or cloud platforms like Google Vertex AI. These are excellent foundations for learning clustering techniques and understanding their real-world applications. But remember, building the model is just the beginning.
 
-### 2. Humanize the Process
+#### 2. Humanize the Process
 
 Once you've built your segmentation, your next challenge is making the results relatable to non-technical stakeholders. Always aim to:
 
@@ -103,7 +110,7 @@ Here's a simple framework to guide your communication:
 
 Once you've built this foundation, it's time for the next step: connecting with stakeholders.
 
-### 3. Driving Stakeholder Buy-In
+#### 3. Driving Stakeholder Buy-In
 
 Ask yourself: **How can these insights solve real business problems?** Make the connection between models and revenue clear. Business leaders need to see how segmentation impacts their goals.
 
@@ -114,15 +121,15 @@ For example, if the company's priority is increasing retention, focus on strateg
 
 Such clear, actionable proposals resonate with stakeholders, ensuring their buy-in.
 
-### 4. Making Segmentation Actionable
+#### 4. Making Segmentation Actionable
 
 Once stakeholders are on board, focus on operationalizing your segmentation to maximize its value. Even small steps, like automating weekly segment refreshes, can demonstrate the power of embedding insights into business operations. Gradually, you can scale up to more advanced solutions:
 
 - **Build Scalable Pipelines:** Use tools like Google Vertex AI to automate model runs and integrate segmentation results into customer data platforms (CDPs). Keep models updated daily or in real-time to ensure insights remain relevant.
 - **Collaborate with Marketing Teams:** Work with your marketing team to build campaigns tailored to specific segments. For example:
-    - Target **Loyal Customers** with exclusive promotions.
-    - Design win-back campaigns for **Dormant Customers**.
-    - Offer personalized incentives to **Potentially Valuable Customers**.
+    a) Target **Loyal Customers** with exclusive promotions.
+    b) Design win-back campaigns for **Dormant Customers**.
+    c) Offer personalized incentives to **Potentially Valuable Customers**.
 - **Leverage CDPs:** Use your CDP to coordinate omnichannel marketing campaigns, including email, SMS, push notifications, and display ads.
 
 In my experience, these operational strategies-connecting segmentation insights to CDPs and aligning with marketing teams-have driven millions in incremental monthly revenue while nurturing customer relationships.
@@ -133,15 +140,15 @@ In my experience, these operational strategies-connecting segmentation insights 
 Productionizing segmentation comes with costs, such as increased cloud usage, so it's critical to measure success meticulously. Start by asking:
 
 - **What KPIs will we track?**
-    - Retention rates for dormant and inactive customers.
-    - Average purchase value for high spenders.
-    - Engagement metrics for potentially valuable customers.
+    a) Retention rates for dormant and inactive customers.
+    b) Average purchase value for high spenders.
+    c) Engagement metrics for potentially valuable customers.
 - **How will we monitor these KPIs?**
-    - Build a framework to track performance by segment and ROI from tailored campaigns directly through your CDP.
+    a) Build a framework to track performance by segment and ROI from tailored campaigns directly through your CDP.
 
 Regularly evaluating these metrics ensures you're optimizing campaigns and demonstrating the tangible value of segmentation.
 
-### 6. Sharing Success Stories
+#### 6. Sharing Success Stories
 
 Once implemented, celebrate your wins and communicate the value of segmentation:
 
