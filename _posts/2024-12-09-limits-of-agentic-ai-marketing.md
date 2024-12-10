@@ -1,5 +1,5 @@
 ---
-title: 'Why Simplicity Still Wins!'
+title: 'Why Simplicity Still Wins'
 date: 2024-12-09 00:00:00
 featured_image: '/images/blogs/10.limits-agentic-ai/1.limits-of-agentic-ai.jpg'
 excerpt: The Limits of Agentic AI in Marketing
