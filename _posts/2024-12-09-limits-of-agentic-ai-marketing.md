@@ -1,7 +1,7 @@
 ---
 title: 'Why Simplicity Still Wins!'
 date: 2024-12-09 00:00:00
-featured_image: '/images/blogs/10.limits-agentic-ai/customer_segmentation_1.jpg'
+featured_image: '/images/blogs/10.limits-agentic-ai/1.limits-of-agentic-ai.jpg'
 excerpt: The Limits of Agentic AI in Marketing
 
 ---
@@ -12,7 +12,7 @@ body {
 text-align: justify}
 </style>
 
-![](/images/blogs/10.limits-agentic-ai/customer_segmentation_1.jpg)
+![](/images/blogs/10.limits-agentic-ai/1.limits-of-agentic-ai.jpg)
 
 #### Introduction:
 
@@ -84,7 +84,7 @@ These are valuable enhancements - but they don't necessarily require overhauling
 
 #### Practical Tips: Use AI Where It Matters
 
-![](/images/blogs/10.limits-agentic-ai/customer_segmentation_3.png)
+![](/images/blogs/10.limits-agentic-ai/2.limits-of-agentic-ai.png)
 
 
 To all the budding marketing analytics professionals and graduates out there wondering which road to take in this ever-evolving field, here are some of my personal tips - drawn from years of learnings, failures, and experiments with classic ML models and LLMs.
