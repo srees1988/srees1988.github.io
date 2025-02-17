@@ -1,5 +1,4 @@
 ---
----
 title: "Scaling Machine Learning: A Beginner's Guide to ML Automation"
 author: "Sree"
 date: 2025-02-10 00:00:00
@@ -23,8 +22,6 @@ schema_url: "https://srees.org/scaling-machine-learning-ci-cd"
 schema_keywords: ["Machine Learning", "CI/CD", "Marketing Analytics", "Data Science"]
 ---
 
-
----
 
 
 <style>
