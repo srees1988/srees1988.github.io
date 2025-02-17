@@ -1,27 +1,10 @@
 ---
-title: "Scaling Machine Learning: A Beginner's Guide to ML Automation"
-author: "Sree"
+title: 'Scaling Machine Learning'
 date: 2025-02-10 00:00:00
-featured_image: "/images/blogs/11.ci-cd-pipeline/1.ci-cd-pipeline.jpg"
-excerpt: "An easy-to-understand guide on CI/CD pipelines for machine learning workflows."
-description: "Learn how to build scalable CI/CD pipelines for machine learning, from data preparation to model deployment. A practical guide for data scientists and marketers."
-tags: ["Machine Learning", "CI/CD", "Marketing Analytics", "Data Science"]
-categories: ["Machine Learning", "Data Engineering"]
-canonical_url: "https://srees.org/scaling-machine-learning-ci-cd"
-social_image: "/images/blogs/11.ci-cd-pipeline/social-preview.jpg"
-twitter_card: "summary_large_image"
-twitter_author: "@your_twitter_handle"
-og_title: "Scaling Machine Learning: A Beginner's Guide to ML Automation"
-og_description: "How CI/CD pipelines streamline ML workflows and make model deployment efficient. Learn key strategies for scaling ML models."
-og_image: "/images/blogs/11.ci-cd-pipeline/social-preview.jpg"
-og_url: "https://srees.org/scaling-machine-learning-ci-cd"
-schema_type: "BlogPosting"
-schema_author: "Sree"
-schema_datePublished: "2025-02-10"
-schema_url: "https://srees.org/scaling-machine-learning-ci-cd"
-schema_keywords: ["Machine Learning", "CI/CD", "Marketing Analytics", "Data Science"]
----
+featured_image: '/images/blogs/11.ci-cd-pipeline/1.ci-cd-pipeline.jpg'
+excerpt: A Beginner's Guide to ML Automation
 
+---
 
 
 <style>
