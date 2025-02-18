@@ -7,32 +7,31 @@ excerpt: A Beginner's Guide to ML Automation
 description: "Learn how to build scalable CI/CD pipelines for machine learning, from data preparation to model deployment. A practical guide for data scientists and marketers."
 tags: ["Machine Learning", "CI/CD", "Marketing Analytics", "Data Science"]
 categories: ["Machine Learning", "Data Engineering"]
-canonical_url: "https://srees.org/scaling-machine-learning-ci-cd"
+canonical_url: "https://srees.org/blog/ci-cd-pipelines"
 social_image: "/images/blogs/11.ci-cd-pipeline/social-preview.jpg"
 twitter_card: "summary_large_image"
 twitter_author: "@srees1988"
 og_title: "Scaling Machine Learning: A Beginner's Guide to ML Automation"
 og_description: "How CI/CD pipelines streamline ML workflows and make model deployment efficient. Learn key strategies for scaling ML models."
 og_image: "/images/blogs/11.ci-cd-pipeline/social-preview.jpg"
-og_url: "https://srees.org/scaling-machine-learning-ci-cd"
+og_url: "https://srees.org/blog/ci-cd-pipelines"
 schema_type: "BlogPosting"
 schema_author: "Sree"
 schema_datePublished: "2025-02-10"
-schema_url: "https://srees.org/scaling-machine-learning-ci-cd"
+schema_url: "https://srees.org/blog/ci-cd-pipelines"
 schema_keywords: ["Machine Learning", "CI/CD", "Marketing Analytics", "Data Science"]
 author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
 author_url: "https://srees.org/about"
 author_image: "/images/profile/sree.jpg"
 ---
-<small>*An excerpt from an article written by Sree, published in Venture Magazine.*
+<small>*An excerpt from an article written by Sree, published in [Generative AI Journal](https://medium.com/generative-ai/machine-learning-and-ci-cd-pipelines-the-perfect-pair-5d74ed642057?sk=bca8fa852159078dcbcacadc499cb850].*
 
+![](/images/blogs/11.ci-cd-pipeline/1.ci-cd-pipeline.jpg)
 
 <style>
 body {
 text-align: justify}
 </style>
-
-![](/images/blogs/11.ci-cd-pipeline/1.ci-cd-pipeline.jpg)
 
  
 
@@ -208,7 +207,7 @@ For data scientists, analysts, or BI professionals, understanding how to build a
 
 I hope this gives you a simple and practical look at how CI/CD pipelines work, especially in marketing and analytics. In future posts, I'll dive deeper and show you how to build a complete, end-to-end pipeline using open-source datasets. These lessons have been invaluable in my career, and I hope they'll help you too!
 
-- - -
+***
 
 ### About the Author
 
