@@ -24,6 +24,7 @@ author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, a
 author_url: "https://srees.org/about"
 author_image: "/images/profile/sree.jpg"
 ---
+<small>*An excerpt from an article written by Sree, published in Venture Magazine.*
 
 
 <style>
@@ -33,8 +34,7 @@ text-align: justify}
 
 ![](/images/blogs/11.ci-cd-pipeline/1.ci-cd-pipeline.jpg)
 
-> *An excerpt from an article written by Sree, published in Venture Magazine.*
-
+ 
 
 Machine learning is transforming businesses in ways we never thought possible, especially in marketing and consumer analytics. It's all about using data-driven insights and predictions to make smarter decisions. But here's the thing - while many of us learn the basics of ML from courses and tutorials, they rarely cover the practical side, like setting up Continuous Integration and Deployment (CI/CD) pipelines. And honestly, those pipelines are what make it possible to scale ML models and solve real-world problems.
 
@@ -210,6 +210,6 @@ I hope this gives you a simple and practical look at how CI/CD pipelines work, e
 
 - - -
 
-## About the Author
+### About the Author
 
 Sree is a Marketing Data Scientist and seasoned writer with over a decade of experience in data science and analytics, focusing on marketing and consumer analytics. Based in Australia, Sree is passionate about simplifying complex topics for a broad audience. His articles have appeared in esteemed outlets such as Towards Data Science, Generative AI, The Startup, and AI Advanced Journals. Sree continues to provide insightful content for data-driven marketers. Learn more about his journey and work on his portfolio - his digital home.
