@@ -20,9 +20,9 @@ schema_url: "https://srees.org/blog/ci-cd-pipelines"
 schema_keywords: ["Machine Learning", "CI/CD", "Marketing Analytics", "Data Science"]
 author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
 author_url: "https://srees.org/about"
-author_image: "/images/sree_on_about.jpg"
+author_image: "/images/sree_on_side.jpg"
 ---
-<small>*An excerpt from an article written by Sree, published in Generative AI Journal.*
+*An excerpt from an article written by Sree, published in Generative AI Journal.*
 
 ![](/images/blogs/11.ci-cd-pipeline/1.ci-cd-pipeline.jpg)
 
@@ -205,15 +205,11 @@ For data scientists, analysts, or BI professionals, understanding how to build a
 
 I hope this gives you a simple and practical look at how CI/CD pipelines work, especially in marketing and analytics. In future posts, I'll dive deeper and show you how to build a complete, end-to-end pipeline using open-source datasets. These lessons have been invaluable in my career, and I hope they'll help you too!
 
-***
+- - -
 
-## **About the Author**
 
-<div style="border-left: 5px solid #007acc; padding: 10px; background-color: #f9f9f9;">
-Sree is a **Marketing Data Scientist** and seasoned writer with over a decade of experience in **data science and analytics**, focusing on **marketing and consumer analytics**. Based in **Australia**, Sree is passionate about **simplifying complex topics for a broad audience**.
+### About the Author
 
-His articles have appeared in **esteemed outlets** such as *Towards Data Science, Generative AI, The Startup, and AI Advanced Journals*. Sree continues to provide **insightful content** for data-driven marketers.
+Sree is a Marketing Data Scientist and seasoned writer with over a decade of experience in data science and analytics, focusing on marketing and consumer analytics. Based in Australia, Sree is passionate about simplifying complex topics for a broad audience. His articles have appeared in esteemed outlets such as Towards Data Science, Generative AI, The Startup, and AI Advanced Journals. Learn more about his journey and work on his [portfolio - his digital home](https://srees.org/).
 
-???? *Learn more about his journey and work on his [portfolio](https://srees.org) - his digital home.*
-</div>
-
+![](/images/sree_on_side.jpg)
