@@ -8,12 +8,10 @@ description: "Learn how to build scalable CI/CD pipelines for machine learning, 
 tags: ["Machine Learning", "CI/CD", "Marketing Analytics", "Data Science"]
 categories: ["Machine Learning", "Data Engineering"]
 canonical_url: "https://srees.org/blog/ci-cd-pipelines"
-social_image: "/images/blogs/11.ci-cd-pipeline/social-preview.jpg"
 twitter_card: "summary_large_image"
 twitter_author: "@srees1988"
 og_title: "Scaling Machine Learning: A Beginner's Guide to ML Automation"
 og_description: "How CI/CD pipelines streamline ML workflows and make model deployment efficient. Learn key strategies for scaling ML models."
-og_image: "/images/blogs/11.ci-cd-pipeline/social-preview.jpg"
 og_url: "https://srees.org/blog/ci-cd-pipelines"
 schema_type: "BlogPosting"
 schema_author: "Sree"
@@ -22,9 +20,9 @@ schema_url: "https://srees.org/blog/ci-cd-pipelines"
 schema_keywords: ["Machine Learning", "CI/CD", "Marketing Analytics", "Data Science"]
 author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
 author_url: "https://srees.org/about"
-author_image: "/images/profile/sree.jpg"
+author_image: "/images/sree_on_about.jpg"
 ---
-<small>*An excerpt from an article written by Sree, published in [Generative AI Journal](https://medium.com/generative-ai/machine-learning-and-ci-cd-pipelines-the-perfect-pair-5d74ed642057?sk=bca8fa852159078dcbcacadc499cb850].*
+<small>*An excerpt from an article written by Sree, published in Generative AI Journal.*
 
 ![](/images/blogs/11.ci-cd-pipeline/1.ci-cd-pipeline.jpg)
 
@@ -209,6 +207,13 @@ I hope this gives you a simple and practical look at how CI/CD pipelines work, e
 
 ***
 
-### About the Author
+## **About the Author**
 
-Sree is a Marketing Data Scientist and seasoned writer with over a decade of experience in data science and analytics, focusing on marketing and consumer analytics. Based in Australia, Sree is passionate about simplifying complex topics for a broad audience. His articles have appeared in esteemed outlets such as Towards Data Science, Generative AI, The Startup, and AI Advanced Journals. Sree continues to provide insightful content for data-driven marketers. Learn more about his journey and work on his portfolio - his digital home.
+<div style="border-left: 5px solid #007acc; padding: 10px; background-color: #f9f9f9;">
+Sree is a **Marketing Data Scientist** and seasoned writer with over a decade of experience in **data science and analytics**, focusing on **marketing and consumer analytics**. Based in **Australia**, Sree is passionate about **simplifying complex topics for a broad audience**.
+
+His articles have appeared in **esteemed outlets** such as *Towards Data Science, Generative AI, The Startup, and AI Advanced Journals*. Sree continues to provide **insightful content** for data-driven marketers.
+
+???? *Learn more about his journey and work on his [portfolio](https://srees.org) - his digital home.*
+</div>
+
