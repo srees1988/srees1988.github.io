@@ -7,20 +7,6 @@ excerpt: The business value of Customer Segmentation
 description: "Transforming customer segmentation from theoretical models into actionable business strategies that drive growth and enhance customer engagement."
 tags: ["Customer Segmentation", "Marketing Analytics", "Data Science", "Business Strategy"]
 categories: ["Marketing Analytics", "Data Science"]
-canonical_url: "https://srees.org/blog/biz-value-customer-segments"
-twitter_card: "summary_large_image"
-twitter_author: "@srees1988"
-og_title: "Insights Beyond Clusters"
-og_description: "Learn how to operationalize customer segmentation insights to tailor marketing strategies, enhance customer experiences, and drive revenue growth."
-og_url: "https://srees.org/blog/biz-value-customer-segments"
-schema_type: "BlogPosting"
-schema_author: "Sree"
-schema_datePublished: "2024-11-20"
-schema_url: "https://srees.org/blog/biz-value-customer-segmentss"
-schema_keywords: ["Customer Segmentation", "Marketing Analytics", "Data Science", "Business Strategy"]
-author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
-author_url: "https://srees.org/about"
-author_image: "/images/sree_on_side.jpg"
 ---
 
 <small style="margin-bottom: -10px; display: block;">

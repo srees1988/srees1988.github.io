@@ -7,20 +7,6 @@ excerpt: The bare minimum Concepts for Real-World MLOps.
 description: "Discover the fundamental components of MLOps, focusing on model management and monitoring, to effectively scale machine learning models in production environments."
 tags: ["MLOps", "Machine Learning", "Model Management", "Model Monitoring"]
 categories: ["Data Science", "Machine Learning"]
-canonical_url: "https://srees.org/blog/mlops-made-simple"
-twitter_card: "summary_large_image"
-twitter_author: "@srees1988"
-og_title: "MLOps Made Simple"
-og_description: "A practical guide to implementing essential MLOps practices, including model registries and monitoring, for seamless machine learning operations."
-og_url: "https://srees.org/blog/mlops-made-simple"
-schema_type: "BlogPosting"
-schema_author: "Sree"
-schema_datePublished: 2022-12-14"
-schema_url: "https://srees.org/blog/mlops-made-simple"
-schema_keywords: ["MLOps", "Machine Learning", "Model Management", "Model Monitoring"]
-author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
-author_url: "https://srees.org/about"
-author_image: "/images/sree_on_side.jpg"
 ---
 
 <small style="margin-bottom: -10px; display: block;">

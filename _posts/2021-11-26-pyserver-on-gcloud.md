@@ -7,20 +7,6 @@ excerpt: To configure a fully operational machine learning server on cloud.
 description: "A comprehensive guide to configuring a fully functional Jupyter Notebook on Google Cloud, enabling scalable data analysis and machine learning projects."
 tags: ["Jupyter Notebook", "Google Cloud", "Data Science", "Machine Learning"]
 categories: ["Cloud Computing", "Data Science"]
-canonical_url: "https://srees.org/blog/pyserver-on-gcloud"
-twitter_card: "summary_large_image"
-twitter_author: "@srees1988"
-og_title: "Jupyter Notebook on Google Cloud"
-og_description: "Step-by-step instructions to set up Jupyter Notebook on Google Cloud, facilitating efficient data analysis and machine learning workflows."
-og_url: "https://srees.org/blog/pyserver-on-gcloud"
-schema_type: "BlogPosting"
-schema_author: "Sree"
-schema_datePublished: "2021-11-26"
-schema_url: "https://srees.org/blog/pyserver-on-gcloud"
-schema_keywords:["Jupyter Notebook", "Google Cloud", "Data Science", "Machine Learning"]
-author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
-author_url: "https://srees.org/about"
-author_image: "/images/sree_on_side.jpg"
 ---
 
 <small style="margin-bottom: -10px; display: block;">
