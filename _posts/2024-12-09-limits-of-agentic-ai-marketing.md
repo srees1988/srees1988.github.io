@@ -19,8 +19,6 @@ schema_datePublished: "2024-12-09"
 schema_url: "https://srees.org/blog/limits-of-agentic-ai-marketing"
 schema_keywords:["Agentic AI", "Marketing Analytics", "Data Science", "Predictive Analytics"]
 author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
-author_url: "https://srees.org/about"
-author_image: "/images/sree_on_side.jpg"
 ---
 <small style="margin-bottom: -10px; display: block;">
   *An excerpt from an article written by Sree, published in AI Advances Journal.*
