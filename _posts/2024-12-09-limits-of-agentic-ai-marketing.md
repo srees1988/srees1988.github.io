@@ -7,17 +7,10 @@ excerpt: The Limits of Agentic AI in Marketing
 description: "Exploring the effectiveness of traditional models over agentic AI in structured marketing analytics workflows"
 tags: ["Agentic AI", "Marketing Analytics", "Data Science", "Predictive Analytics"]
 categories: ["Marketing Analytics", "Artificial Intelligence"]
-canonical_url: "https://srees.org/blog/limits-of-agentic-ai-marketing"
 twitter_card: "summary_large_image"
 twitter_author: "@srees1988"
 og_title: "Why Simplicity Still Wins"
 og_description: "Analyzing the role of agentic AI in marketing and why traditional models often prevail in structured data scenarios."
-og_url: "https://srees.org/blog/limits-of-agentic-ai-marketing"
-schema_type: "BlogPosting"
-schema_author: "Sree"
-schema_datePublished: "2024-12-09"
-schema_url: "https://srees.org/blog/limits-of-agentic-ai-marketing"
-schema_keywords:["Agentic AI", "Marketing Analytics", "Data Science", "Predictive Analytics"]
 author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
 ---
 <small style="margin-bottom: -10px; display: block;">
