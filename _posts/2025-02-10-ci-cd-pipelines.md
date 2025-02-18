@@ -22,9 +22,12 @@ author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, a
 author_url: "https://srees.org/about"
 author_image: "/images/sree_on_side.jpg"
 ---
-*An excerpt from an article written by Sree, published in Generative AI Journal.*
+<small style="margin-bottom: -10px; display: block;">
+  *An excerpt from an article written by Sree, published in Generative AI Journal.*
+</small>
 
 ![](/images/blogs/11.ci-cd-pipeline/1.ci-cd-pipeline.jpg)
+
 
 <style>
 body {
@@ -210,6 +213,7 @@ I hope this gives you a simple and practical look at how CI/CD pipelines work, e
 
 ### About the Author
 
+![](/images/sree_on_side_trim.jpg)
+
 Sree is a Marketing Data Scientist and seasoned writer with over a decade of experience in data science and analytics, focusing on marketing and consumer analytics. Based in Australia, Sree is passionate about simplifying complex topics for a broad audience. His articles have appeared in esteemed outlets such as Towards Data Science, Generative AI, The Startup, and AI Advanced Journals. Learn more about his journey and work on his [portfolio - his digital home](https://srees.org/).
 
-![](/images/sree_on_side.jpg)
