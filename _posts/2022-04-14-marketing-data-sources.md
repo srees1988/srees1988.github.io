@@ -7,6 +7,20 @@ excerpt: Navigating the Marketing Data Ecosystem.
 description: "Break down the most common marketing data sources, understand their significance, and learn how to leverage them for effective marketing strategies."
 tags: ["Marketing Data", "Data Sources", "Analytics", "Customer Insights"]
 categories:["Marketing Analytics", "Data Science"]
+canonical_url: "https://srees.org/blog/marketing-data-sources"
+twitter_card: "summary_large_image"
+twitter_author: "@srees1988"
+og_title: "Demystifying Marketing Data Sources"
+og_description: "Explore various marketing data sources and their applications to enhance your marketing analytics and strategies."
+og_url: "https://srees.org/blog/marketing-data-sources"
+schema_type: "BlogPosting"
+schema_author: "Sree"
+schema_datePublished: "2022-04-14"
+schema_url: "https://srees.org/blog/marketing-data-sources"
+schema_keywords: ["Marketing Data", "Data Sources", "Analytics", "Customer Insights"]
+author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
+author_url: "https://srees.org/about"
+author_image: "/images/sree_on_side.jpg"
 ---
 
 <small style="margin-bottom: -10px; display: block;">

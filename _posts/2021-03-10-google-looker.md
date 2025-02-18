@@ -6,6 +6,20 @@ excerpt: Evaluating Google\'s Acquisition of Looker
 description: "An analysis of Google\'s acquisition of Looker and its implications for the Business Intelligence landscape, comparing it with tools like Tableau and Power BI."
 tags: ["Google Looker", "Business Intelligence", "Data Analytics", "BI Tools"]
 categories: ["Business Intelligence", "Data Analytics"]
+canonical_url: "https://srees.org/blog/google-looker"
+twitter_card: "summary_large_image"
+twitter_author: "@srees1988"
+og_title: "How Good is Google Looker?"
+og_description: "Insights into Google's $2.6 billion acquisition of Looker and how it stacks up against other BI tools in the market."
+og_url: "https://srees.org/blog/google-looker"
+schema_type: "BlogPosting"
+schema_author: "Sree"
+schema_datePublished: "2021-03-10"
+schema_url: "https://srees.org/blog/google-looker"
+schema_keywords: ["Google Looker", "Business Intelligence", "Data Analytics", "BI Tools"]
+author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
+author_url: "https://srees.org/about"
+author_image: "/images/sree_on_side.jpg"
 ---
 <small style="margin-bottom: -10px; display: block;">
   *An excerpt from an article written by Sree, published in Towards Data Science Journal.*
