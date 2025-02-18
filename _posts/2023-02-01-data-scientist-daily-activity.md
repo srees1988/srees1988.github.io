@@ -7,20 +7,11 @@ excerpt: A Day in the Life of a Lead Marketing Data Scientist
 description: 'Explore a typical day as a lead marketing data scientist, from morning team huddles to collaborative coding sessions, and discover the blend of technical and strategic responsibilities that drive business growth.'
 tags: ["Marketing Data Science", "Daily Routine", "E-commerce", "Team Collaboration"]
 categories: ["Marketing Analytics", "Data Science"]
-canonical_url: "https://srees.org/blog/data-scientist-daily-activity"
 twitter_card: "summary_large_image"
 twitter_author: "@srees1988"
 og_title: "From Slack Huddles to Code Reviews"
 og_description: "Dive into the daily activities of a marketing data scientist, balancing analytics projects, cross-departmental meetings, and code reviews to enhance customer experiences and business strategies."
-og_url: "https://srees.org/blog/data-scientist-daily-activity"
-schema_type: "BlogPosting"
-schema_author: "Sree"
-schema_datePublished: "2023-02-01"
-schema_url: "https://srees.org/blog/data-scientist-daily-activity"
-schema_keywords: ["Marketing Data Science", "Daily Routine", "E-commerce", "Team Collaboration"]
 author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
-author_url: "https://srees.org/about"
-author_image:"/images/sree_on_side.jpg"
 ---
 <small style="margin-bottom: -10px; display: block;">
   *An excerpt from an article written by Sree, published in Data Driven Investor Journal.*

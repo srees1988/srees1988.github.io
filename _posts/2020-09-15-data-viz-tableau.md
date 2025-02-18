@@ -7,20 +7,11 @@ excerpt: Visualizing Performance with Quadrant Analysis.
 description: "A step-by-step guide to creating quadrant plots in Tableau using the Superstore dataset, enabling quick identification of top-performing categories based on sales and profit metrics."
 tags: ["Tableau", "Data Visualization", "Quadrant Analysis", "Superstore Dataset"]
 categories: ["Data Visualization", "Business Intelligence"]
-canonical_url: "https://srees.org/blog/data-viz-tableau"
 twitter_card: "summary_large_image"
 twitter_author: "@srees1988"
 og_title: "Quadrant Plots in Tableau"
 og_description: "Learn how to perform quadrant analysis in Tableau to evaluate sub-category performance in sales and profit, with practical insights from the Superstore dataset."
-og_url: "https://srees.org/blog/data-viz-tableau"
-schema_type: "BlogPosting"
-schema_author: "Sree"
-schema_datePublished: "2020-09-15"
-schema_url: "https://srees.org/blog/data-viz-tableau"
-schema_keywords: ["Tableau", "Data Visualization", "Quadrant Analysis", "Superstore Dataset"]
 author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
-author_url: "https://srees.org/about"
-author_image: "/images/sree_on_side.jpg"
 ---
 
 <small style="margin-bottom: -10px; display: block;">

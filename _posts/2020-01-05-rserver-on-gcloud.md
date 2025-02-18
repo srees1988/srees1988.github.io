@@ -7,20 +7,11 @@ excerpt: To configure R Studio Server - the gateway to build, transform and scal
 description: "A step-by-step guide to configuring a fully operational R Studio Server on Google Cloud Compute Engine's virtual machine instance for scalable machine learning projects."
 tags: ["R Studio Server", "Google Cloud", "Machine Learning", "Cloud Computing"]
 categories:["Cloud Computing", "Data Science"]
-canonical_url: "https://srees.org/blog/rserver-on-gcloud"
 twitter_card: "summary_large_image"
 twitter_author: "@srees1988"
 og_title: "R Studio Server on Google Cloud"
 og_description: "Learn how to set up R Studio Server on Google Cloud to build, transform, and scale predictive modeling projects efficiently."
-og_url: "https://srees.org/blog/rserver-on-gcloud"
-schema_type: "BlogPosting"
-schema_author: "Sree"
-schema_datePublished: "2020-01-05"
-schema_url: "https://srees.org/blog/rserver-on-gcloud"
-schema_keywords: ["R Studio Server", "Google Cloud", "Machine Learning", "Cloud Computing"]
 author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
-author_url: "https://srees.org/about"
-author_image: "/images/sree_on_side.jpg"
 ---
 <small style="margin-bottom: -10px; display: block;">
   *An excerpt from an article written by Sree, published in Towards Data Science Journal.*
