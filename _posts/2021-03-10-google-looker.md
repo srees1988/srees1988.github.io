@@ -2,9 +2,30 @@
 title: 'How good is Google Looker?'
 date: 2021-03-10 00:00:00
 featured_image: '/images/blogs/4.google-looker/blog_addin1.jpg'
-excerpt: Key points to evaluate Google's Looker vs. Tableau/Power BI/Qlik
+excerpt: Evaluating Google\'s Acquisition of Looker
+description: "An analysis of Google\'s acquisition of Looker and its implications for the Business Intelligence landscape, comparing it with tools like Tableau and Power BI."
+tags: ["Google Looker", "Business Intelligence", "Data Analytics", "BI Tools"]
+categories: ["Business Intelligence", "Data Analytics"]
+canonical_url: "https://srees.org/blog/google-looker"
+twitter_card: "summary_large_image"
+twitter_author: "@srees1988"
+og_title: "How Good is Google Looker?"
+og_description: "Insights into Google's $2.6 billion acquisition of Looker and how it stacks up against other BI tools in the market."
+og_url: "https://srees.org/blog/google-looker"
+schema_type: "BlogPosting"
+schema_author: "Sree"
+schema_datePublished: "2021-03-10"
+schema_url: "https://srees.org/blog/google-looker"
+schema_keywords: ["Google Looker", "Business Intelligence", "Data Analytics", "BI Tools"]
+author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
+author_url: "https://srees.org/about"
+author_image: "/images/sree_on_side.jpg"
 ---
+<small style="margin-bottom: -10px; display: block;">
+  *An excerpt from an article written by Sree, published in Towards Data Science Journal.*
+</small>
 
+![](/images/blogs/4.google-looker/blog_addin1.jpg)
 
 <style>
 body {
@@ -48,3 +69,10 @@ In order to automate the dashboards in real-time, Power BI has on-premise/ enter
 Overall I felt that Google's Looker has a lot of visual analytics capabilities and data discovery use cases, and it also opens up new avenues like collaborative data sharing etc. Unlike Power BI or Tableau, Looker uses a complete semantic model for storing all the business logic providing a single source of truth for the enterprise. Hope some of these checkpoints help you next time if you have been given the task to evaluate Google's Looker as a prospective BI platform for your department or organization.
 
 Thank you
+
+- - -
+
+
+### About the Author
+
+Sree is a Marketing Data Scientist and seasoned writer with over a decade of experience in data science and analytics, focusing on marketing and consumer analytics. Based in Australia, Sree is passionate about simplifying complex topics for a broad audience. His articles have appeared in esteemed outlets such as Towards Data Science, Generative AI, The Startup, and AI Advanced Journals. Learn more about his journey and work on his [portfolio - his digital home](https://srees.org/).

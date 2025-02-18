@@ -1,18 +1,39 @@
 ---
 title: 'Why Simplicity Still Wins'
+author: "Sree"
 date: 2024-12-09 00:00:00
 featured_image: '/images/blogs/10.limits-agentic-ai/1.limits-of-agentic-ai.jpg'
 excerpt: The Limits of Agentic AI in Marketing
-
+description: "Exploring the effectiveness of traditional models over agentic AI in structured marketing analytics workflows"
+tags: ["Agentic AI", "Marketing Analytics", "Data Science", "Predictive Analytics"]
+categories: ["Marketing Analytics", "Artificial Intelligence"]
+canonical_url: "https://srees.org/blog/limits-of-agentic-ai-marketing"
+twitter_card: "summary_large_image"
+twitter_author: "@srees1988"
+og_title: "Why Simplicity Still Wins"
+og_description: "Analyzing the role of agentic AI in marketing and why traditional models often prevail in structured data scenarios."
+og_url: "https://srees.org/blog/limits-of-agentic-ai-marketing"
+schema_type: "BlogPosting"
+schema_author: "Sree"
+schema_datePublished: "2024-12-09"
+schema_url: "https://srees.org/blog/limits-of-agentic-ai-marketing"
+schema_keywords:["Agentic AI", "Marketing Analytics", "Data Science", "Predictive Analytics"]
+author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
+author_url: "https://srees.org/about"
+author_image: "/images/sree_on_side.jpg"
 ---
+<small style="margin-bottom: -10px; display: block;">
+  *An excerpt from an article written by Sree, published in AI Advances Journal.*
+</small>
 
+![](/images/blogs/10.limits-agentic-ai/1.limits-of-agentic-ai.jpg)
 
 <style>
 body {
 text-align: justify}
 </style>
 
-![](/images/blogs/10.limits-agentic-ai/1.limits-of-agentic-ai.jpg)
+
 
 #### Introduction:
 
@@ -106,3 +127,10 @@ Think about it from their perspective - stakeholders are investing real money in
 So, the next time when someone suggests that agentic AI will "transform everything," ask yourself: does it genuinely solve a problem? Or is it just a new coat of paint on a system that's already doing the job?
 
 In short, don't let the hype steer you away from what already works beautifully. AI can enhance our systems, but it should never replace the logic and workflows we've meticulously refined through years of experience - processes that have consistently stood the test of time.
+
+- - -
+
+
+### About the Author
+
+Sree is a Marketing Data Scientist and seasoned writer with over a decade of experience in data science and analytics, focusing on marketing and consumer analytics. Based in Australia, Sree is passionate about simplifying complex topics for a broad audience. His articles have appeared in esteemed outlets such as Towards Data Science, Generative AI, The Startup, and AI Advanced Journals. Learn more about his journey and work on his [portfolio - his digital home](https://srees.org/).

@@ -1,17 +1,37 @@
 ---
 title: 'MLOps Made Simple'
+author: "Sree"
 date: 2022-12-14 00:00:00
 featured_image: '/images/blogs/8.mlops/0.automatic-pipeline.png'
-excerpt: The bare minimum Concepts.
+excerpt: The bare minimum Concepts for Real-World MLOps.
+description: "Discover the fundamental components of MLOps, focusing on model management and monitoring, to effectively scale machine learning models in production environments."
+tags: ["MLOps", "Machine Learning", "Model Management", "Model Monitoring"]
+categories: ["Data Science", "Machine Learning"]
+canonical_url: "https://srees.org/blog/mlops-made-simple"
+twitter_card: "summary_large_image"
+twitter_author: "@srees1988"
+og_title: "MLOps Made Simple"
+og_description: "A practical guide to implementing essential MLOps practices, including model registries and monitoring, for seamless machine learning operations."
+og_url: "https://srees.org/blog/mlops-made-simple"
+schema_type: "BlogPosting"
+schema_author: "Sree"
+schema_datePublished: 2022-12-14"
+schema_url: "https://srees.org/blog/mlops-made-simple"
+schema_keywords: ["MLOps", "Machine Learning", "Model Management", "Model Monitoring"]
+author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
+author_url: "https://srees.org/about"
+author_image: "/images/sree_on_side.jpg"
 ---
 
+<small style="margin-bottom: -10px; display: block;">
+  *An excerpt from an article written by Sree, published in AI in Plain English Journal.*
+</small>
 
 <style>
 body {
 text-align: justify}
 </style>
 
-My list of vital basics when it comes to handling MLOps in the real world.
 
 ![](/images/blogs/8.mlops/0.automatic-pipeline.png)
 
@@ -87,3 +107,10 @@ I understand that this list may not be exhaustive, as MLOps services and require
 In conclusion, I encourage all entry-level juniors and aspiring data scientists to embrace the world of MLOps. It presents a vast realm of opportunities to enhance your skills, contributes to impactful projects, and shape the future of data-driven decision-making. Embrace the challenges, stay curious, and keep learning. The possibilities are endless!
 
 By the way, if you enjoyed reading this article and would like to explore more of my stories, feel free to check out my profile. Stay tuned for more insightful content on MLOps, data science, and beyond. Keep exploring, keep growing, and embrace the exciting era we are in!
+
+- - -
+
+
+### About the Author
+
+Sree is a Marketing Data Scientist and seasoned writer with over a decade of experience in data science and analytics, focusing on marketing and consumer analytics. Based in Australia, Sree is passionate about simplifying complex topics for a broad audience. His articles have appeared in esteemed outlets such as Towards Data Science, Generative AI, The Startup, and AI Advanced Journals. Learn more about his journey and work on his [portfolio - his digital home](https://srees.org/).

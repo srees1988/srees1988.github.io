@@ -1,10 +1,33 @@
 ---
 title: 'Jupyter Notebook on Google Cloud'
+author: "Sree"
 date: 2021-11-26 00:00:00
 featured_image: '/images/blogs/7.py-server/blog_addin1.jpg'
 excerpt: To configure a fully operational machine learning server on cloud.
+description: "A comprehensive guide to configuring a fully functional Jupyter Notebook on Google Cloud, enabling scalable data analysis and machine learning projects."
+tags: ["Jupyter Notebook", "Google Cloud", "Data Science", "Machine Learning"]
+categories: ["Cloud Computing", "Data Science"]
+canonical_url: "https://srees.org/blog/pyserver-on-gcloud"
+twitter_card: "summary_large_image"
+twitter_author: "@srees1988"
+og_title: "Jupyter Notebook on Google Cloud"
+og_description: "Step-by-step instructions to set up Jupyter Notebook on Google Cloud, facilitating efficient data analysis and machine learning workflows."
+og_url: "https://srees.org/blog/pyserver-on-gcloud"
+schema_type: "BlogPosting"
+schema_author: "Sree"
+schema_datePublished: "2021-11-26"
+schema_url: "https://srees.org/blog/pyserver-on-gcloud"
+schema_keywords:["Jupyter Notebook", "Google Cloud", "Data Science", "Machine Learning"]
+author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
+author_url: "https://srees.org/about"
+author_image: "/images/sree_on_side.jpg"
 ---
 
+<small style="margin-bottom: -10px; display: block;">
+  *An excerpt from an article written by Sree, published in Python in Plain English Journal.*
+</small>
+
+![](/images/blogs/7.py-server/blog_addin1.jpg)
 
 <style>
 body {
@@ -147,6 +170,12 @@ Congratulations if you have made it this far! I think that's pretty much everyth
 
 Thank you.
 
+- - -
+
+
+### About the Author
+
+Sree is a Marketing Data Scientist and seasoned writer with over a decade of experience in data science and analytics, focusing on marketing and consumer analytics. Based in Australia, Sree is passionate about simplifying complex topics for a broad audience. His articles have appeared in esteemed outlets such as Towards Data Science, Generative AI, The Startup, and AI Advanced Journals. Learn more about his journey and work on his [portfolio - his digital home](https://srees.org/).
 
 
 
