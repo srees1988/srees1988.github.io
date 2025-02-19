@@ -1,9 +1,20 @@
 ---
 title: 'From Slack Huddles to Code Reviews'
+author: "Sree"
 date: 2023-02-01 00:00:00
 featured_image: '/images/blogs/6.daily-activities/blog_addin1.jpg'
 excerpt: A Day in the Life of a Lead Marketing Data Scientist
+description: 'Explore a typical day as a lead marketing data scientist, from morning team huddles to collaborative coding sessions, and discover the blend of technical and strategic responsibilities that drive business growth.'
+tags: ["Marketing Data Science", "Daily Routine", "E-commerce", "Team Collaboration"]
+categories: ["Marketing Analytics", "Data Science"]
+author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
 ---
+
+<small style="margin-bottom: -10px; display: block;">
+  *An excerpt from an article written by Sree, published in Data Driven Investor Journal.*
+</small>
+
+![](/images/blogs/6.daily-activities/blog_addin1.jpg)
 
 
 <style>
@@ -40,3 +51,10 @@ If you're a newbie interested in marketing and analytics, I encourage you to exp
 Congratulations if you have made it this far! I think that's pretty much everything I would like to convey for now. I hope this real-world example has given you a behind-the-scenes look at E-commerce from the perspective of a marketing data scientist. I'll write to you soon.
 
 Thank you.
+
+- - -
+
+
+### About the Author
+
+Sree is a Marketing Data Scientist and seasoned writer with over a decade of experience in data science and analytics, focusing on marketing and consumer analytics. Based in Australia, Sree is passionate about simplifying complex topics for a broad audience. His articles have appeared in esteemed outlets such as Towards Data Science, Generative AI, The Startup, and AI Advanced Journals. Learn more about his journey and work on his [portfolio - his digital home](https://srees.org/).

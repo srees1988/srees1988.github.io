@@ -1,9 +1,20 @@
 ---
 title: 'R Studio Server on Google Cloud'
+author: "Sree"
 date: 2020-01-05 00:00:00
 featured_image: '/images/blogs/2.rserver_in_gcloud/rserver_1.jpg'
 excerpt: To configure R Studio Server - the gateway to build, transform and scale machine learning projects in cloud.
+description: "A step-by-step guide to configuring a fully operational R Studio Server on Google Cloud Compute Engine's virtual machine instance for scalable machine learning projects."
+tags: ["R Studio Server", "Google Cloud", "Machine Learning", "Cloud Computing"]
+categories:["Cloud Computing", "Data Science"]
+author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
 ---
+
+<small style="margin-bottom: -10px; display: block;">
+  *An excerpt from an article written by Sree, published in Towards Data Science Journal.*
+</small>
+
+![](/images/blogs/2.rserver_in_gcloud/rserver_1.jpg)
 
 ### Objective
 
@@ -150,3 +161,10 @@ We just finished setting up the machine learning framework in the cloud. Here ar
 4) Lastly, build a BI dashboard that visualizes the predictive model (could be anything from predicting the next month sales or churn rate to classifying the customer database using unsupervised cluster models). If interested, embed this live predictive BI model as a widget in web/mobile applications via REST API.
 
 Feel free to reach out to me if you need any help in understanding the aforesaid configurations. Happy to share what I know! Hope this helps:)
+
+- - -
+
+
+### About the Author
+
+Sree is a Marketing Data Scientist and seasoned writer with over a decade of experience in data science and analytics, focusing on marketing and consumer analytics. Based in Australia, Sree is passionate about simplifying complex topics for a broad audience. His articles have appeared in esteemed outlets such as Towards Data Science, Generative AI, The Startup, and AI Advanced Journals. Learn more about his journey and work on his [portfolio - his digital home](https://srees.org/).

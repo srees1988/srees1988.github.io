@@ -1,10 +1,20 @@
 ---
 title: 'Demystifying Marketing Data Sources'
+author: "Sree"
 date: 2022-04-14 00:00:00
 featured_image: '/images/blogs/5.marketing-data-sources/1.intro.jpg'
 excerpt: Navigating the Marketing Data Ecosystem.
+description: "Break down the most common marketing data sources, understand their significance, and learn how to leverage them for effective marketing strategies."
+tags: ["Marketing Data", "Data Sources", "Analytics", "Customer Insights"]
+categories:["Marketing Analytics", "Data Science"]
+author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
 ---
 
+<small style="margin-bottom: -10px; display: block;">
+  *An excerpt from an article written by Sree, published in Generative AI Journal.*
+</small>
+
+![](/images/blogs/5.marketing-data-sources/1.intro.jpg)
 
 <style>
 body {
@@ -112,4 +122,9 @@ Congrats if you have made it this far! I think that's pretty much everything I w
 
 Thank you
 
+- - -
 
+
+### About the Author
+
+Sree is a Marketing Data Scientist and seasoned writer with over a decade of experience in data science and analytics, focusing on marketing and consumer analytics. Based in Australia, Sree is passionate about simplifying complex topics for a broad audience. His articles have appeared in esteemed outlets such as Towards Data Science, Generative AI, The Startup, and AI Advanced Journals. Learn more about his journey and work on his [portfolio - his digital home](https://srees.org/).

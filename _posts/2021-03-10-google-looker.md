@@ -1,9 +1,20 @@
 ---
 title: 'How good is Google Looker?'
+author: "Sree"
 date: 2021-03-10 00:00:00
 featured_image: '/images/blogs/4.google-looker/blog_addin1.jpg'
-excerpt: Key points to evaluate Google's Looker vs. Tableau/Power BI/Qlik
+excerpt: Key points to evaluate Google's Looker
+description: "An analysis of Google's acquisition of Looker and its implications for the Business Intelligence landscape, comparing it with tools like Tableau and Power BI."
+tags: ["Google Looker", "Business Intelligence", "Data Analytics", "BI Tools"]
+categories: ["Business Intelligence", "Data Analytics"]
+author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
 ---
+
+<small style="margin-bottom: -10px; display: block;">
+  *An excerpt from an article written by Sree, published in Towards Data Science Journal.*
+</small>
+
+![](/images/blogs/4.google-looker/blog_addin1.jpg)
 
 
 <style>
@@ -48,3 +59,10 @@ In order to automate the dashboards in real-time, Power BI has on-premise/ enter
 Overall I felt that Google's Looker has a lot of visual analytics capabilities and data discovery use cases, and it also opens up new avenues like collaborative data sharing etc. Unlike Power BI or Tableau, Looker uses a complete semantic model for storing all the business logic providing a single source of truth for the enterprise. Hope some of these checkpoints help you next time if you have been given the task to evaluate Google's Looker as a prospective BI platform for your department or organization.
 
 Thank you
+
+- - -
+
+
+### About the Author
+
+Sree is a Marketing Data Scientist and seasoned writer with over a decade of experience in data science and analytics, focusing on marketing and consumer analytics. Based in Australia, Sree is passionate about simplifying complex topics for a broad audience. His articles have appeared in esteemed outlets such as Towards Data Science, Generative AI, The Startup, and AI Advanced Journals. Learn more about his journey and work on his [portfolio - his digital home](https://srees.org/).
