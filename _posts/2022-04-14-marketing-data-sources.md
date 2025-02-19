@@ -6,7 +6,7 @@ excerpt: Navigating the Marketing Data Ecosystem.
 ---
 
 <small style="margin-bottom: -10px; display: block;">
-  *An excerpt from an article written by Sree, published in 'Generative AI' Journal.*
+  *An excerpt from an article written by Sree, published in 'AI in Plain English' Journal.*
 </small>
 
 <style>
