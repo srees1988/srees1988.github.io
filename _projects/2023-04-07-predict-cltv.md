@@ -3,7 +3,15 @@ title: 'Predict Retention Rate & LTV'
 subtitle: 'Customer Retention Analytics & Life time value modeling'
 date: 2023-04-07 00:00:00
 featured_image: '/images/projects/4.predict_cltv/1.cltv.jpg'
+excerpt: 'Customer Retention Analytics & Lifetime Value Modeling'
+description: 'A comprehensive guide on predicting customer lifetime value using cohort analysis and machine learning techniques in Python, covering data preparation, retention rate calculation, and CLTV prediction.'
+tags: ["Customer Lifetime Value", "Cohort Analysis", "Python", "Machine Learning"]
+categories: ["Data Science", "Customer Analytics"]
+author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
 ---
+<small style="margin-bottom: -10px; display: block;">
+  *An excerpt from an article written by Sree, published in 'Analytics Vidhya' Journal.*
+</small>
 
 <style>
 body {
@@ -1054,6 +1062,12 @@ I hope this post has helped get you started and encouraged you to explore the wo
  
 I have learned (and continue to learn) from many folks in Github. Hence sharing my entire python script and supporting files in a public [GitHub Repository](https://github.com/srees1988/retention-cltv-py) in case if it benefits any seekers online. Also, feel free to reach out to me if you need any help in understanding the fundamentals of supervised machine learning algorithms in Python. Happy to share what I know:) Hope this helps!
  
+- - -
+
+
+### About the Author
+
+Sree is a Marketing Data Scientist and seasoned writer with over a decade of experience in data science and analytics, focusing on marketing and consumer analytics. Based in Australia, Sree is passionate about simplifying complex topics for a broad audience. His articles have appeared in esteemed outlets such as Towards Data Science, Generative AI, The Startup, and AI Advanced Journals. Learn more about his journey and work on his [portfolio - his digital home](https://srees.org/).
 
 
 

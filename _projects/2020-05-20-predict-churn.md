@@ -3,7 +3,18 @@ title: 'Predict Customer Churn'
 subtitle: 'Propensity Scoring Model using Supervised ML'
 date: 2019-09-08 00:00:00
 featured_image: '/images/projects/3.predict_churn/1.churn.jpg'
+excerpt: 'Propensity Scoring Model using Supervised ML'
+description: 'A step-by-step guide to predicting customer attrition using supervised machine learning algorithms in Python, focusing on data preprocessing, model selection, evaluation, and deployment.'
+tags: ["Customer Churn", "Machine Learning", "Python", "Predictive Analytics"]
+categories: ["Data Science", "Customer Retention"]
+author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
 ---
+
+
+<small style="margin-bottom: -10px; display: block;">
+  *An excerpt from an article written by Sree, published in 'Towards Data Science' Journal.*
+</small>
+
 
 <style>
 body {
@@ -1791,6 +1802,11 @@ So, in a nutshell, we made use of a customer churn dataset from Kaggle to build 
 I have learned (and continue to learn) from many folks in Github. Hence sharing my entire python script and supporting files in a public [GitHub Repository](https://github.com/srees1988/predict-churn-py) in case if it benefits any seekers online. Also, feel free to reach out to me if you need any help in understanding the fundamentals of supervised machine learning algorithms in Python. Happy to share what I know:) Hope this helps!
  
 
+- - -
 
+
+### About the Author
+
+Sree is a Marketing Data Scientist and seasoned writer with over a decade of experience in data science and analytics, focusing on marketing and consumer analytics. Based in Australia, Sree is passionate about simplifying complex topics for a broad audience. His articles have appeared in esteemed outlets such as Towards Data Science, Generative AI, The Startup, and AI Advanced Journals. Learn more about his journey and work on his [portfolio - his digital home](https://srees.org/).
 
 

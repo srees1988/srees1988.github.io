@@ -3,7 +3,14 @@ title: 'Web Scraping in R'
 subtitle: 'Geospatial Competitor Analysis'
 date: 2018-06-30 00:00:00
 featured_image: '/images/projects/1.web_scraping/web_scraping1.jpg'
+description: 'A comprehensive guide on programmatically fetching product prices from competitor websites using R, including data cleaning, geospatial integration, and visualization in Power BI.'
+tags: ["Web Scraping", "R Programming", "Geospatial Analysis", "Power BI"]
+categories: ["Data Science", "Competitive Analysis"]
+author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
 ---
+<small style="margin-bottom: -10px; display: block;">
+  *An excerpt from an article written by Sree, published in 'The Startup' Journal.*
+</small>
 
 <style>
 body {
@@ -364,4 +371,11 @@ This is just the starting point of a journey to endless possibilities in competi
 
  
 I have learned (and continue to learn) from many folks in Github. Hence sharing my entire R scripts and Power BI file in a public [GitHub Repository](https://github.com/srees1988/webscraping-in-r/tree/master) in case if it benefits any seekers online. Also, feel free to reach out to me if you need any help in understanding the fundamentals of web scraping in R. Happy to share what I know:) Hope this helps!
+
+- - -
+
+
+### About the Author
+
+Sree is a Marketing Data Scientist and seasoned writer with over a decade of experience in data science and analytics, focusing on marketing and consumer analytics. Based in Australia, Sree is passionate about simplifying complex topics for a broad audience. His articles have appeared in esteemed outlets such as Towards Data Science, Generative AI, The Startup, and AI Advanced Journals. Learn more about his journey and work on his [portfolio - his digital home](https://srees.org/).
  
