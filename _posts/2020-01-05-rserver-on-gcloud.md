@@ -6,7 +6,7 @@ excerpt: To configure R Studio Server - the gateway to build, transform and scal
 ---
 
 <small style="margin-bottom: -10px; display: block;">
-  *An excerpt from an article written by Sree, published in Towards Data Science Journal.*
+  *An excerpt from an article written by Sree, published in 'Towards Data Science' Journal.*
 </small>
 
 ### Objective

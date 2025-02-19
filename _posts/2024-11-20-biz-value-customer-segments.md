@@ -12,7 +12,7 @@ author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, a
 ---
 
 <small style="margin-bottom: -10px; display: block;">
-  *An excerpt from an article written by Sree, published in Venture Magazine.*
+  *An excerpt from an article written by Sree, published in 'Venture' Magazine.*
 </small>
 
 <style>
