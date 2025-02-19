@@ -10,7 +10,7 @@ categories:["Cloud Computing", "Data Science"]
 author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, analytics, and data-driven marketing."
 ---
 
-<small style="margin-bottom: -10px; display: block;">
+<small>
   *An excerpt from an article written by Sree, published in Towards Data Science Journal.*
 </small>
 
