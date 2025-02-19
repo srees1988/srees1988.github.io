@@ -14,8 +14,6 @@ author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, a
   *An excerpt from an article written by Sree, published in AI in Plain English Journal.*
 </small>
 
-![](/images/blogs/8.mlops/0.automatic-pipeline.png)
-
 <style>
 body {
 text-align: justify}

@@ -15,8 +15,6 @@ author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, a
   *An excerpt from an article written by Sree, published in Venture Magazine.*
 </small>
 
-![](/images/blogs/9.biz-value-segments/customer_segmentation_1.jpg)
-
 <style>
 body {
 text-align: justify}

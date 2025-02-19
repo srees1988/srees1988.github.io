@@ -14,8 +14,6 @@ author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, a
   *An excerpt from an article written by Sree, published in Data Driven Investor Journal.*
 </small>
 
-![](/images/blogs/6.daily-activities/blog_addin1.jpg)
-
 
 <style>
 body {

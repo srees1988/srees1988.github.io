@@ -15,15 +15,12 @@ author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, a
   *An excerpt from an article written by Sree, published in AI Advances Journal.*
 </small>
 
-![](/images/blogs/10.limits-agentic-ai/1.limits-of-agentic-ai.jpg)
-
 
 <style>
 body {
 text-align: justify}
 </style>
 
-![](/images/blogs/10.limits-agentic-ai/1.limits-of-agentic-ai.jpg)
 
 #### Introduction:
 

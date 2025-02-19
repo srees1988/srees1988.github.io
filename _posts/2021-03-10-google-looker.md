@@ -14,7 +14,6 @@ author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, a
   *An excerpt from an article written by Sree, published in Towards Data Science Journal.*
 </small>
 
-![](/images/blogs/4.google-looker/blog_addin1.jpg)
 
 
 <style>

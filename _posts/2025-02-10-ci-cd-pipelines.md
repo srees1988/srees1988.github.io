@@ -15,7 +15,6 @@ author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, a
   *An excerpt from an article written by Sree, published in Generative AI Journal.*
 </small>
 
-![](/images/blogs/11.ci-cd-pipeline/1.ci-cd-pipeline.jpg)
 
 <style>
 body {

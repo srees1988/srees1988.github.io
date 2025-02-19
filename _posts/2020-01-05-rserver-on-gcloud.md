@@ -9,8 +9,6 @@ excerpt: To configure R Studio Server - the gateway to build, transform and scal
   *An excerpt from an article written by Sree, published in Towards Data Science Journal.*
 </small>
 
-![](/images/blogs/2.rserver_in_gcloud/rserver_1.jpg)
-
 ### Objective
 
 To set up a fully operational machine learning Server on Google Cloud Compute Engine's virtual machine instance.
