@@ -2,23 +2,68 @@
 layout: default
 ---
 
-<section class="intro">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
 
-	<div class="wrap">
+    <!-- Open Graph (Facebook, LinkedIn, Discord) -->
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:description" content="{{ page.subtitle | default: site.description }}" />
+    <meta property="og:image" content="{{ page.image }}" />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:type" content="website" />
 
-		<h1>{{ page.title }}</h1>
-		<p>{{ page.subtitle }}</p>
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ page.subtitle | default: site.description }}">
+    <meta name="twitter:image" content="{{ page.image }}">
 
-	</div>
+    <!-- Schema.org JSON-LD Structured Data for Projects -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "name": "{{ page.title }}",
+      "description": "{{ page.subtitle | default: site.description }}",
+      "image": "{{ page.image }}",
+      "creator": {
+        "@type": "Person",
+        "name": "{{ page.author | default: site.author }}",
+        "url": "{{ site.author_url | default: 'https://srees.org/about' }}"
+      },
+      "datePublished": "{{ page.date }}",
+      "dateModified": "{{ page.date }}",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ page.url | absolute_url }}"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "{{ page.author | default: site.author }}",
+        "url": "{{ site.author_url | default: 'https://srees.org/about' }}"
+      }
+    }
+    </script>
+</head>
 
-</section>
+<body>
 
-<section class="single">
+    <section class="intro">
+        <div class="wrap">
+            <h1>{{ page.title }}</h1>
+            <p>{{ page.subtitle }}</p>
+        </div>
+    </section>
 
-	<div class="wrap">
+    <section class="single">
+        <div class="wrap">
+            {{ page.content }}
+        </div>
+    </section>
 
-		{{ page.content }}
-
-	</div>
-
-</section>
+</body>
+</html>
