@@ -82,8 +82,6 @@ This step might take time and expertise, but it's the foundation for everything 
 
 ##### Step 1.2: Experimenting and Building the Model
 
-![](/images/blogs/11.ci-cd-pipeline/3.ci-cd-pipeline.jpg)
-
 Now that you've got all the parts ready, it's time to start assembling the car. This is where the real work happens - you experiment, test, and refine until everything comes together perfectly.
 
 In machine learning, this is all about figuring out what works. I use **Vertex AI's Jupyter Notebooks** to load the cleaned data and try different tools like PyTorch, Scikit-learn, or TensorFlow. Here's how it usually goes:
@@ -98,8 +96,6 @@ The great thing about Vertex AI notebooks is how smoothly they integrate with Gi
 
 ##### Step 1.3: Packaging and Registering the Model
 
-![](/images/blogs/11.ci-cd-pipeline/4.ci-cd-pipeline.jpg)
-
 After your car (or model) is built, the next step is to get it ready for delivery so it can perform anywhere it's needed. Imagine shipping a car from a factory to dealerships around the world. Whether it's going from Thailand to Sydney or China to California, the goal is the same - when it arrives, it's in perfect condition and ready to hit the road. That's exactly what we aim for with your machine learning model.
 
 Here's how it works:
@@ -113,8 +109,6 @@ c) **Registration**: Finally, just like registering a car before it hits the roa
 With these steps done, your model is ready to "hit the road" and perform wherever it's needed!
 
 ##### Step 1.4: Automating the Process
-
-![](/images/blogs/11.ci-cd-pipeline/5.ci-cd-pipeline.jpg)
 
 Once your model is packaged, shipped, and registered - just like a car arriving at its destination - it's time to make the whole process more efficient. Imagine if you had to manually handle every step for each car: loading it into the container, tracking the ship, unloading it at the port, and registering it. That would take forever, right?
 

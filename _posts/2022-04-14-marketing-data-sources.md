@@ -22,7 +22,6 @@ So, let's dive in with a sense of optimism and curiosity!
 
 #### First-party Data Sources:
 
-![](/images/blogs/5.marketing-data-sources/2.first_party.jpg)
 
 Let's start with first-party data sources in marketing. These are the data sources that are collected and owned by your organization directly from its interactions with customers or users; as simple as that. From my personal experience, I would say that mastering this section is crucial.
 
@@ -89,7 +88,6 @@ For example, your e-commerce website could establish a partnership with a popula
 
 #### Third-party Data Sources:
 
-![](/images/blogs/5.marketing-data-sources/4.third_party.jpg)
 
 Finally, I will briefly mention some popular third-party data sources I have encountered in marketing. These data sources are collected by other organizations and licensed to us for the purpose of market research and analytics.
 
