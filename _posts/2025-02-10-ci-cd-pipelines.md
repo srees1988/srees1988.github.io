@@ -169,7 +169,6 @@ c) **Drift Correction**: This kicks in when something goes wrong, like a car rep
 
 #### How the Pipeline Works
 
-![](/images/blogs/11.ci-cd-pipeline/8.ci-cd-pipeline.jpg)
 
 Every re-training pipeline has three main steps:
 
