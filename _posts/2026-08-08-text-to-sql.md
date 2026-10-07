@@ -1,9 +1,9 @@
 ---
-title: 'Enterprise Text-to-SQL Assistant'
+title: 'Text-to-SQL Assistant'
 author: "Sree"
 date: 2026-08-08 00:00:00
 featured_image: '/images/blogs/12.text-to-sql/1.text-to-sql.jpg'
-excerpt: Making Natural Language Analytics Reliable
+excerpt: Trusted Natural Language Analytics
 description: "Turning Natural Language Questions into Trusted, Governed SQL"
 tags: ["Agentic AI", "Text to SQL", "Marketing Analytics", "Data Science"]
 categories: ["Machine Learning", "Generative AI"]
@@ -73,6 +73,7 @@ A business user might ask:
 * Has conversion dropped for a particular state?
 * Which products are close to being out of stock?
 * How are different customer segments performing?
+
 The data required to answer many of these questions already existed.
 
 The challenge was accessibility.
@@ -88,7 +89,7 @@ As a result, even relatively straightforward questions could become analyst requ
 
 The traditional workflow looked something like:
 
-Business question ??? Analyst ??? SQL ??? Validation ??? Answer
+Business question * Analyst * SQL * Validation * Answer
 
 This works, but it doesn't scale particularly well.
 
@@ -96,16 +97,16 @@ Analysts can gradually become an interface between business users and their own 
 
 That led to a simple question:
 
->"What if a business user could ask the same question directly in plain English?"
->
+"What if a business user could ask the same question directly in plain English?"
+
 
 #### Introducing Governed Text-to-SQL
 The basic concept behind Text-to-SQL is straightforward.
 
 A user asks:
 
->"Show me revenue by category for the last seven days compared with the previous seven days."
->
+"Show me revenue by category for the last seven days compared with the previous seven days."
+
 
 A large language model interprets the question and generates the corresponding SQL.
 
@@ -113,7 +114,7 @@ BigQuery executes the query and the result is returned to the user in a business
 
 Conceptually:
 
-Business Question ??? LLM ??? SQL ??? BigQuery ??? Answer
+Business Question * LLM * SQL * BigQuery * Answer
 
 But I quickly realised that this architecture alone wasn't sufficient for an enterprise analytics environment.
 
