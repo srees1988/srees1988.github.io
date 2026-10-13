@@ -258,6 +258,110 @@ It was:
 
 **AI for routine questions, analysts for higher-value investigation and decision support.**
 
+#### How Do You Evaluate a Text-to-SQL Agent?
+
+Once the system was working, another interesting question emerged:
+
+How do we know whether it is actually good?
+
+Simply checking whether the SQL executes isn't enough.
+
+I eventually thought about evaluation across three main dimensions.
+
+1. SQL Correctness
+Did the agent generate the appropriate SQL logic?
+
+This includes areas such as:
+
+* Correct tables
+* Correct joins
+* Correct filters
+* Correct aggregations
+* Correct date logic
+* Correct business rules
+
+2. Answer Accuracy
+Even if the SQL looks reasonable, does the resulting answer match the trusted business result?
+
+Outputs could be compared against:
+
+* Analyst-written SQL
+* Existing trusted dashboards
+* Known KPI results
+* Validated reporting datasets
+
+This distinction matters.
+
+SQL correctness asks whether the query is right.
+
+Answer accuracy asks whether the business answer is right.
+
+3. Reliability
+Finally, could the agent continue producing the correct result when:
+
+* A question was phrased differently?
+* The date range changed?
+* Different dimensions were requested?
+* Multiple metrics were combined?
+
+A useful analytics assistant needs to be more than occasionally impressive.
+
+It needs to be consistently dependable.
+
+#### Moving from Manual Evaluation to Regression Testing
+
+Initially, evaluation involved representative business questions and manual comparison against trusted results.
+
+When failures occurred, I looked at where they originated.
+
+Was the problem:
+
+* An unclear business definition?
+* Missing metadata?
+* An incorrect semantic relationship?
+* Ambiguous prompting?
+* A SQL-generation error?
+
+The appropriate layer could then be refined.
+
+Over time, these representative questions became reusable evaluation sets.
+
+That opened the door to automated regression testing.
+
+Changes to prompts, models, semantic definitions or agent logic could be tested against known questions before being released.
+
+This became particularly important as the system expanded beyond the first Sales Performance assistant into additional business domains.
+
+
+#### Business Impact
+There are two ways I think about the potential value of this type of system.
+
+**Reducing repetitive analyst workload**
+Consider a relatively conservative scenario.
+
+Suppose approximately 25 routine analytics questions are raised each week and each requires around 30 minutes of analyst effort.
+
+That represents:
+
+**25 questions * 30 minutes * 52 weeks = 650 analyst hours per year**
+
+At an illustrative analytics cost of AUD 80-100 per hour, that equates to roughly AUD 50,000-65,000 of annual analyst capacity that could potentially be redirected toward higher-value work.
+
+The important point isn't necessarily the dollar figure.
+
+It is what those hours can become.
+
+Instead of repeatedly answering:
+
+"What was revenue yesterday?"
+
+an analyst can spend more time answering:
+
+"Why is revenue changing, and what should we do about it?"
+
+
+
+
 
 
 
