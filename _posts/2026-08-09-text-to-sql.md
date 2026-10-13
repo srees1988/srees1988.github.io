@@ -191,11 +191,11 @@ This context helped the model understand not only the structure of the data, but
 That distinction is extremely important.
 
 
-**Valid SQL Doesn't Always Mean a Valid Answer**
+**Valid SQL Doesn’t Always Mean a Valid Answer**
 
 Consider a deceptively simple question:
 
->"What was revenue yesterday?"
+>“What was revenue yesterday?”
 >
 
 A model might easily generate perfectly valid SQL.
@@ -218,7 +218,7 @@ The SQL could execute successfully while still producing the wrong business numb
 
 This was one of the most important lessons from the project:
 
-**Text-to-SQL isn't only a SQL-generation problem. It is a business-semantics problem.**
+**Text-to-SQL isn’t only a SQL-generation problem. It is a business-semantics problem.**
 
 That is why business definitions and the semantic layer became central components of the architecture.
 
@@ -237,7 +237,7 @@ They did not have unrestricted access to the wider warehouse.
 **2. Business definitions**
 Important metrics and terminology were explicitly defined.
 
-The model shouldn't have to guess what terms such as revenue, conversion, active customer or returning customer mean within the organisation.
+The model shouldn’t have to guess what terms such as revenue, conversion, active customer or returning customer mean within the organisation.
 
 **3. Semantic rules**
 Relationships between dimensions, metrics and datasets were provided as context so that queries followed established business logic.
@@ -250,7 +250,7 @@ Generated SQL therefore operated under read-only principles rather than allowing
 **5. Query-cost controls**
 Large analytical queries can become expensive.
 
-Controls were introduced to restrict the amount of data a generated query could process - for example, enforcing a maximum processing threshold of approximately 2 GB for applicable queries.
+Controls were introduced to restrict the amount of data a generated query could process — for example, enforcing a maximum processing threshold of approximately 2 GB for applicable queries.
 
 **6. Human oversight**
 AI did not eliminate the analyst.
@@ -272,7 +272,7 @@ Once the system was working, another interesting question emerged:
 
 How do we know whether it is actually good?
 
-Simply checking whether the SQL executes isn't enough.
+Simply checking whether the SQL executes isn’t enough.
 
 I eventually thought about evaluation across three main dimensions.
 
@@ -351,21 +351,21 @@ Suppose approximately 25 routine analytics questions are raised each week and ea
 
 That represents:
 
-**25 questions � 30 minutes � 52 weeks ??? 650 analyst hours per year**
+**25 questions X 30 minutes X 52 weeks = 650 analyst hours per year**
 
-At an illustrative analytics cost of AUD $80-$100 per hour, that equates to roughly AUD $50,000-$65,000 of annual analyst capacity that could potentially be redirected toward higher-value work.
+At an illustrative analytics cost of AUD 80-100 per hour, that equates to roughly AUD 50,000–65,000 of annual analyst capacity that could potentially be redirected toward higher-value work.
 
-The important point isn't necessarily the dollar figure.
+The important point isn’t necessarily the dollar figure.
 
 It is what those hours can become.
 
 Instead of repeatedly answering:
 
-"What was revenue yesterday?"
+“What was revenue yesterday?”
 
 an analyst can spend more time answering:
 
-"Why is revenue changing, and what should we do about it?"
+“Why is revenue changing, and what should we do about it?”
 
 
 #### The Bigger Opportunity: Reducing Time-to-Insight
@@ -395,15 +395,15 @@ For a business operating at significant daily revenue volumes, even relatively s
 
 For example, in a hypothetical business generating AUD 5 million  per day, 1% of daily revenue represents AUD 50,000.
 
-That doesn't mean a Text-to-SQL assistant automatically "creates" or "saves" that revenue.
+That doesn’t mean a Text-to-SQL assistant automatically “creates” or “saves” that revenue.
 
-But it illustrates why reducing the time between **signal ??? investigation ??? action** can matter.
+But it illustrates why reducing the time between **signal → investigation → action** can matter.
 
 #### What I Learned
 
 The biggest lesson from this project was surprisingly simple.
 
-Generating SQL wasn't the hardest part. Generating trust was.
+Generating SQL wasn’t the hardest part. Generating trust was.
 
 Modern language models can generate impressive SQL remarkably quickly.
 
@@ -425,7 +425,7 @@ But once the model is reasonably capable, improvements in governance, metadata a
 
 That changed how I think about enterprise AI systems.
 
-The goal isn't to build the most impressive AI demo.
+The goal isn’t to build the most impressive AI demo.
 
 The goal is to build something that people can confidently use to make decisions.
 
@@ -435,8 +435,7 @@ For me, that comes down to three principles:
 
 **Governance > Model Sophistication**
 
-**Business Value > AI Novelty*
-*
+**Business Value > AI Novelty**
 
 
 ### About the Author
