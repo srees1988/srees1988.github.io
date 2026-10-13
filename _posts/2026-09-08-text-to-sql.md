@@ -394,9 +394,43 @@ That doesn't mean a Text-to-SQL assistant automatically "creates" or "saves" tha
 
 But it illustrates why reducing the time between **signal * investigation * action** can matter.
 
+#### What I Learned
 
+The biggest lesson from this project was surprisingly simple.
 
+Generating SQL wasn't the hardest part. Generating trust was.
 
+Modern language models can generate impressive SQL remarkably quickly.
+
+But enterprise analytics requires more.
+
+The things that ultimately mattered most were:
+
+* Clean and trusted datasets
+* Clear business definitions
+* Strong semantic context
+* Well-defined agent boundaries
+* Query guardrails
+* Consistent evaluation
+* Human oversight where appropriate
+
+Model capability certainly matters.
+
+But once the model is reasonably capable, improvements in governance, metadata and business semantics can sometimes be more valuable than simply switching to a more sophisticated model.
+
+That changed how I think about enterprise AI systems.
+
+The goal isn't to build the most impressive AI demo.
+
+The goal is to build something that people can confidently use to make decisions.
+
+For me, that comes down to three principles:
+
+**Trust > Technology**
+
+**Governance > Model Sophistication**
+
+**Business Value > AI Novelty**
 
 
 
