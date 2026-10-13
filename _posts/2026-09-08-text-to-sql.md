@@ -268,7 +268,8 @@ Simply checking whether the SQL executes isn't enough.
 
 I eventually thought about evaluation across three main dimensions.
 
-1. SQL Correctness
+**1. SQL Correctness**
+
 Did the agent generate the appropriate SQL logic?
 
 This includes areas such as:
@@ -280,7 +281,8 @@ This includes areas such as:
 * Correct date logic
 * Correct business rules
 
-2. Answer Accuracy
+**2. Answer Accuracy**
+
 Even if the SQL looks reasonable, does the resulting answer match the trusted business result?
 
 Outputs could be compared against:
@@ -296,7 +298,8 @@ SQL correctness asks whether the query is right.
 
 Answer accuracy asks whether the business answer is right.
 
-3. Reliability
+**3. Reliability**
+
 Finally, could the agent continue producing the correct result when:
 
 * A question was phrased differently?
@@ -337,6 +340,7 @@ This became particularly important as the system expanded beyond the first Sales
 There are two ways I think about the potential value of this type of system.
 
 **Reducing repetitive analyst workload**
+
 Consider a relatively conservative scenario.
 
 Suppose approximately 25 routine analytics questions are raised each week and each requires around 30 minutes of analyst effort.
@@ -359,6 +363,36 @@ an analyst can spend more time answering:
 
 "Why is revenue changing, and what should we do about it?"
 
+#### The Bigger Opportunity: Reducing Time-to-Insight
+
+For me, the more interesting value was not simply productivity.
+
+It was decision speed.
+
+Imagine sales suddenly decline by 10%.
+
+The metric may already exist somewhere in a dashboard.
+
+But identifying what changed could require someone to investigate:
+
+* Which category declined?
+* Which state was affected?
+* Was traffic down?
+* Did conversion change?
+* Was there an inventory problem?
+* Was the movement concentrated in particular products?
+
+Traditionally, that can trigger an analyst request and investigation.
+
+With a governed conversational analytics layer, a leader can begin interrogating those questions immediately.
+
+For a business operating at significant daily revenue volumes, even relatively small improvements in the speed at which material issues are identified and investigated can have meaningful commercial value.
+
+For example, in a hypothetical business generating AUD 5 million  per day, 1% of daily revenue represents AUD 50,000.
+
+That doesn't mean a Text-to-SQL assistant automatically "creates" or "saves" that revenue.
+
+But it illustrates why reducing the time between **signal * investigation * action** can matter.
 
 
 
