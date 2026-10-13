@@ -191,11 +191,11 @@ This context helped the model understand not only the structure of the data, but
 That distinction is extremely important.
 
 
-**Valid SQL Doesn’t Always Mean a Valid Answer**
+**Valid SQL Doesn't Always Mean a Valid Answer**
 
 Consider a deceptively simple question:
 
->“What was revenue yesterday?”
+>"What was revenue yesterday?"
 >
 
 A model might easily generate perfectly valid SQL.
@@ -218,7 +218,7 @@ The SQL could execute successfully while still producing the wrong business numb
 
 This was one of the most important lessons from the project:
 
-**Text-to-SQL isn’t only a SQL-generation problem. It is a business-semantics problem.**
+**Text-to-SQL isn't only a SQL-generation problem. It is a business-semantics problem.**
 
 That is why business definitions and the semantic layer became central components of the architecture.
 
@@ -237,7 +237,7 @@ They did not have unrestricted access to the wider warehouse.
 **2. Business definitions**
 Important metrics and terminology were explicitly defined.
 
-The model shouldn’t have to guess what terms such as revenue, conversion, active customer or returning customer mean within the organisation.
+The model shouldn't have to guess what terms such as revenue, conversion, active customer or returning customer mean within the organisation.
 
 **3. Semantic rules**
 Relationships between dimensions, metrics and datasets were provided as context so that queries followed established business logic.
@@ -250,7 +250,7 @@ Generated SQL therefore operated under read-only principles rather than allowing
 **5. Query-cost controls**
 Large analytical queries can become expensive.
 
-Controls were introduced to restrict the amount of data a generated query could process — for example, enforcing a maximum processing threshold of approximately 2 GB for applicable queries.
+Controls were introduced to restrict the amount of data a generated query could process - for example, enforcing a maximum processing threshold of approximately 2 GB for applicable queries.
 
 **6. Human oversight**
 AI did not eliminate the analyst.
@@ -266,176 +266,7 @@ It was:
 AI for routine questions, analysts for higher-value investigation and decision support.
 
 
-#### How Do You Evaluate a Text-to-SQL Agent?
 
-Once the system was working, another interesting question emerged:
-
-How do we know whether it is actually good?
-
-Simply checking whether the SQL executes isn’t enough.
-
-I eventually thought about evaluation across three main dimensions.
-
-1. SQL Correctness
-Did the agent generate the appropriate SQL logic?
-
-This includes areas such as:
-
-* Correct tables
-* Correct joins
-* Correct filters
-* Correct aggregations
-* Correct date logic
-* Correct business rules
-
-2. Answer Accuracy
-Even if the SQL looks reasonable, does the resulting answer match the trusted business result?
-
-Outputs could be compared against:
-
-* Analyst-written SQL
-* Existing trusted dashboards
-* Known KPI results
-* Validated reporting datasets
-
-This distinction matters.
-
-SQL correctness asks whether the query is right.
-
-Answer accuracy asks whether the business answer is right.
-
-3. Reliability
-Finally, could the agent continue producing the correct result when:
-
-* A question was phrased differently?
-* The date range changed?
-* Different dimensions were requested?
-* Multiple metrics were combined?
-
-A useful analytics assistant needs to be more than occasionally impressive.
-
-It needs to be consistently dependable.
-
-
-#### Moving from Manual Evaluation to Regression Testing
-
-Initially, evaluation involved representative business questions and manual comparison against trusted results.
-
-When failures occurred, I looked at where they originated.
-
-Was the problem:
-
-* An unclear business definition?
-* Missing metadata?
-* An incorrect semantic relationship?
-* Ambiguous prompting?
-* A SQL-generation error?
-
-The appropriate layer could then be refined.
-
-Over time, these representative questions became reusable evaluation sets.
-
-That opened the door to automated regression testing.
-
-Changes to prompts, models, semantic definitions or agent logic could be tested against known questions before being released.
-
-This became particularly important as the system expanded beyond the first Sales Performance assistant into additional business domains.
-
-#### Business Impact
-There are two ways I think about the potential value of this type of system.
-
-**Reducing repetitive analyst workload**
-Consider a relatively conservative scenario.
-
-Suppose approximately 25 routine analytics questions are raised each week and each requires around 30 minutes of analyst effort.
-
-That represents:
-
-**25 questions X 30 minutes X 52 weeks = 650 analyst hours per year**
-
-At an illustrative analytics cost of AUD 80-100 per hour, that equates to roughly AUD 50,000–65,000 of annual analyst capacity that could potentially be redirected toward higher-value work.
-
-The important point isn’t necessarily the dollar figure.
-
-It is what those hours can become.
-
-Instead of repeatedly answering:
-
-“What was revenue yesterday?”
-
-an analyst can spend more time answering:
-
-“Why is revenue changing, and what should we do about it?”
-
-
-#### The Bigger Opportunity: Reducing Time-to-Insight
-
-For me, the more interesting value was not simply productivity.
-
-It was decision speed.
-
-Imagine sales suddenly decline by 10%.
-
-The metric may already exist somewhere in a dashboard.
-
-But identifying what changed could require someone to investigate:
-
-* Which category declined?
-* Which state was affected?
-* Was traffic down?
-* Did conversion change?
-* Was there an inventory problem?
-* Was the movement concentrated in particular products?
-
-Traditionally, that can trigger an analyst request and investigation.
-
-With a governed conversational analytics layer, a leader can begin interrogating those questions immediately.
-
-For a business operating at significant daily revenue volumes, even relatively small improvements in the speed at which material issues are identified and investigated can have meaningful commercial value.
-
-For example, in a hypothetical business generating AUD 5 million  per day, 1% of daily revenue represents AUD 50,000.
-
-That doesn’t mean a Text-to-SQL assistant automatically “creates” or “saves” that revenue.
-
-But it illustrates why reducing the time between **signal → investigation → action** can matter.
-
-#### What I Learned
-
-The biggest lesson from this project was surprisingly simple.
-
-Generating SQL wasn’t the hardest part. Generating trust was.
-
-Modern language models can generate impressive SQL remarkably quickly.
-
-But enterprise analytics requires more.
-
-The things that ultimately mattered most were:
-
-* Clean and trusted datasets
-* Clear business definitions
-* Strong semantic context
-* Well-defined agent boundaries
-* Query guardrails
-* Consistent evaluation
-* Human oversight where appropriate
-
-Model capability certainly matters.
-
-But once the model is reasonably capable, improvements in governance, metadata and business semantics can sometimes be more valuable than simply switching to a more sophisticated model.
-
-That changed how I think about enterprise AI systems.
-
-The goal isn’t to build the most impressive AI demo.
-
-The goal is to build something that people can confidently use to make decisions.
-
-For me, that comes down to three principles:
-
-**Trust > Technology**
-
-**Governance > Model Sophistication**
-
-**Business Value > AI Novelty**
 
 
 ### About the Author
