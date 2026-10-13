@@ -1,7 +1,7 @@
 ---
 title: 'Text-to-SQL Assistant'
 author: "Sree"
-date: 2026-08-09 00:00:00
+date: 2026-09-08 00:00:00
 featured_image: '/images/blogs/12.text-to-sql/1.text-to-sql.jpg'
 excerpt: Trusted Natural Language Analytics
 description: "Turning Natural Language Questions into Trusted, Governed SQL"
@@ -36,8 +36,8 @@ That led to the development of a series of governed, domain-specific Text-to-SQL
 
 The objective was simple:
 
->"Allow business users to ask questions in plain English and receive fast, trusted answers from approved analytics datasets - without needing to write SQL."
->
+**"Allow business users to ask questions in plain English and receive fast, trusted answers from approved analytics datasets - without needing to write SQL."**
+
 
 This article walks through the thinking behind the solution, its architecture, the governance framework, how we evaluated it, and some of the most important lessons I learned along the way.
 
@@ -89,7 +89,7 @@ As a result, even relatively straightforward questions could become analyst requ
 
 The traditional workflow looked something like:
 
-Business question * Analyst * SQL * Validation * Answer
+**Business question * Analyst * SQL * Validation * Answer**
 
 This works, but it doesn't scale particularly well.
 
@@ -114,7 +114,7 @@ BigQuery executes the query and the result is returned to the user in a business
 
 Conceptually:
 
-Business Question * LLM * SQL * BigQuery * Answer
+**Business Question * LLM * SQL * BigQuery * Answer**
 
 But I quickly realised that this architecture alone wasn't sufficient for an enterprise analytics environment.
 
@@ -160,6 +160,7 @@ Focused on:
 * Marketing-channel performance
 * Subscriber growth
 * Lead generation
+
 This separation turned out to be useful for several reasons.
 
 Each agent had a clearly defined responsibility.
@@ -195,24 +196,16 @@ That distinction is extremely important.
 
 Consider a deceptively simple question:
 
->"What was revenue yesterday?"
->
+**"What was revenue yesterday?"**
 
-A model might easily generate perfectly valid SQL.
-
-But several business questions remain.
+A model might easily generate perfectly valid SQL. But several business questions remain.
 
 * What does revenue mean?
-
 * Should it use order date or invoice date?
-
 * Should cancelled transactions be included?
-
 * Should refunds be deducted?
-
 * Should GST be included?
 
-* Which sales channels should be counted?
 
 The SQL could execute successfully while still producing the wrong business number.
 
@@ -259,11 +252,11 @@ Complex or unusual questions could still be reviewed, and outputs could be valid
 
 The objective was not:
 
-AI instead of analysts.
+**AI instead of analysts.**
 
 It was:
 
-AI for routine questions, analysts for higher-value investigation and decision support.
+**AI for routine questions, analysts for higher-value investigation and decision support.**
 
 
 
