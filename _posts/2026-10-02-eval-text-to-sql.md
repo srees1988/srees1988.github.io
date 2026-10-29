@@ -46,9 +46,7 @@ I started with a much more important question:
 
 That led to a practical evaluation framework built around three dimensions:
 
-**SQL Correctness**  
-**Answer Accuracy** 
-**Reliability**
+(1) **SQL Correctness** (2) **Answer Accuracy** (3) **Reliability**
 
 ### The Problem With "Valid SQL"
 
@@ -135,15 +133,11 @@ Nothing is syntactically wrong. But if that isn't how the organisation defines r
 
 This is why I find it useful to distinguish between:
 
-**Syntactic correctness**
-
-Can the database understand and execute the query?
+**Syntactic correctness** (Can the database understand and execute the query?)
 
 and
 
-**Semantic correctness**
-
-Does the query represent what the business question actually means?
+**Semantic correctness** (Does the query represent what the business question actually means?)
 
 The second is usually much harder.
 
@@ -162,7 +156,7 @@ Depending on the question, these might come from:
 
 Consider a small evaluation set:
 
-![](/images/blogs/13.eval-text-to-sql/2.eval-text-to-sql.jpg)
+![](/images/blogs/13.eval-text-to-sql/2.eval-text-to-sql.png)
 
 The third question is particularly interesting. The SQL might execute successfully. But why did the agent calculate **3.6% instead of 3.2%?**
 
@@ -176,11 +170,11 @@ Even a system that produces the correct answer once isn't necessarily reliable. 
 
 One person might ask:
 
-* "What was revenue yesterday?"
+* What was revenue yesterday?
 
-* Another: "How much did we make yesterday?"
+* Another: How much did we make yesterday?
 
-* Another: "Show me yesterday's sales."
+* Another: Show me yesterday's sales.
 
 Depending on the organisation's terminology, those questions may or may not mean exactly the same thing.
 
@@ -201,15 +195,13 @@ For example:
 
 There may not be enough information to generate a meaningful query.
 
-* Which period?
+Which period?
 
-* Compared with what?
+Compared with what?
 
-* Revenue, orders or units?
+Revenue, orders or units?
 
-Sometimes the best response isn't SQL.
-
-It is:
+Sometimes the best response isn't SQL. It is:
 
 "Which time period would you like to analyse?"
 
@@ -252,7 +244,7 @@ It is testing whether the agent recognises ambiguity.
 ### Turning Evaluation into a scorecard
 The framework can then become a relatively simple scorecard.
 
-![](/images/blogs/13.eval-text-to-sql/4.eval-text-to-sql.jpg)
+![](/images/blogs/13.eval-text-to-sql/4.eval-text-to-sql.png)
 
 This gives us something much more useful than:
 
@@ -267,7 +259,7 @@ Some things are objective and should be tested deterministically. Others require
 
 For example:
 
-![](/images/blogs/13.eval-text-to-sql/5.eval-text-to-sql.jpg)
+![](/images/blogs/13.eval-text-to-sql/5.eval-text-to-sql.png)
 
 **Deterministic checks** are useful wherever there is an objective expected result.
 
@@ -343,7 +335,7 @@ That's where automated regression testing becomes useful.
 
 Conceptually:
 
-![](/images/blogs/13.eval-text-to-sql/6.eval-text-to-sql.jpg)
+![](/images/blogs/13.eval-text-to-sql/6.eval-text-to-sql.png)
 
 The same approved evaluation set can then be rerun whenever something important changes.
 
@@ -372,9 +364,7 @@ In that sense, evaluating an AI agent starts to look surprisingly similar to **r
 ### The Metric That Matters Most
 It's tempting to evaluate a Text-to-SQL system based on whether it generates impressive-looking SQL.
 
-But business users don't actually care about SQL.
-
-They care about the answer.
+But business users don't actually care about SQL. They care about the answer.
 
 And ultimately they care about whether they can **trust that answer enough to use it in a decision.**
 
