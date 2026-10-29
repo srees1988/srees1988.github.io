@@ -170,11 +170,11 @@ Even a system that produces the correct answer once isn't necessarily reliable. 
 
 One person might ask:
 
-* What was revenue yesterday?
+What was revenue yesterday?
 
-* Another: How much did we make yesterday?
+Another: How much did we make yesterday?
 
-* Another: Show me yesterday's sales.
+Another: Show me yesterday's sales.
 
 Depending on the organisation's terminology, those questions may or may not mean exactly the same thing.
 
@@ -229,11 +229,11 @@ The test set can cover different levels of complexity:
 
 For example:
 
-* "What was revenue yesterday?"
-* "Which category had the highest revenue growth last month?"
-* "Which brands declined compared with the same period last year?"
-* "Which high-selling SKUs are currently low in inventory?"
-* "How are sales looking?"
+"What was revenue yesterday?"
+"Which category had the highest revenue growth last month?"
+"Which brands declined compared with the same period last year?"
+"Which high-selling SKUs are currently low in inventory?"
+"How are sales looking?"
 
 These questions test different parts of the agent.
 
