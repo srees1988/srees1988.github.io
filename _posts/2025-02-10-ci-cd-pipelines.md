@@ -188,7 +188,6 @@ For data scientists, analysts, or BI professionals, understanding how to build a
 I hope this gives you a simple and practical look at how CI/CD pipelines work, especially in marketing and analytics. In future posts, I'll dive deeper and show you how to build a complete, end-to-end pipeline using open-source datasets. These lessons have been invaluable in my career, and I hope they'll help you too!
 
 
-- - -
 
 
 ### About the Author
