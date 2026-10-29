@@ -2,7 +2,7 @@
 title: 'Evaluating Text-to-SQL Agents'
 author: "Sree"
 date: 2026-10-02 00:00:00
-featured_image: '/images/blogs/13.eval-text-to-sql/1.eval-text-to-sql.jpg'
+featured_image: '/images/blogs/13.eval-text-to-sql/1.eval-text-to-sql.png'
 excerpt: Beyond SQL Correctness
 description: "Why Correct SQL Doesn't Always Mean a Correct Answer?"
 tags: ["Agentic AI", "Text to SQL", "Enterprise Analytics", "Data Science"]
@@ -215,7 +215,7 @@ It is:
 
 Knowing when not to generate SQL is part of reliability too.
 
-![](/images/blogs/13.eval-text-to-sql/3.eval-text-to-sql.jpg)
+![](/images/blogs/13.eval-text-to-sql/3.eval-text-to-sql.png)
 
 
 ### Building a Representative Test Set
