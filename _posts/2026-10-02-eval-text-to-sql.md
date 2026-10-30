@@ -1,5 +1,5 @@
 ---
-title: 'Evaluating Text-to-SQL Agents'
+title: 'Scoring AI Data Agents'
 author: "Sree"
 date: 2026-10-02 00:00:00
 featured_image: '/images/blogs/13.eval-text-to-sql/1.eval-text-to-sql.png'
@@ -229,11 +229,11 @@ The test set can cover different levels of complexity:
 
 For example:
 
-"What was revenue yesterday?"
-"Which category had the highest revenue growth last month?"
-"Which brands declined compared with the same period last year?"
-"Which high-selling SKUs are currently low in inventory?"
-"How are sales looking?"
+* What was revenue yesterday?
+* Which category had the highest revenue growth last month?
+* Which brands declined compared with the same period last year?
+* Which high-selling SKUs are currently low in inventory?
+* How are sales looking?
 
 These questions test different parts of the agent.
 
@@ -313,21 +313,11 @@ The evaluation process therefore becomes a continuous loop:
 
 ### From Manual Testing to Automated Regression Testing
 
-Early in development, this can be fairly manual.
+Early in development, this can be fairly manual. Ask a question. Inspect the generated SQL.
 
-Ask a question.
+Run it. Compare the result. Record whether it passed.
 
-Inspect the generated SQL.
-
-Run it.
-
-Compare the result.
-
-Record whether it passed.
-
-That works when there are 20 questions.
-
-It becomes painful when there are 200.
+That works when there are 20 questions. It becomes painful when there are 200.
 
 And it becomes even more difficult when every change to a prompt, semantic layer, model or business definition requires running those tests again.
 
