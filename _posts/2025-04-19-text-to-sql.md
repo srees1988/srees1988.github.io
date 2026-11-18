@@ -1,7 +1,7 @@
 ---
 title: 'Text-to-SQL Assistant'
 author: "Sree"
-date: 2025-12-08 00:00:00
+date: 2025-04-19 00:00:00
 featured_image: '/images/blogs/12.text-to-sql/1.text-to-sql.jpg'
 excerpt: Trusted Natural Language Analytics
 description: "Turning Natural Language Questions into Trusted, Governed SQL"
