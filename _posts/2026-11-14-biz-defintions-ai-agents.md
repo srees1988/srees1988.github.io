@@ -12,7 +12,7 @@ author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, a
 ---
 
 <small style="margin-bottom: -10px; display: block;">
-  *An excerpt from an article written by Sree, published in the 'Data Science Collective' Journal*
+  *An excerpt from an article written by Sree, published in 'Data Science Collective' Journal*
   </small>
   
   
@@ -20,6 +20,7 @@ author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, a
   body {
     text-align: justify}
 </style>
+
 
   **What was revenue yesterday?**
   
@@ -40,20 +41,18 @@ Does it mean:
   * Should GST be included?
   * Which sales channels should be counted?
   
-  The SQL itself might be straightforward.
+The SQL itself might be straightforward.
 
-Understanding what the business actually means by **revenue** is the harder part.
-
-This is one of the most important lessons I learned while working with enterprise Text-to-SQL systems:
+Understanding what the business actually means by **revenue** is the harder part. This is one of the most important lessons I learned while working with enterprise Text-to-SQL agentic systems:
   
   **An LLM can understand SQL without understanding your business.**
   
-  And that's why business definitions matter.
-# The Hidden Complexity Behind Simple Business Questions
+And that's why business definitions matter.
 
-Consider another question:
 
-**How many new customers did we acquire last month?**
+#### The Hidden Complexity Behind Simple Business Questions
+
+Consider another question: **How many new customers did we acquire last month?**
 
 
 Again, it sounds simple.
@@ -66,7 +65,7 @@ Someone who:
 * placed their first order?
 * received their first invoice?
 * completed their first successful transaction?
-* purchased for the first time across one brand or across the entire organisation?
+* purchased for the first time across the entire organisation?
 
 Different definitions can produce different numbers. None of the resulting SQL queries necessarily need to be technically invalid.
 
@@ -78,7 +77,7 @@ This creates an important distinction:
 
 A database tells us how information is stored. A business definition tells us how that information should be interpreted.
 
-# Why Schema Metadata Alone Isn't Enough
+#### Why Schema Metadata Alone Isn't Enough
 
 One of the first things we can give a Text-to-SQL agent is information about the database.
 
@@ -94,23 +93,22 @@ For example:
 
 **Type:** `NUMERIC`
 
-That's useful.
-
-The agent now understands the structure of the data.
+That's useful. The agent now understands the structure of the data.
 
 But consider a definition like:
 
-**Revenue is recognised against invoice date and includes only completed invoiced transactions. Cancelled orders are excluded.**
+Revenue is recognised against invoice date and includes only completed invoiced transactions. Cancelled orders are excluded.
 
 That's a very different type of information. It isn't simply database metadata. It's **business knowledge**.
 
 And without it, the model is effectively being asked to guess.
 
-# From Data Dictionary to Business Glossary
+
+#### From Data Dictionary to Business Glossary
 
 This is why I find it useful to separate two concepts.
 
-### Data Dictionary
+#### Data Dictionary
 
 Describes the data itself:
   
@@ -120,7 +118,7 @@ Describes the data itself:
 * Relationships
 * Field descriptions
 
-### Business Glossary
+#### Business Glossary
 
 Describes what things mean:
   
@@ -141,11 +139,12 @@ The data dictionary helps answer: **Where is the information?**
   
 The business glossary helps answer: **How should I interpret it?**
 
-# The Same Word Can Mean Different Things
-  
-Business terminology is often more ambiguous than we realise.
 
-Take **conversion rate**.
+#### The Same Word Can Mean Different Things
+  
+Business terminology is often more ambiguous than we realise. 
+
+Take **conversion rate**. 
 
 A marketing team might define conversion as: Purchases / website sessions
 
@@ -157,9 +156,12 @@ All three calculations could reasonably be described as a conversion rate.
 
 So when someone asks: **What was conversion yesterday?** the model needs more than a column description.
 
-It needs to understand which definition applies in that particular analytics domain. This is where semantic context becomes extremely important.
+It needs to understand which definition applies in that particular analytics domain. 
 
-# Business Definitions as Part of the Semantic Layer
+This is where semantic context becomes extremely important.
+
+
+#### Business Definitions as Part of the Semantic Layer
 
 ![](/images/blogs/14.biz-def-ai-agents/2.biz-def-ai-agents.png)
 
@@ -169,28 +171,28 @@ Instead, the agent should receive trusted context before generating SQL.
 
 Conceptually:
 
-**User Question**
+1. **User Question**
+      
+
+2. **Understand Business Intent**
+       
+
+3. **Retrieve Relevant Business Definitions**
+       
+
+4. **Identify Approved Data & Semantic Rules**
+       
+
+5. **Generate SQL**
+       
+
+6. **Validate**
 
 
-**Understand Business Intent**
+7. **Execute**
 
 
-**Retrieve Relevant Business Definitions**
-
-
-**Identify Approved Data & Semantic Rules**
-
-
-**Generate SQL**
-
-
-**Validate**
-
-
-**Execute**
-
-
-**Business Answer**
+8. **Business Answer**
 
 Suppose the user asks:
 
@@ -208,11 +210,10 @@ Before generating SQL, the agent should understand things such as:
 
 Only then should SQL generation begin.
 
-# Don't Make the Prompt Carry Everything
 
-An obvious approach is to put every business definition directly into one enormous system prompt.
+#### Don't Make the Prompt Carry Everything
 
-That can work for small prototypes.
+An obvious approach is to put every business definition directly into one enormous system prompt. That can work for small prototypes.
 
 It becomes increasingly difficult as the system grows.
 
@@ -239,11 +240,11 @@ A more scalable approach is to treat business definitions as a **governed knowle
 
 The exact implementation can vary.
 
-The important architectural principle is:
+The important architectural principle is: Business logic should be explicitly defined, governed and reusable - rather than left for the model to infer.
 
-**Business logic should be explicitly defined, governed and reusable - rather than left for the model to infer.**
 
-# Domain-Specific Agents Make This Easier
+
+#### Domain-Specific Agents Make This Easier
   
 This was also one of the reasons I preferred domain-specific Text-to-SQL assistants rather than one enormous agent covering an entire enterprise warehouse.
 
@@ -277,7 +278,9 @@ A **Marketing Insights Agent** might require:
 
 The narrower the domain, the easier it becomes to provide clear definitions and control how they are applied.
 
-# What Happens When Definitions Are Missing?
+
+
+#### What Happens When Definitions Are Missing?
 
 This is where evaluation becomes particularly useful.
 
@@ -289,69 +292,61 @@ Investigation might show that:
 * The correct tables are being used.
 * Revenue is calculated correctly.
 
-But the agent is comparing against the **previous month** rather than the **same period last year**.
+But the agent is comparing against the **previous month** rather than the **same period last year**. The problem isn't necessarily the LLM.
 
-The problem isn't necessarily the LLM.
-
-Perhaps the business definition of "YoY growth" wasn't sufficiently explicit.
-
-So instead of immediately changing models or rewriting the entire prompt, we can improve the underlying definition.
+Perhaps the business definition of "YoY growth" wasn't sufficiently explicit. So instead of immediately changing models or rewriting the entire prompt, we can improve the underlying definition.
 
 For example:
   
 **Before** 
   
-Revenue growth. Change in revenue between two periods.
+Revenue growth = Change in revenue between two periods.
 
 **After**
   
 Year-on-year revenue growth compares recognised revenue for the requested period against the equivalent calendar period one year earlier.
 
 
-Then rerun the evaluation.
+Then rerun the evaluation. This creates a useful improvement loop:
+  
 
-This creates a useful improvement loop:
-  
-  **Agent Failure**
+1. **Agent Failure**
   
   
-  **Identify Semantic Gap**
+2. **Identify Semantic Gap**
   
   
-  **Improve Business Definition**
+3. **Improve Business Definition**
   
   
-  **Re-test**
+4. **Re-test**
   
   
-  **Validate Result**
+5. **Validate Result**
   
-In other words, evaluation doesn't just tell us whether the agent failed.
+In other words, evaluation doesn't just tell us whether the agent failed. It can tell us **what knowledge the system is missing**.
 
-It can tell us **what knowledge the system is missing**.
 
-# When the Right Answer Is a Clarifying Question
+#### When the Right Answer Is a Clarifying Question
 
 Business definitions shouldn't force the agent to make assumptions either.
 
-Suppose someone asks:
-  
-**"Which brands grew the most?"**
+Suppose someone asks: **"Which brands grew the most?"**
   
   
 Grew by what?
   
-  * Revenue?
+* Revenue?
   
-  * Orders?
+* Orders?
   
-  * Units?
+* Units?
   
-  * Compared with yesterday?
+* Compared with yesterday?
   
-  * Last week?
+* Last week?
   
-  * Last year?
+* Last year?
   
 A poor Text-to-SQL agent might simply make assumptions and generate SQL. A governed agent should recognise that important information is missing.
 
@@ -362,7 +357,8 @@ Sometimes the most trustworthy answer is:
   
 That may feel less impressive than instantly producing a chart. But from a business perspective, it is considerably safer.
 
-# Business Definitions Also Improve Consistency
+
+#### Business Definitions Also Improve Consistency
 
 There's another benefit. Business definitions aren't useful only for AI.
 
@@ -374,7 +370,8 @@ A governed semantic layer encourages everyone - humans and AI - to work from the
 
 That makes the Text-to-SQL project partly an **AI project**, but also partly a **data governance project**.
 
-# Model Capability Isn't the Whole Story
+
+#### Model Capability Isn't the Whole Story
 
 It can be tempting to think that improving a Text-to-SQL system means moving to a more capable language model.
 
@@ -382,16 +379,14 @@ Sometimes that helps. But many failures aren't caused by a model being incapable
 
 The model may not know:
   
-  * Which date field the organisation considers authoritative
+* Which date field the organisation considers authoritative
 * How revenue is recognised
 * Which transactions should be excluded
 * How customer segments are defined
 * Which attribution model should be used
 * Which product hierarchy is authoritative
 
-A more sophisticated model may make a more sophisticated guess.
-
-It's still a guess.
+A more sophisticated model may make a more sophisticated guess. It's still a guess.
 
 That's why I increasingly think of enterprise Text-to-SQL performance as something like:
   
@@ -416,19 +411,13 @@ The LLM is an important component. But it isn't the entire system.
 
 # The Bigger Lesson
 
-When I first started thinking about Text-to-SQL, the obvious technical challenge appeared to be:
-
-**How do I get an LLM to generate good SQL?**
+When I first started thinking about Text-to-SQL, the obvious technical challenge appeared to be: **How do I get an LLM to generate good SQL?**
 
 
-Over time, I realised the more important question was:
-
-**How do I give the LLM enough trusted business context to generate the right answer?**
+Over time, I realised the more important question was: **How do I give the LLM enough trusted business context to generate the right answer?**
 
 
-That distinction changes how these systems are designed.
-
-A good enterprise Text-to-SQL assistant shouldn't simply know how to query a database.
+That distinction changes how these systems are designed. A good enterprise Text-to-SQL assistant shouldn't simply know how to query a database.
 
 It should understand:
   
