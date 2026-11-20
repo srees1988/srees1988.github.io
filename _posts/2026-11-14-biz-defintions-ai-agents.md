@@ -152,13 +152,9 @@ Another team might analyse: Purchases / users
 
 A sales funnel might calculate: Completed orders / checkout starts
 
-All three calculations could reasonably be described as a conversion rate.
+All three calculations could reasonably be described as a conversion rate. So when someone asks: **What was conversion yesterday?** the model needs more than a column description.
 
-So when someone asks: **What was conversion yesterday?** the model needs more than a column description.
-
-It needs to understand which definition applies in that particular analytics domain. 
-
-This is where semantic context becomes extremely important.
+It needs to understand which definition applies in that particular analytics domain. This is where semantic context becomes extremely important.
 
 
 #### Business Definitions as Part of the Semantic Layer
@@ -171,28 +167,28 @@ Instead, the agent should receive trusted context before generating SQL.
 
 Conceptually:
 
-1. **User Question**
+1.**User Question**
       
 
-2. **Understand Business Intent**
+2.**Understand Business Intent**
        
 
-3. **Retrieve Relevant Business Definitions**
+3.**Retrieve Relevant Business Definitions**
        
 
-4. **Identify Approved Data & Semantic Rules**
+4.**Identify Approved Data & Semantic Rules**
        
 
-5. **Generate SQL**
+5.**Generate SQL**
        
 
-6. **Validate**
+6.**Validate**
 
 
-7. **Execute**
+7.**Execute**
 
 
-8. **Business Answer**
+8.**Business Answer**
 
 Suppose the user asks:
 
@@ -238,7 +234,7 @@ The prompt quickly becomes difficult to maintain.
 
 A more scalable approach is to treat business definitions as a **governed knowledge layer** that the agent can retrieve when required.
 
-The exact implementation can vary.
+The exact implementation can vary. 
 
 The important architectural principle is: Business logic should be explicitly defined, governed and reusable - rather than left for the model to infer.
 
@@ -310,19 +306,19 @@ Year-on-year revenue growth compares recognised revenue for the requested period
 Then rerun the evaluation. This creates a useful improvement loop:
   
 
-1. **Agent Failure**
+1.**Agent Failure**
   
   
-2. **Identify Semantic Gap**
+2.**Identify Semantic Gap**
   
   
-3. **Improve Business Definition**
+3.**Improve Business Definition**
   
   
-4. **Re-test**
+4.**Re-test**
   
   
-5. **Validate Result**
+5.**Validate Result**
   
 In other words, evaluation doesn't just tell us whether the agent failed. It can tell us **what knowledge the system is missing**.
 
@@ -336,17 +332,17 @@ Suppose someone asks: **"Which brands grew the most?"**
   
 Grew by what?
   
-* Revenue?
+    * Revenue?
   
-* Orders?
+    * Orders?
   
-* Units?
+    * Units?
   
-* Compared with yesterday?
+    * Compared with yesterday?
   
-* Last week?
+    * Last week?
   
-* Last year?
+    * Last year?
   
 A poor Text-to-SQL agent might simply make assumptions and generate SQL. A governed agent should recognise that important information is missing.
 
@@ -390,26 +386,27 @@ A more sophisticated model may make a more sophisticated guess. It's still a gue
 
 That's why I increasingly think of enterprise Text-to-SQL performance as something like:
   
-  **Model capability**
+  1.**Model capability**
   
   
-  **Trusted data**
+  2.**Trusted data**
   
   
-  **Business definitions**
+  3.**Business definitions**
   
   
-  **Semantic context**
+  4.**Semantic context**
   
   
-  **Guardrails**
+  5.**Guardrails**
   
   
-  **Evaluation**
+  6.**Evaluation**
   
 The LLM is an important component. But it isn't the entire system.
 
-# The Bigger Lesson
+
+#### The Bigger Lesson
 
 When I first started thinking about Text-to-SQL, the obvious technical challenge appeared to be: **How do I get an LLM to generate good SQL?**
 
@@ -431,7 +428,7 @@ It should understand:
 
 Because ultimately:
 
-**The database stores the data.The semantic layer gives it meaning.The LLM makes that meaning accessible.**
+**The database stores the data. The semantic layer gives it meaning.The LLM makes that meaning accessible.**
 
 And without reliable business definitions, even perfectly generated SQL can confidently answer the wrong question.
 
