@@ -12,7 +12,7 @@ author_bio: "Sree is a Marketing Data Scientist and writer specializing in AI, a
 ---
 
 <small style="margin-bottom: -10px; display: block;">
-  *An excerpt from an article written by Sree, published in 'Data Science Collective' Journal*
+  *An excerpt from an article written by Sree, published in 'Data Science Collective' Journal.*
   </small>
   
   
@@ -428,7 +428,7 @@ It should understand:
 
 Because ultimately:
 
-**The database stores the data. The semantic layer gives it meaning.The LLM makes that meaning accessible.**
+**The database stores the data. The semantic layer gives it meaning. The LLM makes that meaning accessible.**
 
 And without reliable business definitions, even perfectly generated SQL can confidently answer the wrong question.
 
